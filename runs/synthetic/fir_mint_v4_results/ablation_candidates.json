@@ -1,0 +1,1052 @@
+[
+ {
+  "seed": 0,
+  "C": 6,
+  "setting": "K=1",
+  "calls": 608,
+  "full_calls": 4000,
+  "cost_ratio": 1.1209211808224069,
+  "static_ratio": 1.3042559449226399,
+  "viol": 0.0
+ },
+ {
+  "seed": 0,
+  "C": 6,
+  "setting": "K=2",
+  "calls": 1048,
+  "full_calls": 4000,
+  "cost_ratio": 1.0237138020329646,
+  "static_ratio": 1.3042559449226399,
+  "viol": 0.0
+ },
+ {
+  "seed": 0,
+  "C": 6,
+  "setting": "K=3",
+  "calls": 1648,
+  "full_calls": 4000,
+  "cost_ratio": 1.0117629943130213,
+  "static_ratio": 1.3042559449226399,
+  "viol": 0.0
+ },
+ {
+  "seed": 0,
+  "C": 6,
+  "setting": "K=5",
+  "calls": 2928,
+  "full_calls": 4000,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.3042559449226399,
+  "viol": 0.0
+ },
+ {
+  "seed": 0,
+  "C": 6,
+  "setting": "K=8",
+  "calls": 4848,
+  "full_calls": 4000,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.3042559449226399,
+  "viol": 0.0
+ },
+ {
+  "seed": 0,
+  "C": 6,
+  "setting": "K=12",
+  "calls": 7408,
+  "full_calls": 4000,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.3042559449226399,
+  "viol": 0.0
+ },
+ {
+  "seed": 0,
+  "C": 6,
+  "setting": "Adaptive (3..8, 80%)",
+  "calls": 4848,
+  "full_calls": 4000,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.3042559449226399,
+  "viol": 0.0
+ },
+ {
+  "seed": 0,
+  "C": 8,
+  "setting": "K=1",
+  "calls": 1113,
+  "full_calls": 14145,
+  "cost_ratio": 1.1187834120502498,
+  "static_ratio": 1.252039288846234,
+  "viol": 0.0
+ },
+ {
+  "seed": 0,
+  "C": 8,
+  "setting": "K=2",
+  "calls": 1872,
+  "full_calls": 14145,
+  "cost_ratio": 1.0203214997495087,
+  "static_ratio": 1.252039288846234,
+  "viol": 0.0
+ },
+ {
+  "seed": 0,
+  "C": 8,
+  "setting": "K=3",
+  "calls": 2700,
+  "full_calls": 14145,
+  "cost_ratio": 1.0203214997495087,
+  "static_ratio": 1.252039288846234,
+  "viol": 0.0
+ },
+ {
+  "seed": 0,
+  "C": 8,
+  "setting": "K=5",
+  "calls": 4356,
+  "full_calls": 14145,
+  "cost_ratio": 1.0203214997495087,
+  "static_ratio": 1.252039288846234,
+  "viol": 0.0
+ },
+ {
+  "seed": 0,
+  "C": 8,
+  "setting": "K=8",
+  "calls": 8427,
+  "full_calls": 14145,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.252039288846234,
+  "viol": 0.0
+ },
+ {
+  "seed": 0,
+  "C": 8,
+  "setting": "K=12",
+  "calls": 12843,
+  "full_calls": 14145,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.252039288846234,
+  "viol": 0.0
+ },
+ {
+  "seed": 0,
+  "C": 8,
+  "setting": "Adaptive (3..8, 80%)",
+  "calls": 8427,
+  "full_calls": 14145,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.252039288846234,
+  "viol": 0.0
+ },
+ {
+  "seed": 0,
+  "C": 12,
+  "setting": "K=1",
+  "calls": 2182,
+  "full_calls": 48896,
+  "cost_ratio": 1.107186981723697,
+  "static_ratio": 1.275878350898522,
+  "viol": 0.0
+ },
+ {
+  "seed": 0,
+  "C": 12,
+  "setting": "K=2",
+  "calls": 3590,
+  "full_calls": 48896,
+  "cost_ratio": 1.102968619823548,
+  "static_ratio": 1.275878350898522,
+  "viol": 0.0
+ },
+ {
+  "seed": 0,
+  "C": 12,
+  "setting": "K=3",
+  "calls": 5510,
+  "full_calls": 48896,
+  "cost_ratio": 1.100832695844835,
+  "static_ratio": 1.275878350898522,
+  "viol": 0.0
+ },
+ {
+  "seed": 0,
+  "C": 12,
+  "setting": "K=5",
+  "calls": 9606,
+  "full_calls": 48896,
+  "cost_ratio": 1.058133315701851,
+  "static_ratio": 1.275878350898522,
+  "viol": 0.0
+ },
+ {
+  "seed": 0,
+  "C": 12,
+  "setting": "K=8",
+  "calls": 15750,
+  "full_calls": 48896,
+  "cost_ratio": 1.0178330507160465,
+  "static_ratio": 1.275878350898522,
+  "viol": 0.0
+ },
+ {
+  "seed": 0,
+  "C": 12,
+  "setting": "K=12",
+  "calls": 24454,
+  "full_calls": 48896,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.275878350898522,
+  "viol": 0.0
+ },
+ {
+  "seed": 0,
+  "C": 12,
+  "setting": "Adaptive (3..8, 80%)",
+  "calls": 15750,
+  "full_calls": 48896,
+  "cost_ratio": 1.0178330507160465,
+  "static_ratio": 1.275878350898522,
+  "viol": 0.0
+ },
+ {
+  "seed": 1,
+  "C": 6,
+  "setting": "K=1",
+  "calls": 724,
+  "full_calls": 4223,
+  "cost_ratio": 1.1063835480705428,
+  "static_ratio": 1.1976778876925231,
+  "viol": 0.0
+ },
+ {
+  "seed": 1,
+  "C": 6,
+  "setting": "K=2",
+  "calls": 1134,
+  "full_calls": 4223,
+  "cost_ratio": 1.1063835480705428,
+  "static_ratio": 1.1976778876925231,
+  "viol": 0.0
+ },
+ {
+  "seed": 1,
+  "C": 6,
+  "setting": "K=3",
+  "calls": 1544,
+  "full_calls": 4223,
+  "cost_ratio": 1.1063835480705428,
+  "static_ratio": 1.1976778876925231,
+  "viol": 0.0
+ },
+ {
+  "seed": 1,
+  "C": 6,
+  "setting": "K=5",
+  "calls": 3512,
+  "full_calls": 4223,
+  "cost_ratio": 1.047469808462021,
+  "static_ratio": 1.1976778876925231,
+  "viol": 0.0
+ },
+ {
+  "seed": 1,
+  "C": 6,
+  "setting": "K=8",
+  "calls": 5726,
+  "full_calls": 4223,
+  "cost_ratio": 1.047469808462021,
+  "static_ratio": 1.1976778876925231,
+  "viol": 0.0
+ },
+ {
+  "seed": 1,
+  "C": 6,
+  "setting": "K=12",
+  "calls": 8924,
+  "full_calls": 4223,
+  "cost_ratio": 1.047469808462021,
+  "static_ratio": 1.1976778876925231,
+  "viol": 0.0
+ },
+ {
+  "seed": 1,
+  "C": 6,
+  "setting": "Adaptive (3..8, 80%)",
+  "calls": 5726,
+  "full_calls": 4223,
+  "cost_ratio": 1.047469808462021,
+  "static_ratio": 1.1976778876925231,
+  "viol": 0.0
+ },
+ {
+  "seed": 1,
+  "C": 8,
+  "setting": "K=1",
+  "calls": 1224,
+  "full_calls": 16720,
+  "cost_ratio": 1.2217152346950444,
+  "static_ratio": 1.427651582162561,
+  "viol": 0.0
+ },
+ {
+  "seed": 1,
+  "C": 8,
+  "setting": "K=2",
+  "calls": 1908,
+  "full_calls": 16720,
+  "cost_ratio": 1.1967294818666159,
+  "static_ratio": 1.427651582162561,
+  "viol": 0.0
+ },
+ {
+  "seed": 1,
+  "C": 8,
+  "setting": "K=3",
+  "calls": 2668,
+  "full_calls": 16720,
+  "cost_ratio": 1.1967294818666159,
+  "static_ratio": 1.427651582162561,
+  "viol": 0.0
+ },
+ {
+  "seed": 1,
+  "C": 8,
+  "setting": "K=5",
+  "calls": 4796,
+  "full_calls": 16720,
+  "cost_ratio": 1.0394437947403936,
+  "static_ratio": 1.427651582162561,
+  "viol": 0.0
+ },
+ {
+  "seed": 1,
+  "C": 8,
+  "setting": "K=8",
+  "calls": 7532,
+  "full_calls": 16720,
+  "cost_ratio": 1.0394437947403936,
+  "static_ratio": 1.427651582162561,
+  "viol": 0.0
+ },
+ {
+  "seed": 1,
+  "C": 8,
+  "setting": "K=12",
+  "calls": 14144,
+  "full_calls": 16720,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.427651582162561,
+  "viol": 0.0
+ },
+ {
+  "seed": 1,
+  "C": 8,
+  "setting": "Adaptive (3..8, 80%)",
+  "calls": 7532,
+  "full_calls": 16720,
+  "cost_ratio": 1.0394437947403936,
+  "static_ratio": 1.427651582162561,
+  "viol": 0.0
+ },
+ {
+  "seed": 1,
+  "C": 12,
+  "setting": "K=1",
+  "calls": 2031,
+  "full_calls": 54383,
+  "cost_ratio": 1.1533874395766952,
+  "static_ratio": 1.325955029187173,
+  "viol": 0.0
+ },
+ {
+  "seed": 1,
+  "C": 12,
+  "setting": "K=2",
+  "calls": 3340,
+  "full_calls": 54383,
+  "cost_ratio": 1.1437716218363165,
+  "static_ratio": 1.325955029187173,
+  "viol": 0.0
+ },
+ {
+  "seed": 1,
+  "C": 12,
+  "setting": "K=3",
+  "calls": 4887,
+  "full_calls": 54383,
+  "cost_ratio": 1.1332203178885747,
+  "static_ratio": 1.325955029187173,
+  "viol": 0.0
+ },
+ {
+  "seed": 1,
+  "C": 12,
+  "setting": "K=5",
+  "calls": 8933,
+  "full_calls": 54383,
+  "cost_ratio": 1.0476469588488113,
+  "static_ratio": 1.325955029187173,
+  "viol": 0.0
+ },
+ {
+  "seed": 1,
+  "C": 12,
+  "setting": "K=8",
+  "calls": 14645,
+  "full_calls": 54383,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.325955029187173,
+  "viol": 0.0
+ },
+ {
+  "seed": 1,
+  "C": 12,
+  "setting": "K=12",
+  "calls": 22261,
+  "full_calls": 54383,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.325955029187173,
+  "viol": 0.0
+ },
+ {
+  "seed": 1,
+  "C": 12,
+  "setting": "Adaptive (3..8, 80%)",
+  "calls": 14645,
+  "full_calls": 54383,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.325955029187173,
+  "viol": 0.0
+ },
+ {
+  "seed": 2,
+  "C": 6,
+  "setting": "K=1",
+  "calls": 608,
+  "full_calls": 4000,
+  "cost_ratio": 1.140765378886525,
+  "static_ratio": 1.4515738436614216,
+  "viol": 0.0
+ },
+ {
+  "seed": 2,
+  "C": 6,
+  "setting": "K=2",
+  "calls": 1048,
+  "full_calls": 4000,
+  "cost_ratio": 1.1133984349448103,
+  "static_ratio": 1.4515738436614216,
+  "viol": 0.0
+ },
+ {
+  "seed": 2,
+  "C": 6,
+  "setting": "K=3",
+  "calls": 1648,
+  "full_calls": 4000,
+  "cost_ratio": 1.1306715794502167,
+  "static_ratio": 1.4515738436614216,
+  "viol": 0.0
+ },
+ {
+  "seed": 2,
+  "C": 6,
+  "setting": "K=5",
+  "calls": 2928,
+  "full_calls": 4000,
+  "cost_ratio": 1.048602178453265,
+  "static_ratio": 1.4515738436614216,
+  "viol": 0.0
+ },
+ {
+  "seed": 2,
+  "C": 6,
+  "setting": "K=8",
+  "calls": 4848,
+  "full_calls": 4000,
+  "cost_ratio": 1.0031371689347175,
+  "static_ratio": 1.4515738436614216,
+  "viol": 0.0
+ },
+ {
+  "seed": 2,
+  "C": 6,
+  "setting": "K=12",
+  "calls": 7408,
+  "full_calls": 4000,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.4515738436614216,
+  "viol": 0.0
+ },
+ {
+  "seed": 2,
+  "C": 6,
+  "setting": "Adaptive (3..8, 80%)",
+  "calls": 4848,
+  "full_calls": 4000,
+  "cost_ratio": 1.0031371689347175,
+  "static_ratio": 1.4515738436614216,
+  "viol": 0.0
+ },
+ {
+  "seed": 2,
+  "C": 8,
+  "setting": "K=1",
+  "calls": 1162,
+  "full_calls": 12528,
+  "cost_ratio": 1.1745036365658963,
+  "static_ratio": 1.3611238823015324,
+  "viol": 0.0
+ },
+ {
+  "seed": 2,
+  "C": 8,
+  "setting": "K=2",
+  "calls": 1954,
+  "full_calls": 12528,
+  "cost_ratio": 1.0595932205810537,
+  "static_ratio": 1.3611238823015324,
+  "viol": 0.0
+ },
+ {
+  "seed": 2,
+  "C": 8,
+  "setting": "K=3",
+  "calls": 2818,
+  "full_calls": 12528,
+  "cost_ratio": 1.0595932205810537,
+  "static_ratio": 1.3611238823015324,
+  "viol": 0.0
+ },
+ {
+  "seed": 2,
+  "C": 8,
+  "setting": "K=5",
+  "calls": 5338,
+  "full_calls": 12528,
+  "cost_ratio": 1.0240207111979827,
+  "static_ratio": 1.3611238823015324,
+  "viol": 0.0
+ },
+ {
+  "seed": 2,
+  "C": 8,
+  "setting": "K=8",
+  "calls": 8794,
+  "full_calls": 12528,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.3611238823015324,
+  "viol": 0.0
+ },
+ {
+  "seed": 2,
+  "C": 8,
+  "setting": "K=12",
+  "calls": 13402,
+  "full_calls": 12528,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.3611238823015324,
+  "viol": 0.0
+ },
+ {
+  "seed": 2,
+  "C": 8,
+  "setting": "Adaptive (3..8, 80%)",
+  "calls": 8794,
+  "full_calls": 12528,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.3611238823015324,
+  "viol": 0.0
+ },
+ {
+  "seed": 2,
+  "C": 12,
+  "setting": "K=1",
+  "calls": 2336,
+  "full_calls": 45108,
+  "cost_ratio": 1.134349790143404,
+  "static_ratio": 1.3262925891487212,
+  "viol": 0.0
+ },
+ {
+  "seed": 2,
+  "C": 12,
+  "setting": "K=2",
+  "calls": 3470,
+  "full_calls": 45108,
+  "cost_ratio": 1.1155152527082142,
+  "static_ratio": 1.3262925891487212,
+  "viol": 0.0
+ },
+ {
+  "seed": 2,
+  "C": 12,
+  "setting": "K=3",
+  "calls": 5360,
+  "full_calls": 45108,
+  "cost_ratio": 1.109929245842112,
+  "static_ratio": 1.3262925891487212,
+  "viol": 0.0
+ },
+ {
+  "seed": 2,
+  "C": 12,
+  "setting": "K=5",
+  "calls": 9392,
+  "full_calls": 45108,
+  "cost_ratio": 1.0432673548890488,
+  "static_ratio": 1.3262925891487212,
+  "viol": 0.0
+ },
+ {
+  "seed": 2,
+  "C": 12,
+  "setting": "K=8",
+  "calls": 15440,
+  "full_calls": 45108,
+  "cost_ratio": 1.0154313997202122,
+  "static_ratio": 1.3262925891487212,
+  "viol": 0.0
+ },
+ {
+  "seed": 2,
+  "C": 12,
+  "setting": "K=12",
+  "calls": 24008,
+  "full_calls": 45108,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.3262925891487212,
+  "viol": 0.0
+ },
+ {
+  "seed": 2,
+  "C": 12,
+  "setting": "Adaptive (3..8, 80%)",
+  "calls": 15440,
+  "full_calls": 45108,
+  "cost_ratio": 1.0154313997202122,
+  "static_ratio": 1.3262925891487212,
+  "viol": 0.0
+ },
+ {
+  "seed": 3,
+  "C": 6,
+  "setting": "K=1",
+  "calls": 619,
+  "full_calls": 4715,
+  "cost_ratio": 1.233277559599591,
+  "static_ratio": 1.4776030405541762,
+  "viol": 0.0
+ },
+ {
+  "seed": 3,
+  "C": 6,
+  "setting": "K=2",
+  "calls": 1070,
+  "full_calls": 4715,
+  "cost_ratio": 1.071848300059081,
+  "static_ratio": 1.4776030405541762,
+  "viol": 0.0
+ },
+ {
+  "seed": 3,
+  "C": 6,
+  "setting": "K=3",
+  "calls": 1603,
+  "full_calls": 4715,
+  "cost_ratio": 1.0331393530964228,
+  "static_ratio": 1.4776030405541762,
+  "viol": 0.0
+ },
+ {
+  "seed": 3,
+  "C": 6,
+  "setting": "K=5",
+  "calls": 2997,
+  "full_calls": 4715,
+  "cost_ratio": 1.0356801572692862,
+  "static_ratio": 1.4776030405541762,
+  "viol": 0.0
+ },
+ {
+  "seed": 3,
+  "C": 6,
+  "setting": "K=8",
+  "calls": 6933,
+  "full_calls": 4715,
+  "cost_ratio": 0.9930999219515833,
+  "static_ratio": 1.4776030405541762,
+  "viol": 0.0
+ },
+ {
+  "seed": 3,
+  "C": 6,
+  "setting": "K=12",
+  "calls": 13411,
+  "full_calls": 4715,
+  "cost_ratio": 0.9930999219515833,
+  "static_ratio": 1.4776030405541762,
+  "viol": 0.0
+ },
+ {
+  "seed": 3,
+  "C": 6,
+  "setting": "Adaptive (3..8, 80%)",
+  "calls": 6933,
+  "full_calls": 4715,
+  "cost_ratio": 0.9930999219515833,
+  "static_ratio": 1.4776030405541762,
+  "viol": 0.0
+ },
+ {
+  "seed": 3,
+  "C": 8,
+  "setting": "K=1",
+  "calls": 1179,
+  "full_calls": 15622,
+  "cost_ratio": 1.1325185006533192,
+  "static_ratio": 1.2278215428078756,
+  "viol": 0.0
+ },
+ {
+  "seed": 3,
+  "C": 8,
+  "setting": "K=2",
+  "calls": 1836,
+  "full_calls": 15622,
+  "cost_ratio": 1.0123999367837495,
+  "static_ratio": 1.2278215428078756,
+  "viol": 0.0
+ },
+ {
+  "seed": 3,
+  "C": 8,
+  "setting": "K=3",
+  "calls": 2566,
+  "full_calls": 15622,
+  "cost_ratio": 1.0123999367837495,
+  "static_ratio": 1.2278215428078756,
+  "viol": 0.0
+ },
+ {
+  "seed": 3,
+  "C": 8,
+  "setting": "K=5",
+  "calls": 4610,
+  "full_calls": 15622,
+  "cost_ratio": 1.001066047137923,
+  "static_ratio": 1.2278215428078756,
+  "viol": 0.0
+ },
+ {
+  "seed": 3,
+  "C": 8,
+  "setting": "K=8",
+  "calls": 8917,
+  "full_calls": 15622,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.2278215428078756,
+  "viol": 0.0
+ },
+ {
+  "seed": 3,
+  "C": 8,
+  "setting": "K=12",
+  "calls": 13589,
+  "full_calls": 15622,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.2278215428078756,
+  "viol": 0.0
+ },
+ {
+  "seed": 3,
+  "C": 8,
+  "setting": "Adaptive (3..8, 80%)",
+  "calls": 8917,
+  "full_calls": 15622,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.2278215428078756,
+  "viol": 0.0
+ },
+ {
+  "seed": 3,
+  "C": 12,
+  "setting": "K=1",
+  "calls": 2095,
+  "full_calls": 45750,
+  "cost_ratio": 1.2238981826843778,
+  "static_ratio": 1.425180230198454,
+  "viol": 0.0
+ },
+ {
+  "seed": 3,
+  "C": 12,
+  "setting": "K=2",
+  "calls": 3470,
+  "full_calls": 45750,
+  "cost_ratio": 1.1838179101261153,
+  "static_ratio": 1.425180230198454,
+  "viol": 0.0
+ },
+ {
+  "seed": 3,
+  "C": 12,
+  "setting": "K=3",
+  "calls": 5095,
+  "full_calls": 45750,
+  "cost_ratio": 1.1796575158294633,
+  "static_ratio": 1.425180230198454,
+  "viol": 0.0
+ },
+ {
+  "seed": 3,
+  "C": 12,
+  "setting": "K=5",
+  "calls": 9345,
+  "full_calls": 45750,
+  "cost_ratio": 1.0493053882045995,
+  "static_ratio": 1.425180230198454,
+  "viol": 0.0
+ },
+ {
+  "seed": 3,
+  "C": 12,
+  "setting": "K=8",
+  "calls": 15345,
+  "full_calls": 45750,
+  "cost_ratio": 1.0400999492767538,
+  "static_ratio": 1.425180230198454,
+  "viol": 0.0
+ },
+ {
+  "seed": 3,
+  "C": 12,
+  "setting": "K=12",
+  "calls": 23345,
+  "full_calls": 45750,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.425180230198454,
+  "viol": 0.0
+ },
+ {
+  "seed": 3,
+  "C": 12,
+  "setting": "Adaptive (3..8, 80%)",
+  "calls": 15345,
+  "full_calls": 45750,
+  "cost_ratio": 1.0400999492767538,
+  "static_ratio": 1.425180230198454,
+  "viol": 0.0
+ },
+ {
+  "seed": 4,
+  "C": 6,
+  "setting": "K=1",
+  "calls": 602,
+  "full_calls": 3320,
+  "cost_ratio": 1.1881082714734865,
+  "static_ratio": 1.3924383259836741,
+  "viol": 0.0
+ },
+ {
+  "seed": 4,
+  "C": 6,
+  "setting": "K=2",
+  "calls": 1042,
+  "full_calls": 3320,
+  "cost_ratio": 1.0740491030599508,
+  "static_ratio": 1.3924383259836741,
+  "viol": 0.0
+ },
+ {
+  "seed": 4,
+  "C": 6,
+  "setting": "K=3",
+  "calls": 1642,
+  "full_calls": 3320,
+  "cost_ratio": 1.0576041199068378,
+  "static_ratio": 1.3924383259836741,
+  "viol": 0.0
+ },
+ {
+  "seed": 4,
+  "C": 6,
+  "setting": "K=5",
+  "calls": 2482,
+  "full_calls": 3320,
+  "cost_ratio": 1.039017831281141,
+  "static_ratio": 1.3924383259836741,
+  "viol": 0.0
+ },
+ {
+  "seed": 4,
+  "C": 6,
+  "setting": "K=8",
+  "calls": 4842,
+  "full_calls": 3320,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.3924383259836741,
+  "viol": 0.0
+ },
+ {
+  "seed": 4,
+  "C": 6,
+  "setting": "K=12",
+  "calls": 7402,
+  "full_calls": 3320,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.3924383259836741,
+  "viol": 0.0
+ },
+ {
+  "seed": 4,
+  "C": 6,
+  "setting": "Adaptive (3..8, 80%)",
+  "calls": 4842,
+  "full_calls": 3320,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.3924383259836741,
+  "viol": 0.0
+ },
+ {
+  "seed": 4,
+  "C": 8,
+  "setting": "K=1",
+  "calls": 1206,
+  "full_calls": 13024,
+  "cost_ratio": 1.1274765861024945,
+  "static_ratio": 1.3357202064045253,
+  "viol": 0.0
+ },
+ {
+  "seed": 4,
+  "C": 8,
+  "setting": "K=2",
+  "calls": 2020,
+  "full_calls": 13024,
+  "cost_ratio": 1.0777081806797633,
+  "static_ratio": 1.3357202064045253,
+  "viol": 0.0
+ },
+ {
+  "seed": 4,
+  "C": 8,
+  "setting": "K=3",
+  "calls": 2908,
+  "full_calls": 13024,
+  "cost_ratio": 1.0195510569278512,
+  "static_ratio": 1.3357202064045253,
+  "viol": 0.0
+ },
+ {
+  "seed": 4,
+  "C": 8,
+  "setting": "K=5",
+  "calls": 4684,
+  "full_calls": 13024,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.3357202064045253,
+  "viol": 0.0
+ },
+ {
+  "seed": 4,
+  "C": 8,
+  "setting": "K=8",
+  "calls": 7348,
+  "full_calls": 13024,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.3357202064045253,
+  "viol": 0.0
+ },
+ {
+  "seed": 4,
+  "C": 8,
+  "setting": "K=12",
+  "calls": 11196,
+  "full_calls": 13024,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.3357202064045253,
+  "viol": 0.0
+ },
+ {
+  "seed": 4,
+  "C": 8,
+  "setting": "Adaptive (3..8, 80%)",
+  "calls": 7348,
+  "full_calls": 13024,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.3357202064045253,
+  "viol": 0.0
+ },
+ {
+  "seed": 4,
+  "C": 12,
+  "setting": "K=1",
+  "calls": 2181,
+  "full_calls": 48762,
+  "cost_ratio": 1.1562857972835214,
+  "static_ratio": 1.2968852672411877,
+  "viol": 0.0
+ },
+ {
+  "seed": 4,
+  "C": 12,
+  "setting": "K=2",
+  "calls": 3600,
+  "full_calls": 48762,
+  "cost_ratio": 1.0684506738237047,
+  "static_ratio": 1.2968852672411877,
+  "viol": 0.0
+ },
+ {
+  "seed": 4,
+  "C": 12,
+  "setting": "K=3",
+  "calls": 5148,
+  "full_calls": 48762,
+  "cost_ratio": 1.0684506738237047,
+  "static_ratio": 1.2968852672411877,
+  "viol": 0.0
+ },
+ {
+  "seed": 4,
+  "C": 12,
+  "setting": "K=5",
+  "calls": 8244,
+  "full_calls": 48762,
+  "cost_ratio": 1.0300803900087656,
+  "static_ratio": 1.2968852672411877,
+  "viol": 0.0
+ },
+ {
+  "seed": 4,
+  "C": 12,
+  "setting": "K=8",
+  "calls": 16371,
+  "full_calls": 48762,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.2968852672411877,
+  "viol": 0.0
+ },
+ {
+  "seed": 4,
+  "C": 12,
+  "setting": "K=12",
+  "calls": 24627,
+  "full_calls": 48762,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.2968852672411877,
+  "viol": 0.0
+ },
+ {
+  "seed": 4,
+  "C": 12,
+  "setting": "Adaptive (3..8, 80%)",
+  "calls": 16371,
+  "full_calls": 48762,
+  "cost_ratio": 1.0,
+  "static_ratio": 1.2968852672411877,
+  "viol": 0.0
+ }
+]

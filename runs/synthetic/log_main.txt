@@ -1,0 +1,72 @@
+[E1 seed 0] Static       lat=0.580ms minRec=0.987 viol=0.000 whatif=0 new=0 cfg=[(0, 1, 2), (0, 3), (1, 3)]
+[E1 seed 0] FIR-MINT     lat=0.489ms minRec=0.989 viol=0.000 whatif=48 new=2 cfg=[(0, 1), (0, 1, 2), (2, 3)]
+[E1 seed 0] Full re-tune lat=0.465ms minRec=0.989 viol=0.000 whatif=48 new=2 cfg=[(0, 1), (0, 1, 2), (2, 3)]
+[E1 seed 1] Static       lat=0.663ms minRec=1.000 viol=0.000 whatif=0 new=0 cfg=[(0, 1), (0, 2), (0, 3), (1, 2)]
+[E1 seed 1] FIR-MINT     lat=0.530ms minRec=0.999 viol=0.000 whatif=53 new=2 cfg=[(0, 1, 2), (0, 1, 3), (0, 2)]
+[E1 seed 1] Full re-tune lat=0.556ms minRec=0.999 viol=0.000 whatif=42 new=2 cfg=[(0, 1, 2), (0, 1, 3), (0, 2)]
+[E1 seed 2] Static       lat=0.655ms minRec=1.000 viol=0.000 whatif=0 new=0 cfg=[(0, 2, 3), (1, 2, 3), (2, 3)]
+[E1 seed 2] FIR-MINT     lat=0.470ms minRec=1.000 viol=0.000 whatif=54 new=3 cfg=[(0, 1), (1, 2), (1, 3), (2, 3)]
+[E1 seed 2] Full re-tune lat=0.471ms minRec=1.000 viol=0.000 whatif=50 new=3 cfg=[(0, 1), (1, 2), (1, 3), (2, 3)]
+[E1 seed 3] Static       lat=0.642ms minRec=0.996 viol=0.000 whatif=0 new=0 cfg=[(0, 1, 2), (0, 3), (1, 2)]
+[E1 seed 3] FIR-MINT     lat=0.507ms minRec=0.995 viol=0.000 whatif=45 new=3 cfg=[(0, 2), (1, 2, 3), (1, 3)]
+[E1 seed 3] Full re-tune lat=0.496ms minRec=0.995 viol=0.000 whatif=48 new=3 cfg=[(0, 2), (1, 2, 3), (1, 3)]
+[E1 seed 4] Static       lat=0.627ms minRec=1.000 viol=0.000 whatif=0 new=0 cfg=[(0, 2, 3), (1, 2), (1, 3)]
+[E1 seed 4] FIR-MINT     lat=0.588ms minRec=1.000 viol=0.000 whatif=53 new=2 cfg=[(0, 2), (0, 2, 3), (1, 2, 3)]
+[E1 seed 4] Full re-tune lat=0.594ms minRec=1.000 viol=0.000 whatif=42 new=2 cfg=[(0, 1), (0, 2, 3), (1, 2, 3)]
+[E2 seed 0] C= 3 types=  7 whatif FIR=    17 Full=     19 cost static/FIR/full=0.425/0.425/0.425 viol=0.00/0.00/0.00
+[E2 seed 0] C= 4 types= 14 whatif FIR=    46 Full=     49 cost static/FIR/full=0.773/0.518/0.488 viol=0.00/0.00/0.00
+[E2 seed 0] C= 5 types= 25 whatif FIR=   113 Full=     96 cost static/FIR/full=0.817/0.570/0.570 viol=0.00/0.00/0.00
+[E2 seed 0] C= 6 types= 41 whatif FIR=   145 Full=    144 cost static/FIR/full=0.906/0.686/0.686 viol=0.00/0.00/0.00
+[E2 seed 0] C= 8 types= 92 whatif FIR=   264 Full=    253 cost static/FIR/full=1.063/0.800/0.800 viol=0.00/0.00/0.00
+[E2 seed 0] C=10 types=175 whatif FIR=   411 Full=    422 cost static/FIR/full=1.088/0.822/0.822 viol=0.00/0.00/0.00
+[E2 seed 0] C=12 types=298 whatif FIR=   496 Full=    497 cost static/FIR/full=1.163/0.876/0.876 viol=0.00/0.00/0.00
+[E2 seed 1] C= 3 types=  7 whatif FIR=    19 Full=     19 cost static/FIR/full=0.411/0.430/0.430 viol=0.00/0.00/0.00
+[E2 seed 1] C= 4 types= 14 whatif FIR=    56 Full=     49 cost static/FIR/full=0.754/0.482/0.482 viol=0.00/0.00/0.00
+[E2 seed 1] C= 5 types= 25 whatif FIR=   108 Full=     97 cost static/FIR/full=0.772/0.558/0.558 viol=0.00/0.00/0.00
+[E2 seed 1] C= 6 types= 41 whatif FIR=   149 Full=    160 cost static/FIR/full=0.811/0.697/0.697 viol=0.00/0.00/0.00
+[E2 seed 1] C= 8 types= 92 whatif FIR=   278 Full=    283 cost static/FIR/full=0.994/0.773/0.771 viol=0.00/0.00/0.00
+[E2 seed 1] C=10 types=175 whatif FIR=   418 Full=    416 cost static/FIR/full=1.125/0.829/0.829 viol=0.00/0.00/0.00
+[E2 seed 1] C=12 types=298 whatif FIR=   495 Full=    508 cost static/FIR/full=1.106/0.830/0.830 viol=0.00/0.00/0.00
+[E2 seed 2] C= 3 types=  7 whatif FIR=    17 Full=     19 cost static/FIR/full=0.407/0.407/0.407 viol=0.00/0.00/0.00
+[E2 seed 2] C= 4 types= 14 whatif FIR=    51 Full=     50 cost static/FIR/full=0.715/0.467/0.467 viol=0.00/0.00/0.00
+[E2 seed 2] C= 5 types= 25 whatif FIR=    97 Full=     97 cost static/FIR/full=0.797/0.566/0.566 viol=0.00/0.00/0.00
+[E2 seed 2] C= 6 types= 41 whatif FIR=   137 Full=    133 cost static/FIR/full=0.965/0.694/0.691 viol=0.00/0.00/0.00
+[E2 seed 2] C= 8 types= 92 whatif FIR=   264 Full=    269 cost static/FIR/full=1.190/0.815/0.814 viol=0.00/0.00/0.00
+[E2 seed 2] C=10 types=175 whatif FIR=   407 Full=    416 cost static/FIR/full=1.166/0.910/0.882 viol=0.00/0.00/0.00
+[E2 seed 2] C=12 types=298 whatif FIR=   491 Full=    507 cost static/FIR/full=1.290/0.960/0.939 viol=0.00/0.00/0.00
+[E2 seed 3] C= 3 types=  7 whatif FIR=    19 Full=     19 cost static/FIR/full=0.398/0.379/0.379 viol=0.00/0.00/0.00
+[E2 seed 3] C= 4 types= 14 whatif FIR=    44 Full=     50 cost static/FIR/full=0.582/0.430/0.430 viol=0.00/0.00/0.00
+[E2 seed 3] C= 5 types= 25 whatif FIR=    93 Full=     87 cost static/FIR/full=0.578/0.511/0.511 viol=0.00/0.00/0.00
+[E2 seed 3] C= 6 types= 41 whatif FIR=   156 Full=    154 cost static/FIR/full=0.769/0.578/0.580 viol=0.00/0.00/0.00
+[E2 seed 3] C= 8 types= 92 whatif FIR=   300 Full=    294 cost static/FIR/full=0.935/0.708/0.702 viol=0.00/0.00/0.00
+[E2 seed 3] C=10 types=175 whatif FIR=   430 Full=    422 cost static/FIR/full=0.957/0.727/0.727 viol=0.00/0.00/0.00
+[E2 seed 3] C=12 types=298 whatif FIR=   485 Full=    485 cost static/FIR/full=0.953/0.761/0.736 viol=0.00/0.00/0.00
+[E2 seed 4] C= 3 types=  7 whatif FIR=    19 Full=     19 cost static/FIR/full=0.434/0.385/0.385 viol=0.00/0.00/0.00
+[E2 seed 4] C= 4 types= 14 whatif FIR=    50 Full=     45 cost static/FIR/full=0.572/0.471/0.471 viol=0.00/0.00/0.00
+[E2 seed 4] C= 5 types= 25 whatif FIR=    89 Full=     81 cost static/FIR/full=0.725/0.553/0.553 viol=0.00/0.00/0.00
+[E2 seed 4] C= 6 types= 41 whatif FIR=   142 Full=    148 cost static/FIR/full=0.767/0.580/0.580 viol=0.00/0.00/0.00
+[E2 seed 4] C= 8 types= 92 whatif FIR=   270 Full=    267 cost static/FIR/full=0.835/0.660/0.654 viol=0.00/0.00/0.00
+[E2 seed 4] C=10 types=175 whatif FIR=   393 Full=    399 cost static/FIR/full=0.804/0.674/0.673 viol=0.00/0.00/0.00
+[E2 seed 4] C=12 types=298 whatif FIR=   498 Full=    499 cost static/FIR/full=0.892/0.715/0.715 viol=0.00/0.00/0.00
+[E3 seed 0] abrupt    Static: cost=0.681 rt=0 calls=0  FIR+detector: cost=0.512 rt=1 calls=92  Full+detector: cost=0.512 rt=1 calls=86  Full every window: cost=0.502 rt=0 calls=2285
+[E3 seed 0] gradual   Static: cost=0.522 rt=0 calls=0  FIR+detector: cost=0.435 rt=3 calls=279  Full+detector: cost=0.436 rt=3 calls=269  Full every window: cost=0.435 rt=0 calls=2377
+[E3 seed 0] recurring Static: cost=0.563 rt=0 calls=0  FIR+detector: cost=0.492 rt=3 calls=258  Full+detector: cost=0.487 rt=3 calls=255  Full every window: cost=0.476 rt=0 calls=2211
+[E3 seed 0] new_type  Static: cost=0.640 rt=0 calls=0  FIR+detector: cost=0.408 rt=1 calls=72  Full+detector: cost=0.408 rt=1 calls=59  Full every window: cost=0.398 rt=0 calls=1665
+[E3 seed 1] abrupt    Static: cost=0.602 rt=0 calls=0  FIR+detector: cost=0.479 rt=1 calls=97  Full+detector: cost=0.511 rt=1 calls=93  Full every window: cost=0.487 rt=0 calls=2405
+[E3 seed 1] gradual   Static: cost=0.576 rt=0 calls=0  FIR+detector: cost=0.466 rt=2 calls=181  Full+detector: cost=0.467 rt=2 calls=167  Full every window: cost=0.458 rt=0 calls=2249
+[E3 seed 1] recurring Static: cost=0.577 rt=0 calls=0  FIR+detector: cost=0.500 rt=3 calls=270  Full+detector: cost=0.495 rt=3 calls=243  Full every window: cost=0.475 rt=0 calls=2122
+[E3 seed 1] new_type  Static: cost=0.515 rt=0 calls=0  FIR+detector: cost=0.388 rt=1 calls=61  Full+detector: cost=0.388 rt=1 calls=71  Full every window: cost=0.383 rt=0 calls=1751
+[E3 seed 2] abrupt    Static: cost=0.566 rt=0 calls=0  FIR+detector: cost=0.494 rt=1 calls=95  Full+detector: cost=0.494 rt=1 calls=87  Full every window: cost=0.488 rt=0 calls=2307
+[E3 seed 2] gradual   Static: cost=0.545 rt=0 calls=0  FIR+detector: cost=0.469 rt=3 calls=264  Full+detector: cost=0.464 rt=3 calls=267  Full every window: cost=0.460 rt=0 calls=2260
+[E3 seed 2] recurring Static: cost=0.543 rt=0 calls=0  FIR+detector: cost=0.489 rt=3 calls=278  Full+detector: cost=0.490 rt=3 calls=247  Full every window: cost=0.480 rt=0 calls=2182
+[E3 seed 2] new_type  Static: cost=0.524 rt=0 calls=0  FIR+detector: cost=0.403 rt=1 calls=68  Full+detector: cost=0.404 rt=1 calls=66  Full every window: cost=0.399 rt=0 calls=1686
+[E3 seed 3] abrupt    Static: cost=0.681 rt=0 calls=0  FIR+detector: cost=0.517 rt=1 calls=96  Full+detector: cost=0.517 rt=1 calls=81  Full every window: cost=0.508 rt=0 calls=2259
+[E3 seed 3] gradual   Static: cost=0.472 rt=0 calls=0  FIR+detector: cost=0.439 rt=3 calls=309  Full+detector: cost=0.435 rt=3 calls=293  Full every window: cost=0.441 rt=0 calls=2501
+[E3 seed 3] recurring Static: cost=0.567 rt=0 calls=0  FIR+detector: cost=0.490 rt=3 calls=252  Full+detector: cost=0.488 rt=3 calls=244  Full every window: cost=0.470 rt=0 calls=2237
+[E3 seed 3] new_type  Static: cost=0.488 rt=0 calls=0  FIR+detector: cost=0.389 rt=1 calls=69  Full+detector: cost=0.388 rt=1 calls=65  Full every window: cost=0.384 rt=0 calls=1731
+[E3 seed 4] abrupt    Static: cost=0.562 rt=0 calls=0  FIR+detector: cost=0.499 rt=1 calls=97  Full+detector: cost=0.496 rt=1 calls=85  Full every window: cost=0.493 rt=0 calls=2404
+[E3 seed 4] gradual   Static: cost=0.483 rt=0 calls=0  FIR+detector: cost=0.451 rt=2 calls=179  Full+detector: cost=0.451 rt=2 calls=174  Full every window: cost=0.452 rt=0 calls=2263
+[E3 seed 4] recurring Static: cost=0.578 rt=0 calls=0  FIR+detector: cost=0.483 rt=3 calls=270  Full+detector: cost=0.478 rt=3 calls=229  Full every window: cost=0.468 rt=0 calls=2190
+[E3 seed 4] new_type  Static: cost=0.515 rt=0 calls=0  FIR+detector: cost=0.403 rt=1 calls=64  Full+detector: cost=0.403 rt=1 calls=63  Full every window: cost=0.399 rt=0 calls=1707
+
+Done in 330s. See /home/$USER/RAO_OCT/runs/synthetic/fir_mint_v4_results/results.md

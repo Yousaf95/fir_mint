@@ -1,0 +1,65 @@
+#!/bin/bash
+#PBS -N firmint_coco_gpu
+#PBS -q commonGPUQ
+#PBS -l select=1:ncpus=8:ngpus=1:mem=64gb:gpu_type=H100
+#PBS -l walltime=07:59:00
+#PBS -j oe
+#PBS -o /home/$USER/RAO_OCT/logs/pbs-gpu.out
+
+set -euo pipefail
+
+RAO=/home/$USER/RAO_OCT
+COCO="$RAO/data/coco"
+export HF_HOME="$RAO/cache/huggingface"
+export TRANSFORMERS_CACHE="$HF_HOME"
+export PYTHONUNBUFFERED=1
+
+mkdir -p "$RAO"/{logs,embeddings,results}
+cd "$RAO"
+
+module load Python/3.11.5-GCCcore-13.2.0
+module load CUDA/12.6.0
+PY="$RAO/venv/bin/python"
+
+hostname
+"$PY" --version
+echo "$PY"
+nvidia-smi
+"$PY" - <<'PY'
+import torch
+print("torch:", torch.__version__)
+print("cuda available:", torch.cuda.is_available())
+if not torch.cuda.is_available():
+    raise SystemExit("CUDA is unavailable; refusing to label this as a GPU run")
+print("device:", torch.cuda.get_device_name(0))
+if "H100" not in torch.cuda.get_device_name(0):
+    raise SystemExit("Requested H100 but a different GPU is visible")
+PY
+
+"$PY" -m py_compile fir_mint_v4.py coco_embed.py
+
+"$PY" coco_embed.py \
+  --coco_root "$COCO" \
+  --n_data 30000 \
+  --n_query 2000 \
+  --out "$RAO/embeddings/coco_30k_4col_gpu" \
+  2>&1 | tee "$RAO/logs/coco_30k_gpu_embedding.log"
+
+"$PY" - <<'PY'
+import json
+from pathlib import Path
+import numpy as np
+
+p = Path("embeddings/coco_30k_4col_gpu")
+assert tuple(json.loads((p / "meta.json").read_text())["columns"]) == ("I", "T", "M", "T2")
+for c in ("I", "T", "M", "T2"):
+    data = np.load(p / f"data_{c}.npy")
+    query = np.load(p / f"query_{c}.npy")
+    assert data.shape == (30000, 512), (c, data.shape)
+    assert query.shape == (2000, 512), (c, query.shape)
+print("embedding validation passed")
+PY
+
+"$PY" fir_mint_v4.py \
+  --data "$RAO/embeddings/coco_30k_4col_gpu" \
+  2>&1 | tee "$RAO/logs/coco_30k_gpu_firmint.log"

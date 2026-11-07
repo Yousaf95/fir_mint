@@ -1,0 +1,1 @@
+COCO 8-column rejected: E1 minimum recall < 0.90 for FIR-MINT and Full re-tune on seeds 1, 3 (and seed 2 is exactly 0.90); do not use for claims.

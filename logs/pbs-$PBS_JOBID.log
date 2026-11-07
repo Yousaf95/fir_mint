@@ -1,0 +1,36 @@
+Loading Python/3.11.5-GCCcore-13.2.0
+  Loading requirement: GCCcore/13.2.0 zlib/1.2.13-GCCcore-13.2.0
+    binutils/2.40-GCCcore-13.2.0 bzip2/1.0.8-GCCcore-13.2.0
+    ncurses/6.4-GCCcore-13.2.0 libreadline/8.2-GCCcore-13.2.0
+    Tcl/8.6.13-GCCcore-13.2.0 SQLite/3.43.1-GCCcore-13.2.0
+    XZ/5.4.4-GCCcore-13.2.0 libffi/3.4.4-GCCcore-13.2.0 OpenSSL/1.1
+hpc3-g06-n01.unitn.it
+Python 3.11.5
+/apps/software/Python/3.11.5-GCCcore-13.2.0/bin/python
+Mon Nov  2 09:35:07 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100 NVL                Off |   00000000:26:00.0 Off |                    0 |
+| N/A   53C    P0             67W /  400W |       0MiB /  95830MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA H100 NVL                Off |   00000000:89:00.0 Off |                    0 |
+| N/A   48C    P0             61W /  400W |       0MiB /  95830MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'torch'

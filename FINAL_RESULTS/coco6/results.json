@@ -1,0 +1,1503 @@
+{
+ "E1": [
+  {
+   "seed": 0,
+   "policy": "Static",
+   "latency_ms": 5.748592039259772,
+   "p95_ms": 11.437327950261533,
+   "min_recall": 0.9333333333333332,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "tune_s": 0.0,
+   "new_indexes": 0,
+   "build_s": 0,
+   "storage": 7,
+   "config": [
+    [
+     1,
+     4,
+     5
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     4
+    ]
+   ]
+  },
+  {
+   "seed": 0,
+   "policy": "FIR-MINT",
+   "latency_ms": 4.373228244949132,
+   "p95_ms": 11.31415949203074,
+   "min_recall": 0.9333333333333332,
+   "viol_mass": 0.0,
+   "whatif": 154,
+   "tune_s": 0.008269742131233215,
+   "new_indexes": 3,
+   "build_s": 10.029550352599472,
+   "storage": 7,
+   "config": [
+    [
+     0,
+     1,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     3,
+     5
+    ]
+   ]
+  },
+  {
+   "seed": 0,
+   "policy": "Full re-tune",
+   "latency_ms": 4.63053868074591,
+   "p95_ms": 8.639709977433082,
+   "min_recall": 0.9400000000000001,
+   "viol_mass": 0.0,
+   "whatif": 165,
+   "tune_s": 0.0066757481545209885,
+   "new_indexes": 4,
+   "build_s": 12.418045261874795,
+   "storage": 8,
+   "config": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     3,
+     5
+    ]
+   ]
+  },
+  {
+   "seed": 1,
+   "policy": "Static",
+   "latency_ms": 5.137250480086853,
+   "p95_ms": 10.376177122816442,
+   "min_recall": 0.9959183673469387,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "tune_s": 0.0,
+   "new_indexes": 0,
+   "build_s": 0,
+   "storage": 8,
+   "config": [
+    [
+     0,
+     2
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  {
+   "seed": 1,
+   "policy": "FIR-MINT",
+   "latency_ms": 5.151943028904498,
+   "p95_ms": 10.276196524500847,
+   "min_recall": 0.9894736842105264,
+   "viol_mass": 0.0,
+   "whatif": 154,
+   "tune_s": 0.008428532164543867,
+   "new_indexes": 1,
+   "build_s": 4.154945596121252,
+   "storage": 8,
+   "config": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "seed": 1,
+   "policy": "Full re-tune",
+   "latency_ms": 4.689502757973969,
+   "p95_ms": 11.957963579334319,
+   "min_recall": 0.9894736842105264,
+   "viol_mass": 0.0,
+   "whatif": 152,
+   "tune_s": 0.005691124126315117,
+   "new_indexes": 2,
+   "build_s": 9.052500091027468,
+   "storage": 7,
+   "config": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     3,
+     5
+    ],
+    [
+     2,
+     4
+    ]
+   ]
+  },
+  {
+   "seed": 2,
+   "policy": "Static",
+   "latency_ms": 5.220891444478184,
+   "p95_ms": 12.79507791623473,
+   "min_recall": 0.85,
+   "viol_mass": 0.004827828517339365,
+   "whatif": 0,
+   "tune_s": 0.0,
+   "new_indexes": 0,
+   "build_s": 0,
+   "storage": 8,
+   "config": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     5
+    ],
+    [
+     3,
+     5
+    ]
+   ]
+  },
+  {
+   "seed": 2,
+   "policy": "FIR-MINT",
+   "latency_ms": 3.777937637642026,
+   "p95_ms": 11.193834990262985,
+   "min_recall": 0.9249999999999999,
+   "viol_mass": 0.0,
+   "whatif": 150,
+   "tune_s": 0.007606386207044125,
+   "new_indexes": 2,
+   "build_s": 7.467804776970297,
+   "storage": 8,
+   "config": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     5
+    ]
+   ]
+  },
+  {
+   "seed": 2,
+   "policy": "Full re-tune",
+   "latency_ms": 3.165709328992913,
+   "p95_ms": 8.04376893211156,
+   "min_recall": 0.9,
+   "viol_mass": 0.0,
+   "whatif": 155,
+   "tune_s": 0.0060998257249593735,
+   "new_indexes": 3,
+   "build_s": 12.080796665977687,
+   "storage": 8,
+   "config": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     5
+    ]
+   ]
+  },
+  {
+   "seed": 3,
+   "policy": "Static",
+   "latency_ms": 3.6955678750139973,
+   "p95_ms": 10.847322782501578,
+   "min_recall": 0.9989473684210527,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "tune_s": 0.0,
+   "new_indexes": 0,
+   "build_s": 0,
+   "storage": 8,
+   "config": [
+    [
+     0,
+     3
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     4,
+     5
+    ]
+   ]
+  },
+  {
+   "seed": 3,
+   "policy": "FIR-MINT",
+   "latency_ms": 3.689048627857119,
+   "p95_ms": 10.903159435838461,
+   "min_recall": 0.9989473684210527,
+   "viol_mass": 0.0,
+   "whatif": 166,
+   "tune_s": 0.00930744782090187,
+   "new_indexes": 2,
+   "build_s": 7.467804776970297,
+   "storage": 8,
+   "config": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ]
+  },
+  {
+   "seed": 3,
+   "policy": "Full re-tune",
+   "latency_ms": 3.6746330481643477,
+   "p95_ms": 10.84491559304297,
+   "min_recall": 0.9989473684210527,
+   "viol_mass": 0.0,
+   "whatif": 167,
+   "tune_s": 0.006917653605341911,
+   "new_indexes": 2,
+   "build_s": 7.467804776970297,
+   "storage": 8,
+   "config": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ]
+  },
+  {
+   "seed": 4,
+   "policy": "Static",
+   "latency_ms": 4.750418040590982,
+   "p95_ms": 12.202204507775605,
+   "min_recall": 0.9991228070175439,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "tune_s": 0.0,
+   "new_indexes": 0,
+   "build_s": 0,
+   "storage": 8,
+   "config": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     4,
+     5
+    ]
+   ]
+  },
+  {
+   "seed": 4,
+   "policy": "FIR-MINT",
+   "latency_ms": 4.062668467716624,
+   "p95_ms": 12.45023210067302,
+   "min_recall": 0.9991228070175439,
+   "viol_mass": 0.0,
+   "whatif": 155,
+   "tune_s": 0.009777052327990532,
+   "new_indexes": 3,
+   "build_s": 8.92446296242997,
+   "storage": 8,
+   "config": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     5
+    ]
+   ]
+  },
+  {
+   "seed": 4,
+   "policy": "Full re-tune",
+   "latency_ms": 4.009478103835136,
+   "p95_ms": 12.225411250256002,
+   "min_recall": 0.9991228070175439,
+   "viol_mass": 0.0,
+   "whatif": 161,
+   "tune_s": 0.0066574858501553535,
+   "new_indexes": 3,
+   "build_s": 8.92446296242997,
+   "storage": 8,
+   "config": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     5
+    ]
+   ]
+  }
+ ],
+ "E2": [],
+ "E3": [
+  {
+   "seed": 0,
+   "scenario": "abrupt",
+   "policy": "Static",
+   "mean_cost": 1.6100531697163443,
+   "post_cost": 1.956312057241152,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "builds": 0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 0,
+   "scenario": "abrupt",
+   "policy": "FIR+detector",
+   "mean_cost": 1.269427618980201,
+   "post_cost": 1.445373731136936,
+   "viol_mass": 0.0,
+   "whatif": 138,
+   "builds": 3,
+   "retunes": 1,
+   "false_retunes": 0,
+   "first_retune": 11
+  },
+  {
+   "seed": 0,
+   "scenario": "abrupt",
+   "policy": "Full+detector",
+   "mean_cost": 1.269427618980201,
+   "post_cost": 1.445373731136936,
+   "viol_mass": 0.0,
+   "whatif": 147,
+   "builds": 3,
+   "retunes": 1,
+   "false_retunes": 0,
+   "first_retune": 11
+  },
+  {
+   "seed": 0,
+   "scenario": "abrupt",
+   "policy": "Full every window",
+   "mean_cost": 1.241469438879628,
+   "post_cost": 1.405037879902708,
+   "viol_mass": 0.0,
+   "whatif": 3535,
+   "builds": 24,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 0,
+   "scenario": "gradual",
+   "policy": "Static",
+   "mean_cost": 1.262608424169125,
+   "post_cost": 1.4420263250363614,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "builds": 0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 0,
+   "scenario": "gradual",
+   "policy": "FIR+detector",
+   "mean_cost": 1.163954236071239,
+   "post_cost": 1.294045042889532,
+   "viol_mass": 0.0,
+   "whatif": 283,
+   "builds": 3,
+   "retunes": 2,
+   "false_retunes": 0,
+   "first_retune": 14
+  },
+  {
+   "seed": 0,
+   "scenario": "gradual",
+   "policy": "Full+detector",
+   "mean_cost": 1.1546046622065116,
+   "post_cost": 1.2800206820924407,
+   "viol_mass": 0.0,
+   "whatif": 428,
+   "builds": 4,
+   "retunes": 3,
+   "false_retunes": 0,
+   "first_retune": 12
+  },
+  {
+   "seed": 0,
+   "scenario": "gradual",
+   "policy": "Full every window",
+   "mean_cost": 1.160069684080349,
+   "post_cost": 1.2869278424543196,
+   "viol_mass": 0.0,
+   "whatif": 3475,
+   "builds": 42,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 0,
+   "scenario": "recurring",
+   "policy": "Static",
+   "mean_cost": 1.2280044790203641,
+   "post_cost": 1.347007989142506,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "builds": 0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 0,
+   "scenario": "recurring",
+   "policy": "FIR+detector",
+   "mean_cost": 1.1030257395483347,
+   "post_cost": 1.1765824353170116,
+   "viol_mass": 0.0,
+   "whatif": 413,
+   "builds": 4,
+   "retunes": 3,
+   "false_retunes": 0,
+   "first_retune": 9
+  },
+  {
+   "seed": 0,
+   "scenario": "recurring",
+   "policy": "Full+detector",
+   "mean_cost": 1.1222358063741218,
+   "post_cost": 1.2027779809885393,
+   "viol_mass": 0.0,
+   "whatif": 398,
+   "builds": 8,
+   "retunes": 3,
+   "false_retunes": 0,
+   "first_retune": 9
+  },
+  {
+   "seed": 0,
+   "scenario": "recurring",
+   "policy": "Full every window",
+   "mean_cost": 1.1219207700029377,
+   "post_cost": 1.2012680423129025,
+   "viol_mass": 0.0,
+   "whatif": 3117,
+   "builds": 40,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 0,
+   "scenario": "new_type",
+   "policy": "Static",
+   "mean_cost": 1.1823783284145375,
+   "post_cost": 1.3214093689797506,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "builds": 0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 0,
+   "scenario": "new_type",
+   "policy": "FIR+detector",
+   "mean_cost": 0.9527687803009702,
+   "post_cost": 0.9769950468093993,
+   "viol_mass": 0.0,
+   "whatif": 82,
+   "builds": 2,
+   "retunes": 1,
+   "false_retunes": 0,
+   "first_retune": 11
+  },
+  {
+   "seed": 0,
+   "scenario": "new_type",
+   "policy": "Full+detector",
+   "mean_cost": 0.9527687803009702,
+   "post_cost": 0.9769950468093993,
+   "viol_mass": 0.0,
+   "whatif": 95,
+   "builds": 2,
+   "retunes": 1,
+   "false_retunes": 0,
+   "first_retune": 11
+  },
+  {
+   "seed": 0,
+   "scenario": "new_type",
+   "policy": "Full every window",
+   "mean_cost": 0.9636108792864512,
+   "post_cost": 0.9907652350080562,
+   "viol_mass": 0.0,
+   "whatif": 2297,
+   "builds": 38,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 1,
+   "scenario": "abrupt",
+   "policy": "Static",
+   "mean_cost": 5.635472696498885,
+   "post_cost": 6.718864044291355,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "builds": 0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 1,
+   "scenario": "abrupt",
+   "policy": "FIR+detector",
+   "mean_cost": 4.246229898813136,
+   "post_cost": 4.634999847762733,
+   "viol_mass": 0.0,
+   "whatif": 135,
+   "builds": 3,
+   "retunes": 1,
+   "false_retunes": 0,
+   "first_retune": 11
+  },
+  {
+   "seed": 1,
+   "scenario": "abrupt",
+   "policy": "Full+detector",
+   "mean_cost": 4.246229898813136,
+   "post_cost": 4.634999847762733,
+   "viol_mass": 0.0,
+   "whatif": 149,
+   "builds": 3,
+   "retunes": 1,
+   "false_retunes": 0,
+   "first_retune": 11
+  },
+  {
+   "seed": 1,
+   "scenario": "abrupt",
+   "policy": "Full every window",
+   "mean_cost": 4.107368280001942,
+   "post_cost": 4.446646939771105,
+   "viol_mass": 0.0,
+   "whatif": 3504,
+   "builds": 28,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 1,
+   "scenario": "gradual",
+   "policy": "Static",
+   "mean_cost": 5.073982170728517,
+   "post_cost": 5.9537227254006595,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "builds": 0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 1,
+   "scenario": "gradual",
+   "policy": "FIR+detector",
+   "mean_cost": 4.0305182714309336,
+   "post_cost": 4.388526876454286,
+   "viol_mass": 0.0,
+   "whatif": 403,
+   "builds": 3,
+   "retunes": 3,
+   "false_retunes": 0,
+   "first_retune": 12
+  },
+  {
+   "seed": 1,
+   "scenario": "gradual",
+   "policy": "Full+detector",
+   "mean_cost": 4.074940017312986,
+   "post_cost": 4.455159495277365,
+   "viol_mass": 0.0,
+   "whatif": 284,
+   "builds": 2,
+   "retunes": 2,
+   "false_retunes": 0,
+   "first_retune": 13
+  },
+  {
+   "seed": 1,
+   "scenario": "gradual",
+   "policy": "Full every window",
+   "mean_cost": 3.999245300279207,
+   "post_cost": 4.359598870478299,
+   "viol_mass": 0.0,
+   "whatif": 3314,
+   "builds": 31,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 1,
+   "scenario": "recurring",
+   "policy": "Static",
+   "mean_cost": 5.133739975417552,
+   "post_cost": 5.764184336134139,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "builds": 0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 1,
+   "scenario": "recurring",
+   "policy": "FIR+detector",
+   "mean_cost": 4.265812068718806,
+   "post_cost": 4.58064628154494,
+   "viol_mass": 0.0,
+   "whatif": 401,
+   "builds": 9,
+   "retunes": 3,
+   "false_retunes": 0,
+   "first_retune": 9
+  },
+  {
+   "seed": 1,
+   "scenario": "recurring",
+   "policy": "Full+detector",
+   "mean_cost": 4.269242460791048,
+   "post_cost": 4.58532408891618,
+   "viol_mass": 0.0,
+   "whatif": 387,
+   "builds": 9,
+   "retunes": 3,
+   "false_retunes": 0,
+   "first_retune": 9
+  },
+  {
+   "seed": 1,
+   "scenario": "recurring",
+   "policy": "Full every window",
+   "mean_cost": 4.07016044082041,
+   "post_cost": 4.315213172234771,
+   "viol_mass": 0.0,
+   "whatif": 3212,
+   "builds": 35,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 1,
+   "scenario": "new_type",
+   "policy": "Static",
+   "mean_cost": 5.31940935776011,
+   "post_cost": 6.286035440662037,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "builds": 0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 1,
+   "scenario": "new_type",
+   "policy": "FIR+detector",
+   "mean_cost": 2.9764678170467818,
+   "post_cost": 2.7716231295920446,
+   "viol_mass": 0.0,
+   "whatif": 83,
+   "builds": 1,
+   "retunes": 1,
+   "false_retunes": 0,
+   "first_retune": 11
+  },
+  {
+   "seed": 1,
+   "scenario": "new_type",
+   "policy": "Full+detector",
+   "mean_cost": 3.0087841856122037,
+   "post_cost": 2.8200976824401747,
+   "viol_mass": 0.0,
+   "whatif": 69,
+   "builds": 2,
+   "retunes": 1,
+   "false_retunes": 0,
+   "first_retune": 11
+  },
+  {
+   "seed": 1,
+   "scenario": "new_type",
+   "policy": "Full every window",
+   "mean_cost": 2.8765852329399406,
+   "post_cost": 2.6171762004407904,
+   "viol_mass": 0.0,
+   "whatif": 2175,
+   "builds": 33,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 2,
+   "scenario": "abrupt",
+   "policy": "Static",
+   "mean_cost": 3.874748816302753,
+   "post_cost": 3.551847088305704,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "builds": 0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 2,
+   "scenario": "abrupt",
+   "policy": "FIR+detector",
+   "mean_cost": 3.4884548458679925,
+   "post_cost": 2.9724061326535627,
+   "viol_mass": 0.0,
+   "whatif": 156,
+   "builds": 3,
+   "retunes": 1,
+   "false_retunes": 0,
+   "first_retune": 11
+  },
+  {
+   "seed": 2,
+   "scenario": "abrupt",
+   "policy": "Full+detector",
+   "mean_cost": 3.4884548458679925,
+   "post_cost": 2.9724061326535627,
+   "viol_mass": 0.0,
+   "whatif": 166,
+   "builds": 3,
+   "retunes": 1,
+   "false_retunes": 0,
+   "first_retune": 11
+  },
+  {
+   "seed": 2,
+   "scenario": "abrupt",
+   "policy": "Full every window",
+   "mean_cost": 3.48732835847199,
+   "post_cost": 2.9749269458412178,
+   "viol_mass": 0.0,
+   "whatif": 3723,
+   "builds": 42,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 2,
+   "scenario": "gradual",
+   "policy": "Static",
+   "mean_cost": 4.092866827239721,
+   "post_cost": 3.886665144304266,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "builds": 0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 2,
+   "scenario": "gradual",
+   "policy": "FIR+detector",
+   "mean_cost": 3.712133755295748,
+   "post_cost": 3.3155655363883083,
+   "viol_mass": 0.0,
+   "whatif": 289,
+   "builds": 5,
+   "retunes": 2,
+   "false_retunes": 0,
+   "first_retune": 13
+  },
+  {
+   "seed": 2,
+   "scenario": "gradual",
+   "policy": "Full+detector",
+   "mean_cost": 3.7036574255526102,
+   "post_cost": 3.3028510417736014,
+   "viol_mass": 0.0,
+   "whatif": 329,
+   "builds": 5,
+   "retunes": 2,
+   "false_retunes": 0,
+   "first_retune": 13
+  },
+  {
+   "seed": 2,
+   "scenario": "gradual",
+   "policy": "Full every window",
+   "mean_cost": 3.6984090419733766,
+   "post_cost": 3.29145018753065,
+   "viol_mass": 0.0,
+   "whatif": 3574,
+   "builds": 24,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 2,
+   "scenario": "recurring",
+   "policy": "Static",
+   "mean_cost": 4.089401059322445,
+   "post_cost": 3.9304812300602707,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "builds": 0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 2,
+   "scenario": "recurring",
+   "policy": "FIR+detector",
+   "mean_cost": 3.9186650055812744,
+   "post_cost": 3.6976593385950376,
+   "viol_mass": 0.0,
+   "whatif": 421,
+   "builds": 6,
+   "retunes": 3,
+   "false_retunes": 0,
+   "first_retune": 9
+  },
+  {
+   "seed": 2,
+   "scenario": "recurring",
+   "policy": "Full+detector",
+   "mean_cost": 3.924525795587877,
+   "post_cost": 3.705651324967677,
+   "viol_mass": 0.0,
+   "whatif": 399,
+   "builds": 8,
+   "retunes": 3,
+   "false_retunes": 0,
+   "first_retune": 9
+  },
+  {
+   "seed": 2,
+   "scenario": "recurring",
+   "policy": "Full every window",
+   "mean_cost": 3.877910548006384,
+   "post_cost": 3.6482607336577733,
+   "viol_mass": 0.0,
+   "whatif": 3165,
+   "builds": 32,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 2,
+   "scenario": "new_type",
+   "policy": "Static",
+   "mean_cost": 3.903788152105871,
+   "post_cost": 3.592875786004226,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "builds": 0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 2,
+   "scenario": "new_type",
+   "policy": "FIR+detector",
+   "mean_cost": 3.6505547481327394,
+   "post_cost": 3.2130256800445283,
+   "viol_mass": 0.0,
+   "whatif": 93,
+   "builds": 2,
+   "retunes": 1,
+   "false_retunes": 0,
+   "first_retune": 11
+  },
+  {
+   "seed": 2,
+   "scenario": "new_type",
+   "policy": "Full+detector",
+   "mean_cost": 3.656784619332219,
+   "post_cost": 3.2223704868437473,
+   "viol_mass": 0.0,
+   "whatif": 86,
+   "builds": 2,
+   "retunes": 1,
+   "false_retunes": 0,
+   "first_retune": 11
+  },
+  {
+   "seed": 2,
+   "scenario": "new_type",
+   "policy": "Full every window",
+   "mean_cost": 3.6563527130401683,
+   "post_cost": 3.2221581321232025,
+   "viol_mass": 0.0,
+   "whatif": 2321,
+   "builds": 41,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 3,
+   "scenario": "abrupt",
+   "policy": "Static",
+   "mean_cost": 5.32698491095261,
+   "post_cost": 5.637115312749419,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "builds": 0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 3,
+   "scenario": "abrupt",
+   "policy": "FIR+detector",
+   "mean_cost": 4.495764872189453,
+   "post_cost": 4.390285254604683,
+   "viol_mass": 0.0,
+   "whatif": 158,
+   "builds": 3,
+   "retunes": 1,
+   "false_retunes": 0,
+   "first_retune": 11
+  },
+  {
+   "seed": 3,
+   "scenario": "abrupt",
+   "policy": "Full+detector",
+   "mean_cost": 4.440818880049145,
+   "post_cost": 4.307866266394221,
+   "viol_mass": 0.0,
+   "whatif": 151,
+   "builds": 3,
+   "retunes": 1,
+   "false_retunes": 0,
+   "first_retune": 11
+  },
+  {
+   "seed": 3,
+   "scenario": "abrupt",
+   "policy": "Full every window",
+   "mean_cost": 4.415564131129734,
+   "post_cost": 4.262370374378781,
+   "viol_mass": 0.0,
+   "whatif": 3548,
+   "builds": 25,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 3,
+   "scenario": "gradual",
+   "policy": "Static",
+   "mean_cost": 5.709923122756218,
+   "post_cost": 6.176688584152661,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "builds": 0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 3,
+   "scenario": "gradual",
+   "policy": "FIR+detector",
+   "mean_cost": 4.501837326009552,
+   "post_cost": 4.3645598890326625,
+   "viol_mass": 0.0,
+   "whatif": 301,
+   "builds": 5,
+   "retunes": 2,
+   "false_retunes": 0,
+   "first_retune": 13
+  },
+  {
+   "seed": 3,
+   "scenario": "gradual",
+   "policy": "Full+detector",
+   "mean_cost": 4.521580247476408,
+   "post_cost": 4.394174271232949,
+   "viol_mass": 0.0,
+   "whatif": 316,
+   "builds": 4,
+   "retunes": 2,
+   "false_retunes": 0,
+   "first_retune": 13
+  },
+  {
+   "seed": 3,
+   "scenario": "gradual",
+   "policy": "Full every window",
+   "mean_cost": 4.472464586734453,
+   "post_cost": 4.330603362357595,
+   "viol_mass": 0.0,
+   "whatif": 3582,
+   "builds": 39,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 3,
+   "scenario": "recurring",
+   "policy": "Static",
+   "mean_cost": 5.369087706012868,
+   "post_cost": 5.573616219245026,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "builds": 0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 3,
+   "scenario": "recurring",
+   "policy": "FIR+detector",
+   "mean_cost": 4.77833691270931,
+   "post_cost": 4.76804695564926,
+   "viol_mass": 0.0,
+   "whatif": 417,
+   "builds": 9,
+   "retunes": 3,
+   "false_retunes": 0,
+   "first_retune": 9
+  },
+  {
+   "seed": 3,
+   "scenario": "recurring",
+   "policy": "Full+detector",
+   "mean_cost": 4.774897282820902,
+   "post_cost": 4.763356551255977,
+   "viol_mass": 0.0,
+   "whatif": 410,
+   "builds": 9,
+   "retunes": 3,
+   "false_retunes": 0,
+   "first_retune": 9
+  },
+  {
+   "seed": 3,
+   "scenario": "recurring",
+   "policy": "Full every window",
+   "mean_cost": 4.64325603601503,
+   "post_cost": 4.58740019080068,
+   "viol_mass": 0.0,
+   "whatif": 3012,
+   "builds": 23,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 3,
+   "scenario": "new_type",
+   "policy": "Static",
+   "mean_cost": 6.26280000616971,
+   "post_cost": 6.9773861278537295,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "builds": 0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 3,
+   "scenario": "new_type",
+   "policy": "FIR+detector",
+   "mean_cost": 3.967987659868538,
+   "post_cost": 3.5351676084019688,
+   "viol_mass": 0.0,
+   "whatif": 93,
+   "builds": 3,
+   "retunes": 1,
+   "false_retunes": 0,
+   "first_retune": 11
+  },
+  {
+   "seed": 3,
+   "scenario": "new_type",
+   "policy": "Full+detector",
+   "mean_cost": 3.9693896695906115,
+   "post_cost": 3.537270622985079,
+   "viol_mass": 0.0,
+   "whatif": 97,
+   "builds": 2,
+   "retunes": 1,
+   "false_retunes": 0,
+   "first_retune": 11
+  },
+  {
+   "seed": 3,
+   "scenario": "new_type",
+   "policy": "Full every window",
+   "mean_cost": 3.838308557084358,
+   "post_cost": 3.3693790949278375,
+   "viol_mass": 0.0,
+   "whatif": 2104,
+   "builds": 44,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 4,
+   "scenario": "abrupt",
+   "policy": "Static",
+   "mean_cost": 3.67688113830301,
+   "post_cost": 3.29539444267652,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "builds": 0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 4,
+   "scenario": "abrupt",
+   "policy": "FIR+detector",
+   "mean_cost": 3.4000266894421154,
+   "post_cost": 2.8801127693851787,
+   "viol_mass": 0.0,
+   "whatif": 147,
+   "builds": 3,
+   "retunes": 1,
+   "false_retunes": 0,
+   "first_retune": 11
+  },
+  {
+   "seed": 4,
+   "scenario": "abrupt",
+   "policy": "Full+detector",
+   "mean_cost": 3.3953354848477844,
+   "post_cost": 2.873075962493683,
+   "viol_mass": 0.0,
+   "whatif": 151,
+   "builds": 3,
+   "retunes": 1,
+   "false_retunes": 0,
+   "first_retune": 11
+  },
+  {
+   "seed": 4,
+   "scenario": "abrupt",
+   "policy": "Full every window",
+   "mean_cost": 3.3795163766139753,
+   "post_cost": 2.8500664272536973,
+   "viol_mass": 0.0,
+   "whatif": 3575,
+   "builds": 38,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 4,
+   "scenario": "gradual",
+   "policy": "Static",
+   "mean_cost": 3.8742713971347222,
+   "post_cost": 3.5945247391141777,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "builds": 0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 4,
+   "scenario": "gradual",
+   "policy": "FIR+detector",
+   "mean_cost": 3.6716038544807943,
+   "post_cost": 3.2905234251332836,
+   "viol_mass": 0.0,
+   "whatif": 410,
+   "builds": 5,
+   "retunes": 3,
+   "false_retunes": 0,
+   "first_retune": 12
+  },
+  {
+   "seed": 4,
+   "scenario": "gradual",
+   "policy": "Full+detector",
+   "mean_cost": 3.6771805841264675,
+   "post_cost": 3.2988885196017934,
+   "viol_mass": 0.0,
+   "whatif": 309,
+   "builds": 4,
+   "retunes": 2,
+   "false_retunes": 0,
+   "first_retune": 13
+  },
+  {
+   "seed": 4,
+   "scenario": "gradual",
+   "policy": "Full every window",
+   "mean_cost": 3.6757775200773435,
+   "post_cost": 3.2908508081355476,
+   "viol_mass": 0.0,
+   "whatif": 3319,
+   "builds": 37,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 4,
+   "scenario": "recurring",
+   "policy": "Static",
+   "mean_cost": 3.7606218728605234,
+   "post_cost": 3.527227599310852,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "builds": 0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 4,
+   "scenario": "recurring",
+   "policy": "FIR+detector",
+   "mean_cost": 3.706036472592763,
+   "post_cost": 3.4527929625820875,
+   "viol_mass": 0.0,
+   "whatif": 423,
+   "builds": 10,
+   "retunes": 3,
+   "false_retunes": 0,
+   "first_retune": 9
+  },
+  {
+   "seed": 4,
+   "scenario": "recurring",
+   "policy": "Full+detector",
+   "mean_cost": 3.730422777619036,
+   "post_cost": 3.486047014890644,
+   "viol_mass": 0.0,
+   "whatif": 389,
+   "builds": 9,
+   "retunes": 3,
+   "false_retunes": 0,
+   "first_retune": 9
+  },
+  {
+   "seed": 4,
+   "scenario": "recurring",
+   "policy": "Full every window",
+   "mean_cost": 3.7154985388234967,
+   "post_cost": 3.4632686212157506,
+   "viol_mass": 0.0,
+   "whatif": 3128,
+   "builds": 37,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 4,
+   "scenario": "new_type",
+   "policy": "Static",
+   "mean_cost": 3.8063029022510313,
+   "post_cost": 3.47741272091377,
+   "viol_mass": 0.0,
+   "whatif": 0,
+   "builds": 0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  },
+  {
+   "seed": 4,
+   "scenario": "new_type",
+   "policy": "FIR+detector",
+   "mean_cost": 3.5092486789250916,
+   "post_cost": 3.031831385924862,
+   "viol_mass": 0.0,
+   "whatif": 95,
+   "builds": 1,
+   "retunes": 1,
+   "false_retunes": 0,
+   "first_retune": 11
+  },
+  {
+   "seed": 4,
+   "scenario": "new_type",
+   "policy": "Full+detector",
+   "mean_cost": 3.5092486789250916,
+   "post_cost": 3.031831385924862,
+   "viol_mass": 0.0,
+   "whatif": 96,
+   "builds": 1,
+   "retunes": 1,
+   "false_retunes": 0,
+   "first_retune": 11
+  },
+  {
+   "seed": 4,
+   "scenario": "new_type",
+   "policy": "Full every window",
+   "mean_cost": 3.4942788139805687,
+   "post_cost": 3.01210088269995,
+   "viol_mass": 0.0,
+   "whatif": 2331,
+   "builds": 28,
+   "retunes": 0,
+   "false_retunes": 0,
+   "first_retune": null
+  }
+ ]
+}

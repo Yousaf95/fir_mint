@@ -1,0 +1,5046 @@
+{
+ "E6": [
+  {
+   "scenario": "abrupt",
+   "seed": 0,
+   "policy": "Static",
+   "qw": null,
+   "post_cost": 6.28127974849734,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 0,
+   "total_s": {
+    "1000": 170.03058608836187,
+    "10000": 1700.3058608836186,
+    "100000": 17003.05860883619
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 0,
+   "policy": "Oracle",
+   "qw": null,
+   "post_cost": 4.237106370435521,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 0,
+   "total_s": {
+    "1000": 140.98884344441808,
+    "10000": 1303.3129101885474,
+    "100000": 12926.553577629842
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 0,
+   "policy": "FIR+detector",
+   "qw": null,
+   "post_cost": 4.466067690825615,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 175,
+   "total_s": {
+    "1000": 142.6076386228968,
+    "10000": 1346.144743037243,
+    "100000": 13381.515787180702
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 0,
+   "policy": "FIR+fast",
+   "qw": null,
+   "post_cost": 4.422707752327307,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 159,
+   "total_s": {
+    "1000": 144.70087108225368,
+    "10000": 1340.4331865669035,
+    "100000": 13297.756341413402
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 0,
+   "policy": "Full+detector",
+   "qw": null,
+   "post_cost": 4.466067690825615,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 166,
+   "total_s": {
+    "1000": 142.6076386228968,
+    "10000": 1346.144743037243,
+    "100000": 13381.515787180702
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 0,
+   "policy": "Continuous FIR",
+   "qw": null,
+   "post_cost": 4.4051825740223745,
+   "viol_mass": 0.0,
+   "retunes": 29,
+   "false_retunes": 9,
+   "delay": 0,
+   "builds": 42,
+   "build_s": 124.33811163157225,
+   "whatif": 3726,
+   "total_s": {
+    "1000": 257.1393085750833,
+    "10000": 1452.3500810666828,
+    "100000": 13404.457805982678
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 0,
+   "policy": "FIR+SR",
+   "qw": 1000,
+   "post_cost": 4.768603033770903,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 4,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 175,
+   "total_s": {
+    "1000": 148.6583454818025,
+    "10000": 1406.6518116263003,
+    "100000": 13986.586473071275
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 0,
+   "policy": "FIR+fast+SR",
+   "qw": 1000,
+   "post_cost": 4.911805646056263,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 5,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 167,
+   "total_s": {
+    "1000": 154.4828289568328,
+    "10000": 1438.2527653126947,
+    "100000": 14275.952128871315
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 0,
+   "policy": "FIR+SR",
+   "qw": 10000,
+   "post_cost": 4.466067690825615,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 175,
+   "total_s": {
+    "1000": 142.6076386228968,
+    "10000": 1346.144743037243,
+    "100000": 13381.515787180702
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 0,
+   "policy": "FIR+fast+SR",
+   "qw": 10000,
+   "post_cost": 4.422707752327307,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 159,
+   "total_s": {
+    "1000": 144.70087108225368,
+    "10000": 1340.4331865669035,
+    "100000": 13297.756341413402
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 0,
+   "policy": "FIR+SR",
+   "qw": 100000,
+   "post_cost": 4.466067690825615,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 175,
+   "total_s": {
+    "1000": 142.6076386228968,
+    "10000": 1346.144743037243,
+    "100000": 13381.515787180702
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 0,
+   "policy": "FIR+fast+SR",
+   "qw": 100000,
+   "post_cost": 4.422707752327307,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 159,
+   "total_s": {
+    "1000": 144.70087108225368,
+    "10000": 1340.4331865669035,
+    "100000": 13297.756341413402
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 0,
+   "policy": "Static",
+   "qw": null,
+   "post_cost": 5.875238953793738,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 0,
+   "total_s": {
+    "1000": 162.9196159574083,
+    "10000": 1629.1961595740831,
+    "100000": 16291.961595740831
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 0,
+   "policy": "Oracle",
+   "qw": null,
+   "post_cost": 4.225415812773162,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 8,
+   "build_s": 23.68344983458519,
+   "whatif": 0,
+   "total_s": {
+    "1000": 153.30874346316025,
+    "10000": 1319.936386120336,
+    "100000": 12986.21281269209
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 0,
+   "policy": "FIR+detector",
+   "qw": null,
+   "post_cost": 4.524144496362179,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 4,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 294,
+   "total_s": {
+    "1000": 141.81858926742336,
+    "10000": 1364.898130546417,
+    "100000": 13595.693543336352
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 0,
+   "policy": "FIR+fast",
+   "qw": null,
+   "post_cost": 4.3528863667654605,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 4,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 281,
+   "total_s": {
+    "1000": 141.35385790481217,
+    "10000": 1333.6069358563968,
+    "100000": 13256.137715372242
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 0,
+   "policy": "Full+detector",
+   "qw": null,
+   "post_cost": 4.419140592944869,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 4,
+   "builds": 6,
+   "build_s": 17.762587375938892,
+   "whatif": 306,
+   "total_s": {
+    "1000": 151.56023611636977,
+    "10000": 1355.7390747802476,
+    "100000": 13397.527461419026
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 0,
+   "policy": "Continuous FIR",
+   "qw": null,
+   "post_cost": 4.290486818033909,
+   "viol_mass": 0.0,
+   "retunes": 28,
+   "false_retunes": 10,
+   "delay": 0,
+   "builds": 43,
+   "build_s": 127.2985428608954,
+   "whatif": 3590,
+   "total_s": {
+    "1000": 258.81857367531734,
+    "10000": 1442.498851005115,
+    "100000": 13279.301624303092
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 0,
+   "policy": "FIR+SR",
+   "qw": 1000,
+   "post_cost": 4.7959246585732185,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 7,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 301,
+   "total_s": {
+    "1000": 147.25419251164416,
+    "10000": 1419.254162988625,
+    "100000": 14139.253867758433
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 0,
+   "policy": "FIR+fast+SR",
+   "qw": 1000,
+   "post_cost": 4.824042788473532,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 7,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 292,
+   "total_s": {
+    "1000": 150.77698633897361,
+    "10000": 1427.838220198011,
+    "100000": 14198.450558788387
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 0,
+   "policy": "FIR+SR",
+   "qw": 10000,
+   "post_cost": 4.524144496362179,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 4,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 294,
+   "total_s": {
+    "1000": 141.81858926742336,
+    "10000": 1364.898130546417,
+    "100000": 13595.693543336352
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 0,
+   "policy": "FIR+fast+SR",
+   "qw": 10000,
+   "post_cost": 4.378600186129924,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 4,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 282,
+   "total_s": {
+    "1000": 141.86813429210144,
+    "10000": 1338.7496997292894,
+    "100000": 13307.56535410117
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 0,
+   "policy": "FIR+SR",
+   "qw": 100000,
+   "post_cost": 4.524144496362179,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 4,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 294,
+   "total_s": {
+    "1000": 141.81858926742336,
+    "10000": 1364.898130546417,
+    "100000": 13595.693543336352
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 0,
+   "policy": "FIR+fast+SR",
+   "qw": 100000,
+   "post_cost": 4.3528863667654605,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 4,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 281,
+   "total_s": {
+    "1000": 141.35385790481217,
+    "10000": 1333.6069358563968,
+    "100000": 13256.137715372242
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 0,
+   "policy": "Static",
+   "qw": null,
+   "post_cost": 5.848482643031279,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 0,
+   "total_s": {
+    "1000": 165.0126885955015,
+    "10000": 1650.126885955015,
+    "100000": 16501.26885955015
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 0,
+   "policy": "Oracle",
+   "qw": null,
+   "post_cost": 4.034631409330786,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 12,
+   "build_s": 35.525174751877785,
+   "whatif": 0,
+   "total_s": {
+    "1000": 160.63313620596838,
+    "10000": 1286.6047892927836,
+    "100000": 12546.321320160938
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 0,
+   "policy": "FIR+detector",
+   "qw": null,
+   "post_cost": 4.633748062709246,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 11,
+   "build_s": 32.564743522554636,
+   "whatif": 451,
+   "total_s": {
+    "1000": 170.85327135097134,
+    "10000": 1415.4500218067217,
+    "100000": 13861.417526364226
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 0,
+   "policy": "FIR+fast",
+   "qw": null,
+   "post_cost": 4.4132807990186755,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 7,
+   "build_s": 20.72301860526204,
+   "whatif": 373,
+   "total_s": {
+    "1000": 154.16126663248622,
+    "10000": 1355.1054988775038,
+    "100000": 13364.547821327678
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 0,
+   "policy": "Full+detector",
+   "qw": null,
+   "post_cost": 4.612611725411373,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 12,
+   "build_s": 35.525174751877785,
+   "whatif": 438,
+   "total_s": {
+    "1000": 173.34870315974126,
+    "10000": 1413.7604588305126,
+    "100000": 13817.878015538225
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 0,
+   "policy": "Continuous FIR",
+   "qw": null,
+   "post_cost": 4.342305314741541,
+   "viol_mass": 0.0,
+   "retunes": 25,
+   "false_retunes": 6,
+   "delay": 0,
+   "builds": 35,
+   "build_s": 103.6150930263102,
+   "whatif": 3214,
+   "total_s": {
+    "1000": 235.5842739793821,
+    "10000": 1423.3069025570292,
+    "100000": 13300.533188333498
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 0,
+   "policy": "FIR+SR",
+   "qw": 1000,
+   "post_cost": 5.05094464958135,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 5,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 467,
+   "total_s": {
+    "1000": 159.3085776568956,
+    "10000": 1486.5102523133226,
+    "100000": 14758.526998877594
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 0,
+   "policy": "FIR+fast+SR",
+   "qw": 1000,
+   "post_cost": 4.832097287156254,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 409,
+   "total_s": {
+    "1000": 151.53350445422032,
+    "10000": 1435.4034013504781,
+    "100000": 14274.102370313058
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 0,
+   "policy": "FIR+SR",
+   "qw": 10000,
+   "post_cost": 4.663616615935184,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 11,
+   "build_s": 32.564743522554636,
+   "whatif": 459,
+   "total_s": {
+    "1000": 171.51037952194196,
+    "10000": 1422.0211035164277,
+    "100000": 13927.128343461287
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 0,
+   "policy": "FIR+fast+SR",
+   "qw": 10000,
+   "post_cost": 4.436289975238228,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 7,
+   "build_s": 20.72301860526204,
+   "whatif": 382,
+   "total_s": {
+    "1000": 154.6674685093164,
+    "10000": 1360.1675176458057,
+    "100000": 13415.168009010697
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 0,
+   "policy": "FIR+SR",
+   "qw": 100000,
+   "post_cost": 4.633748062709246,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 11,
+   "build_s": 32.564743522554636,
+   "whatif": 451,
+   "total_s": {
+    "1000": 170.85327135097134,
+    "10000": 1415.4500218067217,
+    "100000": 13861.417526364226
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 0,
+   "policy": "FIR+fast+SR",
+   "qw": 100000,
+   "post_cost": 4.4132807990186755,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 7,
+   "build_s": 20.72301860526204,
+   "whatif": 373,
+   "total_s": {
+    "1000": 154.16126663248622,
+    "10000": 1355.1054988775038,
+    "100000": 13364.547821327678
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 0,
+   "policy": "Static",
+   "qw": null,
+   "post_cost": 8.780215451373286,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 0,
+   "total_s": {
+    "1000": 219.78838553210062,
+    "10000": 2197.883855321006,
+    "100000": 21978.838553210062
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 0,
+   "policy": "Oracle",
+   "qw": null,
+   "post_cost": 3.3310164934631317,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 1,
+   "build_s": 3.981789496494457,
+   "whatif": 0,
+   "total_s": {
+    "1000": 114.78619587039185,
+    "10000": 1112.0258532354685,
+    "100000": 11084.422426886234
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 0,
+   "policy": "FIR+detector",
+   "qw": null,
+   "post_cost": 3.8759363892541456,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 1,
+   "build_s": 3.981789496494457,
+   "whatif": 107,
+   "total_s": {
+    "1000": 125.68459378621213,
+    "10000": 1221.009832393671,
+    "100000": 12174.262218468262
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 0,
+   "policy": "FIR+fast",
+   "qw": null,
+   "post_cost": 3.74117368079405,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 91,
+   "total_s": {
+    "1000": 124.92841257916223,
+    "10000": 1195.9963636638056,
+    "100000": 11906.67587451024
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 0,
+   "policy": "Full+detector",
+   "qw": null,
+   "post_cost": 4.006177319833579,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 2,
+   "build_s": 6.942220725817606,
+   "whatif": 107,
+   "total_s": {
+    "1000": 131.24984362712402,
+    "10000": 1250.0184497388818,
+    "100000": 12437.70451085646
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 0,
+   "policy": "Continuous FIR",
+   "qw": null,
+   "post_cost": 3.638457903220808,
+   "viol_mass": 0.0,
+   "retunes": 23,
+   "false_retunes": 10,
+   "delay": 0,
+   "builds": 27,
+   "build_s": 80.95300145889632,
+   "whatif": 2201,
+   "total_s": {
+    "1000": 198.55167653191404,
+    "10000": 1256.9397521890735,
+    "100000": 11840.820508760668
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 0,
+   "policy": "FIR+SR",
+   "qw": 1000,
+   "post_cost": 3.8759363892541456,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 1,
+   "build_s": 3.981789496494457,
+   "whatif": 107,
+   "total_s": {
+    "1000": 125.68459378621213,
+    "10000": 1221.009832393671,
+    "100000": 12174.262218468262
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 0,
+   "policy": "FIR+fast+SR",
+   "qw": 1000,
+   "post_cost": 4.006386405561378,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 99,
+   "total_s": {
+    "1000": 130.23266707450878,
+    "10000": 1249.038908617271,
+    "100000": 12437.101324044894
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 0,
+   "policy": "FIR+SR",
+   "qw": 10000,
+   "post_cost": 3.8759363892541456,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 1,
+   "build_s": 3.981789496494457,
+   "whatif": 107,
+   "total_s": {
+    "1000": 125.68459378621213,
+    "10000": 1221.009832393671,
+    "100000": 12174.262218468262
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 0,
+   "policy": "FIR+fast+SR",
+   "qw": 10000,
+   "post_cost": 3.74117368079405,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 91,
+   "total_s": {
+    "1000": 124.92841257916223,
+    "10000": 1195.9963636638056,
+    "100000": 11906.67587451024
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 0,
+   "policy": "FIR+SR",
+   "qw": 100000,
+   "post_cost": 3.8759363892541456,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 1,
+   "build_s": 3.981789496494457,
+   "whatif": 107,
+   "total_s": {
+    "1000": 125.68459378621213,
+    "10000": 1221.009832393671,
+    "100000": 12174.262218468262
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 0,
+   "policy": "FIR+fast+SR",
+   "qw": 100000,
+   "post_cost": 3.74117368079405,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 91,
+   "total_s": {
+    "1000": 124.92841257916223,
+    "10000": 1195.9963636638056,
+    "100000": 11906.67587451024
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 1,
+   "policy": "Static",
+   "qw": null,
+   "post_cost": 7.467848658123498,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 0,
+   "total_s": {
+    "1000": 200.18588024841975,
+    "10000": 2001.8588024841974,
+    "100000": 20018.588024841974
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 1,
+   "policy": "Oracle",
+   "qw": null,
+   "post_cost": 5.451941613176922,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 0,
+   "total_s": {
+    "1000": 172.19401844148877,
+    "10000": 1615.3646601592543,
+    "100000": 16047.07107733691
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 1,
+   "policy": "FIR+detector",
+   "qw": null,
+   "post_cost": 5.078200334352803,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 157,
+   "total_s": {
+    "1000": 164.23463869029834,
+    "10000": 1535.77086264735,
+    "100000": 15251.133102217867
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 1,
+   "policy": "FIR+fast",
+   "qw": null,
+   "post_cost": 4.94544209414332,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 129,
+   "total_s": {
+    "1000": 161.5794738861087,
+    "10000": 1509.2192146054535,
+    "100000": 14985.616621798903
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 1,
+   "policy": "Full+detector",
+   "qw": null,
+   "post_cost": 5.078200334352803,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 163,
+   "total_s": {
+    "1000": 164.23463869029834,
+    "10000": 1535.77086264735,
+    "100000": 15251.133102217867
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 1,
+   "policy": "Continuous FIR",
+   "qw": null,
+   "post_cost": 4.978688566884077,
+   "viol_mass": 0.0,
+   "retunes": 15,
+   "false_retunes": 8,
+   "delay": 0,
+   "builds": 23,
+   "build_s": 70.13263480877504,
+   "whatif": 3543,
+   "total_s": {
+    "1000": 220.88945107275657,
+    "10000": 1577.7007974485905,
+    "100000": 15145.814261206928
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 1,
+   "policy": "FIR+SR",
+   "qw": 1000,
+   "post_cost": 5.741991535400217,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 6,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 158,
+   "total_s": {
+    "1000": 177.51046271124667,
+    "10000": 1668.5291028568336,
+    "100000": 16578.7155043127
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 1,
+   "policy": "FIR+fast+SR",
+   "qw": 1000,
+   "post_cost": 5.476475054981252,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 4,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 141,
+   "total_s": {
+    "1000": 172.20013310286734,
+    "10000": 1615.42580677304,
+    "100000": 16047.682543474768
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 1,
+   "policy": "FIR+SR",
+   "qw": 10000,
+   "post_cost": 5.078200334352803,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 157,
+   "total_s": {
+    "1000": 164.23463869029834,
+    "10000": 1535.77086264735,
+    "100000": 15251.133102217867
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 1,
+   "policy": "FIR+fast+SR",
+   "qw": 10000,
+   "post_cost": 4.94544209414332,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 129,
+   "total_s": {
+    "1000": 161.5794738861087,
+    "10000": 1509.2192146054535,
+    "100000": 14985.616621798903
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 1,
+   "policy": "FIR+SR",
+   "qw": 100000,
+   "post_cost": 5.078200334352803,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 157,
+   "total_s": {
+    "1000": 164.23463869029834,
+    "10000": 1535.77086264735,
+    "100000": 15251.133102217867
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 1,
+   "policy": "FIR+fast+SR",
+   "qw": 100000,
+   "post_cost": 4.94544209414332,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 129,
+   "total_s": {
+    "1000": 161.5794738861087,
+    "10000": 1509.2192146054535,
+    "100000": 14985.616621798903
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 1,
+   "policy": "Static",
+   "qw": null,
+   "post_cost": 7.756806006683229,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 0,
+   "total_s": {
+    "1000": 206.9834693509283,
+    "10000": 2069.8346935092827,
+    "100000": 20698.346935092828
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 1,
+   "policy": "Oracle",
+   "qw": null,
+   "post_cost": 5.265430286070277,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 7,
+   "build_s": 22.765735139604658,
+   "whatif": 0,
+   "total_s": {
+    "1000": 178.4857403087328,
+    "10000": 1579.9657868308861,
+    "100000": 15594.766252052419
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 1,
+   "policy": "FIR+detector",
+   "qw": null,
+   "post_cost": 5.4116264631296875,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 3,
+   "build_s": 9.902651955140755,
+   "whatif": 275,
+   "total_s": {
+    "1000": 169.98253043499827,
+    "10000": 1610.7014367537158,
+    "100000": 16017.890499940893
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 1,
+   "policy": "FIR+fast",
+   "qw": null,
+   "post_cost": 5.4116264631296875,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 3,
+   "build_s": 9.902651955140755,
+   "whatif": 275,
+   "total_s": {
+    "1000": 169.98253043499827,
+    "10000": 1610.7014367537158,
+    "100000": 16017.890499940893
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 1,
+   "policy": "Full+detector",
+   "qw": null,
+   "post_cost": 5.428202829783779,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 6,
+   "build_s": 18.7839456431102,
+   "whatif": 292,
+   "total_s": {
+    "1000": 179.19535145604954,
+    "10000": 1622.8980037725034,
+    "100000": 16059.924526937044
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 1,
+   "policy": "Continuous FIR",
+   "qw": null,
+   "post_cost": 5.328360087601264,
+   "viol_mass": 0.0,
+   "retunes": 21,
+   "false_retunes": 10,
+   "delay": 0,
+   "builds": 26,
+   "build_s": 81.0566450310871,
+   "whatif": 3173,
+   "total_s": {
+    "1000": 238.75136012912873,
+    "10000": 1658.0037960115033,
+    "100000": 15850.52815483525
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 1,
+   "policy": "FIR+SR",
+   "qw": 1000,
+   "post_cost": 6.381560535317138,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 11,
+   "builds": 3,
+   "build_s": 9.902651955140755,
+   "whatif": 298,
+   "total_s": {
+    "1000": 189.38121187874728,
+    "10000": 1804.688251191206,
+    "100000": 17957.758644315792
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 1,
+   "policy": "FIR+fast+SR",
+   "qw": 1000,
+   "post_cost": 6.381560535317138,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 11,
+   "builds": 3,
+   "build_s": 9.902651955140755,
+   "whatif": 298,
+   "total_s": {
+    "1000": 189.38121187874728,
+    "10000": 1804.688251191206,
+    "100000": 17957.758644315792
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 1,
+   "policy": "FIR+SR",
+   "qw": 10000,
+   "post_cost": 5.467728890142266,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 4,
+   "builds": 3,
+   "build_s": 9.902651955140755,
+   "whatif": 278,
+   "total_s": {
+    "1000": 171.10457897524984,
+    "10000": 1621.9219221562314,
+    "100000": 16130.09535396605
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 1,
+   "policy": "FIR+fast+SR",
+   "qw": 10000,
+   "post_cost": 5.467728890142266,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 4,
+   "builds": 3,
+   "build_s": 9.902651955140755,
+   "whatif": 278,
+   "total_s": {
+    "1000": 171.10457897524984,
+    "10000": 1621.9219221562314,
+    "100000": 16130.09535396605
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 1,
+   "policy": "FIR+SR",
+   "qw": 100000,
+   "post_cost": 5.4116264631296875,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 3,
+   "build_s": 9.902651955140755,
+   "whatif": 275,
+   "total_s": {
+    "1000": 169.98253043499827,
+    "10000": 1610.7014367537158,
+    "100000": 16017.890499940893
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 1,
+   "policy": "FIR+fast+SR",
+   "qw": 100000,
+   "post_cost": 5.4116264631296875,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 3,
+   "build_s": 9.902651955140755,
+   "whatif": 275,
+   "total_s": {
+    "1000": 169.98253043499827,
+    "10000": 1610.7014367537158,
+    "100000": 16017.890499940893
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 1,
+   "policy": "Static",
+   "qw": null,
+   "post_cost": 6.371950477910337,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 0,
+   "total_s": {
+    "1000": 180.28197730421,
+    "10000": 1802.8197730420998,
+    "100000": 18028.197730420998
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 1,
+   "policy": "Oracle",
+   "qw": null,
+   "post_cost": 5.086849223086678,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 9,
+   "build_s": 28.686597598250955,
+   "whatif": 0,
+   "total_s": {
+    "1000": 179.24661144061406,
+    "10000": 1534.286736021882,
+    "100000": 15084.68798183456
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 1,
+   "policy": "FIR+detector",
+   "qw": null,
+   "post_cost": 5.426809572944449,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 8,
+   "build_s": 25.726166368927807,
+   "whatif": 401,
+   "total_s": {
+    "1000": 185.2150437638883,
+    "10000": 1620.6149403185327,
+    "100000": 15974.613905864979
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 1,
+   "policy": "FIR+fast",
+   "qw": null,
+   "post_cost": 5.280487369904344,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 8,
+   "build_s": 25.726166368927807,
+   "whatif": 374,
+   "total_s": {
+    "1000": 181.99595529700602,
+    "10000": 1588.42405564971,
+    "100000": 15652.70505917675
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 1,
+   "policy": "Full+detector",
+   "qw": null,
+   "post_cost": 5.537101865423908,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 9,
+   "build_s": 29.707955865422264,
+   "whatif": 389,
+   "total_s": {
+    "1000": 191.6232636949309,
+    "10000": 1648.8610341605086,
+    "100000": 16221.238738816286
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 1,
+   "policy": "Continuous FIR",
+   "qw": null,
+   "post_cost": 5.235106834894867,
+   "viol_mass": 0.0,
+   "retunes": 18,
+   "false_retunes": 8,
+   "delay": 0,
+   "builds": 28,
+   "build_s": 84.93479095539078,
+   "whatif": 3133,
+   "total_s": {
+    "1000": 239.25522460532605,
+    "10000": 1628.1391274547434,
+    "100000": 15516.978155948918
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 1,
+   "policy": "FIR+SR",
+   "qw": 1000,
+   "post_cost": 5.882574858576101,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 5,
+   "builds": 3,
+   "build_s": 9.902651955140755,
+   "whatif": 405,
+   "total_s": {
+    "1000": 179.41836563399764,
+    "10000": 1705.0597887437098,
+    "100000": 16961.474019840833
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 1,
+   "policy": "FIR+fast+SR",
+   "qw": 1000,
+   "post_cost": 5.795488846399497,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 4,
+   "builds": 3,
+   "build_s": 9.902651955140755,
+   "whatif": 381,
+   "total_s": {
+    "1000": 177.50247336611233,
+    "10000": 1685.9008660648565,
+    "100000": 16769.884793052297
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 1,
+   "policy": "FIR+SR",
+   "qw": 10000,
+   "post_cost": 5.459829447007248,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 8,
+   "build_s": 25.726166368927807,
+   "whatif": 404,
+   "total_s": {
+    "1000": 185.9414809932699,
+    "10000": 1627.8793126123487,
+    "100000": 16047.257628803136
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 1,
+   "policy": "FIR+fast+SR",
+   "qw": 10000,
+   "post_cost": 5.312404499625682,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 8,
+   "build_s": 25.726166368927807,
+   "whatif": 380,
+   "total_s": {
+    "1000": 182.69813215087544,
+    "10000": 1595.445824188404,
+    "100000": 15722.922744563692
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 1,
+   "policy": "FIR+SR",
+   "qw": 100000,
+   "post_cost": 5.426809572944449,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 8,
+   "build_s": 25.726166368927807,
+   "whatif": 401,
+   "total_s": {
+    "1000": 185.2150437638883,
+    "10000": 1620.6149403185327,
+    "100000": 15974.613905864979
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 1,
+   "policy": "FIR+fast+SR",
+   "qw": 100000,
+   "post_cost": 5.280487369904344,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 8,
+   "build_s": 25.726166368927807,
+   "whatif": 374,
+   "total_s": {
+    "1000": 181.99595529700602,
+    "10000": 1588.42405564971,
+    "100000": 15652.70505917675
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 1,
+   "policy": "Static",
+   "qw": null,
+   "post_cost": 6.863155713689389,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 0,
+   "total_s": {
+    "1000": 187.8153295107441,
+    "10000": 1878.153295107441,
+    "100000": 18781.53295107441
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 1,
+   "policy": "Oracle",
+   "qw": null,
+   "post_cost": 3.40691516689751,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 0,
+   "total_s": {
+    "1000": 124.28972229566182,
+    "10000": 1189.6094608288017,
+    "100000": 11842.806846160198
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 1,
+   "policy": "FIR+detector",
+   "qw": null,
+   "post_cost": 3.8133424566215957,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 88,
+   "total_s": {
+    "1000": 132.73992682803438,
+    "10000": 1274.1115061525272,
+    "100000": 12687.827299397455
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 1,
+   "policy": "FIR+fast",
+   "qw": null,
+   "post_cost": 3.620669788603253,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 65,
+   "total_s": {
+    "1000": 128.88647346766768,
+    "10000": 1235.57697254886,
+    "100000": 12302.481963360784
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 1,
+   "policy": "Full+detector",
+   "qw": null,
+   "post_cost": 3.789821942495613,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 94,
+   "total_s": {
+    "1000": 132.2695165455147,
+    "10000": 1269.4074033273305,
+    "100000": 12640.786271145487
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 1,
+   "policy": "Continuous FIR",
+   "qw": null,
+   "post_cost": 3.5899388940722914,
+   "viol_mass": 0.0,
+   "retunes": 26,
+   "false_retunes": 10,
+   "delay": 0,
+   "builds": 36,
+   "build_s": 111.6823155914899,
+   "whatif": 2118,
+   "total_s": {
+    "1000": 234.51740093684106,
+    "10000": 1340.0331690450016,
+    "100000": 12395.190850126606
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 1,
+   "policy": "FIR+SR",
+   "qw": 1000,
+   "post_cost": 3.982776526458695,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 2,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 92,
+   "total_s": {
+    "1000": 136.1286082247764,
+    "10000": 1307.9983201199475,
+    "100000": 13026.695439071656
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 1,
+   "policy": "FIR+fast+SR",
+   "qw": 1000,
+   "post_cost": 3.7913269425551563,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 73,
+   "total_s": {
+    "1000": 132.29961654670575,
+    "10000": 1269.708403339241,
+    "100000": 12643.796271264593
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 1,
+   "policy": "FIR+SR",
+   "qw": 10000,
+   "post_cost": 3.8133424566215957,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 88,
+   "total_s": {
+    "1000": 132.73992682803438,
+    "10000": 1274.1115061525272,
+    "100000": 12687.827299397455
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 1,
+   "policy": "FIR+fast+SR",
+   "qw": 10000,
+   "post_cost": 3.620669788603253,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 65,
+   "total_s": {
+    "1000": 128.88647346766768,
+    "10000": 1235.57697254886,
+    "100000": 12302.481963360784
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 1,
+   "policy": "FIR+SR",
+   "qw": 100000,
+   "post_cost": 3.8133424566215957,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 88,
+   "total_s": {
+    "1000": 132.73992682803438,
+    "10000": 1274.1115061525272,
+    "100000": 12687.827299397455
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 1,
+   "policy": "FIR+fast+SR",
+   "qw": 100000,
+   "post_cost": 3.620669788603253,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 65,
+   "total_s": {
+    "1000": 128.88647346766768,
+    "10000": 1235.57697254886,
+    "100000": 12302.481963360784
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 2,
+   "policy": "Static",
+   "qw": null,
+   "post_cost": 3.123307730191198,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 0,
+   "total_s": {
+    "1000": 106.76367903121559,
+    "10000": 1067.6367903121559,
+    "100000": 10676.36790312156
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 2,
+   "policy": "Oracle",
+   "qw": null,
+   "post_cost": 2.777207117258948,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 4,
+   "build_s": 12.863083184463903,
+   "whatif": 0,
+   "total_s": {
+    "1000": 112.66871244658117,
+    "10000": 1010.9193758056365,
+    "100000": 9993.42600939619
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 2,
+   "policy": "FIR+detector",
+   "qw": null,
+   "post_cost": 2.7908515902158313,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 156,
+   "total_s": {
+    "1000": 108.99584991967771,
+    "10000": 1010.0268560050521,
+    "100000": 10020.336916858796
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 2,
+   "policy": "FIR+fast",
+   "qw": null,
+   "post_cost": 2.772381804661644,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 135,
+   "total_s": {
+    "1000": 108.62645420859397,
+    "10000": 1006.3328988942146,
+    "100000": 9983.397345750422
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 2,
+   "policy": "Full+detector",
+   "qw": null,
+   "post_cost": 2.811817178552173,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 3,
+   "build_s": 9.902651955140755,
+   "whatif": 149,
+   "total_s": {
+    "1000": 110.43651995357587,
+    "10000": 1015.2413319394919,
+    "100000": 10063.289451798651
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 2,
+   "policy": "Continuous FIR",
+   "qw": null,
+   "post_cost": 2.8059496700754547,
+   "viol_mass": 0.0,
+   "retunes": 18,
+   "false_retunes": 5,
+   "delay": 0,
+   "builds": 22,
+   "build_s": 69.2149201137945,
+   "whatif": 3347,
+   "total_s": {
+    "1000": 169.6121015053482,
+    "10000": 1073.1867340293313,
+    "100000": 10108.933059269164
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 2,
+   "policy": "FIR+SR",
+   "qw": 1000,
+   "post_cost": 3.123307730191198,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 157,
+   "total_s": {
+    "1000": 106.76367903121559,
+    "10000": 1067.6367903121559,
+    "100000": 10676.36790312156
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 2,
+   "policy": "FIR+fast+SR",
+   "qw": 1000,
+   "post_cost": 3.123307730191198,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 141,
+   "total_s": {
+    "1000": 106.76367903121559,
+    "10000": 1067.6367903121559,
+    "100000": 10676.36790312156
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 2,
+   "policy": "FIR+SR",
+   "qw": 10000,
+   "post_cost": 2.8277911613242055,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 157,
+   "total_s": {
+    "1000": 109.73464134184519,
+    "10000": 1017.4147702267269,
+    "100000": 10094.216059075543
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 2,
+   "policy": "FIR+fast+SR",
+   "qw": 10000,
+   "post_cost": 2.8093213757700184,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 2,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 141,
+   "total_s": {
+    "1000": 109.36524563076145,
+    "10000": 1013.7208131158894,
+    "100000": 10057.276487967169
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 2,
+   "policy": "FIR+SR",
+   "qw": 100000,
+   "post_cost": 2.7908515902158313,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 156,
+   "total_s": {
+    "1000": 108.99584991967771,
+    "10000": 1010.0268560050521,
+    "100000": 10020.336916858796
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 2,
+   "policy": "FIR+fast+SR",
+   "qw": 100000,
+   "post_cost": 2.772381804661644,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 135,
+   "total_s": {
+    "1000": 108.62645420859397,
+    "10000": 1006.3328988942146,
+    "100000": 9983.397345750422
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 2,
+   "policy": "Static",
+   "qw": null,
+   "post_cost": 3.392806847192798,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 0,
+   "total_s": {
+    "1000": 111.96947898804031,
+    "10000": 1119.694789880403,
+    "100000": 11196.947898804032
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 2,
+   "policy": "Oracle",
+   "qw": null,
+   "post_cost": 3.227088476888518,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 6,
+   "build_s": 19.80530391028151,
+   "whatif": 0,
+   "total_s": {
+    "1000": 128.54702451393135,
+    "10000": 1107.2225099467798,
+    "100000": 10893.977364275266
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 2,
+   "policy": "FIR+detector",
+   "qw": null,
+   "post_cost": 3.213786132252308,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 297,
+   "total_s": {
+    "1000": 117.27035837719993,
+    "10000": 1092.7719405802743,
+    "100000": 10847.787762611017
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 2,
+   "policy": "FIR+fast",
+   "qw": null,
+   "post_cost": 3.213786132252308,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 297,
+   "total_s": {
+    "1000": 117.27035837719993,
+    "10000": 1092.7719405802743,
+    "100000": 10847.787762611017
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 2,
+   "policy": "Full+detector",
+   "qw": null,
+   "post_cost": 3.210753785067599,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 304,
+   "total_s": {
+    "1000": 120.17014266282897,
+    "10000": 1095.1259023726564,
+    "100000": 10844.68349947093
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 2,
+   "policy": "Continuous FIR",
+   "qw": null,
+   "post_cost": 3.2204976560239116,
+   "viol_mass": 0.0,
+   "retunes": 24,
+   "false_retunes": 9,
+   "delay": 0,
+   "builds": 32,
+   "build_s": 95.75515760551207,
+   "whatif": 3378,
+   "total_s": {
+    "1000": 204.27769895015498,
+    "10000": 1180.9805710519413,
+    "100000": 10948.009292069804
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 2,
+   "policy": "FIR+SR",
+   "qw": 1000,
+   "post_cost": 3.392806847192798,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 307,
+   "total_s": {
+    "1000": 111.96947898804031,
+    "10000": 1119.694789880403,
+    "100000": 11196.947898804032
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 2,
+   "policy": "FIR+fast+SR",
+   "qw": 1000,
+   "post_cost": 3.392806847192798,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 307,
+   "total_s": {
+    "1000": 111.96947898804031,
+    "10000": 1119.694789880403,
+    "100000": 11196.947898804032
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 2,
+   "policy": "FIR+SR",
+   "qw": 10000,
+   "post_cost": 3.2717811102784813,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 10,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 307,
+   "total_s": {
+    "1000": 115.46982670840025,
+    "10000": 1101.4105049561858,
+    "100000": 10960.817287434042
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 2,
+   "policy": "FIR+fast+SR",
+   "qw": 10000,
+   "post_cost": 3.2717811102784813,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 10,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 307,
+   "total_s": {
+    "1000": 115.46982670840025,
+    "10000": 1101.4105049561858,
+    "100000": 10960.817287434042
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 2,
+   "policy": "FIR+SR",
+   "qw": 100000,
+   "post_cost": 3.215311981016209,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 297,
+   "total_s": {
+    "1000": 117.30087535247793,
+    "10000": 1093.0771103330544,
+    "100000": 10850.839460138819
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 2,
+   "policy": "FIR+fast+SR",
+   "qw": 100000,
+   "post_cost": 3.215311981016209,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 297,
+   "total_s": {
+    "1000": 117.30087535247793,
+    "10000": 1093.0771103330544,
+    "100000": 10850.839460138819
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 2,
+   "policy": "Static",
+   "qw": null,
+   "post_cost": 3.7835491083220387,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 0,
+   "total_s": {
+    "1000": 118.90786080078378,
+    "10000": 1189.0786080078378,
+    "100000": 11890.786080078378
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 2,
+   "policy": "Oracle",
+   "qw": null,
+   "post_cost": 3.4066491783269366,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 10,
+   "build_s": 34.71110362908803,
+   "whatif": 0,
+   "total_s": {
+    "1000": 145.07483493538004,
+    "10000": 1138.348416692008,
+    "100000": 11071.08423425829
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 2,
+   "policy": "FIR+detector",
+   "qw": null,
+   "post_cost": 3.5178590540898522,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 8,
+   "build_s": 27.768882903270423,
+   "whatif": 391,
+   "total_s": {
+    "1000": 140.8315625109461,
+    "10000": 1158.395678980027,
+    "100000": 11334.036843670838
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 2,
+   "policy": "FIR+fast",
+   "qw": null,
+   "post_cost": 3.4771483535485728,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 9,
+   "build_s": 29.707955865422264,
+   "whatif": 360,
+   "total_s": {
+    "1000": 141.87500006118972,
+    "10000": 1151.378397823097,
+    "100000": 11246.412375442167
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 2,
+   "policy": "Full+detector",
+   "qw": null,
+   "post_cost": 3.515998996899739,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 9,
+   "build_s": 31.75067239976488,
+   "whatif": 391,
+   "total_s": {
+    "1000": 144.77243074925806,
+    "10000": 1161.9682558946968,
+    "100000": 11333.926507349082
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 2,
+   "policy": "Continuous FIR",
+   "qw": null,
+   "post_cost": 3.45491512909322,
+   "viol_mass": 0.0,
+   "retunes": 25,
+   "false_retunes": 8,
+   "delay": 0,
+   "builds": 33,
+   "build_s": 109.95052977371961,
+   "whatif": 3073,
+   "total_s": {
+    "1000": 221.45258204628732,
+    "10000": 1224.971052499397,
+    "100000": 11260.155757030492
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 2,
+   "policy": "FIR+SR",
+   "qw": 1000,
+   "post_cost": 3.7835491083220387,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 401,
+   "total_s": {
+    "1000": 118.90786080078378,
+    "10000": 1189.0786080078378,
+    "100000": 11890.786080078378
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 2,
+   "policy": "FIR+fast+SR",
+   "qw": 1000,
+   "post_cost": 3.7835491083220387,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 373,
+   "total_s": {
+    "1000": 118.90786080078378,
+    "10000": 1189.0786080078378,
+    "100000": 11890.786080078378
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 2,
+   "policy": "FIR+SR",
+   "qw": 10000,
+   "post_cost": 3.52622388344156,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 2,
+   "builds": 3,
+   "build_s": 10.924010222312063,
+   "whatif": 393,
+   "total_s": {
+    "1000": 124.17071607572534,
+    "10000": 1143.3910687564448,
+    "100000": 11335.59459556364
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 2,
+   "policy": "FIR+fast+SR",
+   "qw": 10000,
+   "post_cost": 3.4950644475181063,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 3,
+   "build_s": 9.902651955140755,
+   "whatif": 368,
+   "total_s": {
+    "1000": 122.46385021823795,
+    "10000": 1135.5146345861128,
+    "100000": 11266.02247826486
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 2,
+   "policy": "FIR+SR",
+   "qw": 100000,
+   "post_cost": 3.5230175796172163,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 8,
+   "build_s": 27.768882903270423,
+   "whatif": 395,
+   "total_s": {
+    "1000": 140.9450500725481,
+    "10000": 1159.530554596047,
+    "100000": 11345.385599831037
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 2,
+   "policy": "FIR+fast+SR",
+   "qw": 100000,
+   "post_cost": 3.489244282852796,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 9,
+   "build_s": 29.707955865422264,
+   "whatif": 377,
+   "total_s": {
+    "1000": 142.14111050588264,
+    "10000": 1154.0395022700259,
+    "100000": 11273.023419911458
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 2,
+   "policy": "Static",
+   "qw": null,
+   "post_cost": 3.5174477627475036,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 0,
+   "total_s": {
+    "1000": 115.01874425728748,
+    "10000": 1150.1874425728747,
+    "100000": 11501.874425728747
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 2,
+   "policy": "Oracle",
+   "qw": null,
+   "post_cost": 3.01597968885772,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 4,
+   "build_s": 13.884441451635212,
+   "whatif": 0,
+   "total_s": {
+    "1000": 118.6861721423224,
+    "10000": 1061.9017483585071,
+    "100000": 10494.057510520353
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 2,
+   "policy": "FIR+detector",
+   "qw": null,
+   "post_cost": 3.068775258677184,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 1,
+   "build_s": 2.9604312293231487,
+   "whatif": 98,
+   "total_s": {
+    "1000": 109.00572540520423,
+    "10000": 1063.413372988134,
+    "100000": 10607.489848817433
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 2,
+   "policy": "FIR+fast",
+   "qw": null,
+   "post_cost": 3.0428018594192374,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 79,
+   "total_s": {
+    "1000": 111.44668864936844,
+    "10000": 1061.179124365868,
+    "100000": 10558.50348153086
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 2,
+   "policy": "Full+detector",
+   "qw": null,
+   "post_cost": 3.066126496246698,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 2,
+   "build_s": 6.942220725817606,
+   "whatif": 107,
+   "total_s": {
+    "1000": 112.93453965308899,
+    "10000": 1066.8654099985315,
+    "100000": 10606.174113452957
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 2,
+   "policy": "Continuous FIR",
+   "qw": null,
+   "post_cost": 3.046084748641208,
+   "viol_mass": 0.0,
+   "retunes": 26,
+   "false_retunes": 9,
+   "delay": 0,
+   "builds": 32,
+   "build_s": 106.99009854439646,
+   "whatif": 2198,
+   "total_s": {
+    "1000": 212.5018853428611,
+    "10000": 1162.1079665290429,
+    "100000": 10658.168778390862
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 2,
+   "policy": "FIR+SR",
+   "qw": 1000,
+   "post_cost": 3.1934065098078284,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 6,
+   "builds": 1,
+   "build_s": 2.9604312293231487,
+   "whatif": 109,
+   "total_s": {
+    "1000": 111.49835042781713,
+    "10000": 1088.339623214263,
+    "100000": 10856.752351078721
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 2,
+   "policy": "FIR+fast+SR",
+   "qw": 1000,
+   "post_cost": 3.3175968560829707,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 11,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 102,
+   "total_s": {
+    "1000": 116.9425885826431,
+    "10000": 1116.1381236986142,
+    "100000": 11108.093474858328
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 2,
+   "policy": "FIR+SR",
+   "qw": 10000,
+   "post_cost": 3.068775258677184,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 1,
+   "build_s": 2.9604312293231487,
+   "whatif": 98,
+   "total_s": {
+    "1000": 109.00572540520423,
+    "10000": 1063.413372988134,
+    "100000": 10607.489848817433
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 2,
+   "policy": "FIR+fast+SR",
+   "qw": 10000,
+   "post_cost": 3.067783222752304,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 89,
+   "total_s": {
+    "1000": 111.94631591602976,
+    "10000": 1066.175397032481,
+    "100000": 10608.466208196993
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 2,
+   "policy": "FIR+SR",
+   "qw": 100000,
+   "post_cost": 3.068775258677184,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 1,
+   "build_s": 2.9604312293231487,
+   "whatif": 98,
+   "total_s": {
+    "1000": 109.00572540520423,
+    "10000": 1063.413372988134,
+    "100000": 10607.489848817433
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 2,
+   "policy": "FIR+fast+SR",
+   "qw": 100000,
+   "post_cost": 3.0428018594192374,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 2,
+   "build_s": 5.9208624586462975,
+   "whatif": 79,
+   "total_s": {
+    "1000": 111.44668864936844,
+    "10000": 1061.179124365868,
+    "100000": 10558.50348153086
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 3,
+   "policy": "Static",
+   "qw": null,
+   "post_cost": 4.856748898555608,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 0,
+   "total_s": {
+    "1000": 111.27296577684632,
+    "10000": 1112.7296577684633,
+    "100000": 11127.296577684632
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 3,
+   "policy": "Oracle",
+   "qw": null,
+   "post_cost": 4.645749401785101,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 4,
+   "build_s": 12.863083184463903,
+   "whatif": 0,
+   "total_s": {
+    "1000": 119.61939600463738,
+    "10000": 1080.4262113861987,
+    "100000": 10688.494365201812
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 3,
+   "policy": "FIR+detector",
+   "qw": null,
+   "post_cost": 4.320161193308868,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 3,
+   "build_s": 9.902651955140755,
+   "whatif": 161,
+   "total_s": {
+    "1000": 110.44386362705227,
+    "10000": 1015.3147686742559,
+    "100000": 10064.023819146292
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 3,
+   "policy": "FIR+fast",
+   "qw": null,
+   "post_cost": 4.187551572928309,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 146,
+   "total_s": {
+    "1000": 109.73074418159294,
+    "10000": 990.731917560296,
+    "100000": 9800.743651347326
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 3,
+   "policy": "Full+detector",
+   "qw": null,
+   "post_cost": 4.6749325410602465,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 2,
+   "build_s": 6.942220725817606,
+   "whatif": 145,
+   "total_s": {
+    "1000": 114.57885935275668,
+    "10000": 1083.3086069952085,
+    "100000": 10770.606083419725
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 3,
+   "policy": "Continuous FIR",
+   "qw": null,
+   "post_cost": 4.318537168414793,
+   "viol_mass": 0.0,
+   "retunes": 24,
+   "false_retunes": 9,
+   "delay": 0,
+   "builds": 26,
+   "build_s": 77.99257022957318,
+   "whatif": 3511,
+   "total_s": {
+    "1000": 178.53219997525719,
+    "10000": 1083.3888676864133,
+    "100000": 10131.955544797973
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 3,
+   "policy": "FIR+SR",
+   "qw": 1000,
+   "post_cost": 4.856748898555608,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 19,
+   "builds": 3,
+   "build_s": 9.902651955140755,
+   "whatif": 163,
+   "total_s": {
+    "1000": 121.17561773198707,
+    "10000": 1122.632309723604,
+    "100000": 11137.199229639773
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 3,
+   "policy": "FIR+fast+SR",
+   "qw": 1000,
+   "post_cost": 4.786307074805366,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 17,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 155,
+   "total_s": {
+    "1000": 121.70585421913407,
+    "10000": 1110.4830179357073,
+    "100000": 10998.254655101438
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 3,
+   "policy": "FIR+SR",
+   "qw": 10000,
+   "post_cost": 4.349971621378133,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 2,
+   "builds": 3,
+   "build_s": 9.902651955140755,
+   "whatif": 163,
+   "total_s": {
+    "1000": 111.04007218843753,
+    "10000": 1021.2768542881086,
+    "100000": 10123.644675284817
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 3,
+   "policy": "FIR+fast+SR",
+   "qw": 10000,
+   "post_cost": 4.22277248480343,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 153,
+   "total_s": {
+    "1000": 110.43516241909536,
+    "10000": 997.7760999353203,
+    "100000": 9871.185475097569
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 3,
+   "policy": "FIR+SR",
+   "qw": 100000,
+   "post_cost": 4.320161193308868,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 3,
+   "build_s": 9.902651955140755,
+   "whatif": 161,
+   "total_s": {
+    "1000": 110.44386362705227,
+    "10000": 1015.3147686742559,
+    "100000": 10064.023819146292
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 3,
+   "policy": "FIR+fast+SR",
+   "qw": 100000,
+   "post_cost": 4.187551572928309,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 146,
+   "total_s": {
+    "1000": 109.73074418159294,
+    "10000": 990.731917560296,
+    "100000": 9800.743651347326
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 3,
+   "policy": "Static",
+   "qw": null,
+   "post_cost": 6.319679997439819,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 0,
+   "total_s": {
+    "1000": 144.36643995951007,
+    "10000": 1443.6643995951006,
+    "100000": 14436.643995951008
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 3,
+   "policy": "Oracle",
+   "qw": null,
+   "post_cost": 3.6887099692834147,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 7,
+   "build_s": 21.74437687243335,
+   "whatif": 0,
+   "total_s": {
+    "1000": 112.29974339717528,
+    "10000": 927.2980421198527,
+    "100000": 9077.281029346626
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 3,
+   "policy": "FIR+detector",
+   "qw": null,
+   "post_cost": 3.640213036805798,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 5,
+   "build_s": 14.802156146615744,
+   "whatif": 322,
+   "total_s": {
+    "1000": 105.57925689344542,
+    "10000": 922.5731636149126,
+    "100000": 9092.512230829583
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 3,
+   "policy": "FIR+fast",
+   "qw": null,
+   "post_cost": 3.625868448063534,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 5,
+   "build_s": 14.802156146615744,
+   "whatif": 306,
+   "total_s": {
+    "1000": 105.29236511860013,
+    "10000": 919.7042458664596,
+    "100000": 9063.823053345055
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 3,
+   "policy": "Full+detector",
+   "qw": null,
+   "post_cost": 3.7703614981562614,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 6,
+   "build_s": 18.7839456431102,
+   "whatif": 303,
+   "total_s": {
+    "1000": 112.16401561694916,
+    "10000": 952.5846453814997,
+    "100000": 9356.790943027007
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 3,
+   "policy": "Continuous FIR",
+   "qw": null,
+   "post_cost": 3.5511967237295607,
+   "viol_mass": 0.0,
+   "retunes": 26,
+   "false_retunes": 9,
+   "delay": 0,
+   "builds": 40,
+   "build_s": 123.52404050878249,
+   "whatif": 3496,
+   "total_s": {
+    "1000": 211.9305503254418,
+    "10000": 1007.5891386753755,
+    "100000": 8964.175022174712
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 3,
+   "policy": "FIR+SR",
+   "qw": 1000,
+   "post_cost": 4.621472714172713,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 10,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 328,
+   "total_s": {
+    "1000": 119.2835879821374,
+    "10000": 1112.9042366296492,
+    "100000": 11049.110723104766
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 3,
+   "policy": "FIR+fast+SR",
+   "qw": 1000,
+   "post_cost": 4.621472714172713,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 10,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 319,
+   "total_s": {
+    "1000": 119.2835879821374,
+    "10000": 1112.9042366296492,
+    "100000": 11049.110723104766
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 3,
+   "policy": "FIR+SR",
+   "qw": 10000,
+   "post_cost": 3.669864587307006,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 5,
+   "build_s": 14.802156146615744,
+   "whatif": 324,
+   "total_s": {
+    "1000": 106.17228790346958,
+    "10000": 928.5034737151541,
+    "100000": 9151.815331831998
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 3,
+   "policy": "FIR+fast+SR",
+   "qw": 10000,
+   "post_cost": 3.7407667975995027,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 3,
+   "build_s": 8.881293687969446,
+   "whatif": 307,
+   "total_s": {
+    "1000": 101.66946965067322,
+    "10000": 936.763053315007,
+    "100000": 9287.698889958347
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 3,
+   "policy": "FIR+SR",
+   "qw": 100000,
+   "post_cost": 3.640213036805798,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 5,
+   "build_s": 14.802156146615744,
+   "whatif": 322,
+   "total_s": {
+    "1000": 105.57925689344542,
+    "10000": 922.5731636149126,
+    "100000": 9092.512230829583
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 3,
+   "policy": "FIR+fast+SR",
+   "qw": 100000,
+   "post_cost": 3.632954247391166,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 5,
+   "build_s": 14.802156146615744,
+   "whatif": 307,
+   "total_s": {
+    "1000": 105.43408110515277,
+    "10000": 921.121405731986,
+    "100000": 9077.99465200032
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 3,
+   "policy": "Static",
+   "qw": null,
+   "post_cost": 4.951843717238952,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 0,
+   "total_s": {
+    "1000": 122.15829877549842,
+    "10000": 1221.5829877549843,
+    "100000": 12215.829877549842
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 3,
+   "policy": "Oracle",
+   "qw": null,
+   "post_cost": 2.782288233794347,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 12,
+   "build_s": 36.54653301904909,
+   "whatif": 0,
+   "total_s": {
+    "1000": 110.60748927750628,
+    "10000": 777.1560956036209,
+    "100000": 7442.642158864767
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 3,
+   "policy": "FIR+detector",
+   "qw": null,
+   "post_cost": 3.4914519032362326,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 9,
+   "build_s": 27.665239331079647,
+   "whatif": 409,
+   "total_s": {
+    "1000": 117.69491819851824,
+    "10000": 927.9620280054655,
+    "100000": 9030.633126074938
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 3,
+   "policy": "FIR+fast",
+   "qw": null,
+   "post_cost": 3.2664586532421613,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 11,
+   "build_s": 34.60746005689725,
+   "whatif": 348,
+   "total_s": {
+    "1000": 119.68728742446625,
+    "10000": 885.4057337325872,
+    "100000": 8542.590196813797
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 3,
+   "policy": "Full+detector",
+   "qw": null,
+   "post_cost": 3.4725785226440524,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 11,
+   "build_s": 33.586101789725944,
+   "whatif": 421,
+   "total_s": {
+    "1000": 123.20056628413658,
+    "10000": 929.7307467338325,
+    "100000": 8995.03255123079
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 3,
+   "policy": "Continuous FIR",
+   "qw": null,
+   "post_cost": 3.188793308683326,
+   "viol_mass": 0.0,
+   "retunes": 26,
+   "false_retunes": 8,
+   "delay": 0,
+   "builds": 39,
+   "build_s": 119.54225101228803,
+   "whatif": 3196,
+   "total_s": {
+    "1000": 203.14299753386098,
+    "10000": 955.5497162280174,
+    "100000": 8479.61690316958
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 3,
+   "policy": "FIR+SR",
+   "qw": 1000,
+   "post_cost": 3.7833118336944893,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 4,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 428,
+   "total_s": {
+    "1000": 108.29232225481282,
+    "10000": 976.3476982924949,
+    "100000": 9656.901458669314
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 3,
+   "policy": "FIR+fast+SR",
+   "qw": 1000,
+   "post_cost": 3.6742189845882693,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 4,
+   "build_s": 11.841724917292595,
+   "whatif": 396,
+   "total_s": {
+    "1000": 105.89227957447595,
+    "10000": 952.3472714891261,
+    "100000": 9416.89719063563
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 3,
+   "policy": "FIR+SR",
+   "qw": 10000,
+   "post_cost": 3.51775068855593,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 9,
+   "build_s": 27.665239331079647,
+   "whatif": 414,
+   "total_s": {
+    "1000": 118.27349147555158,
+    "10000": 933.747760775799,
+    "100000": 9088.490453778273
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 3,
+   "policy": "FIR+fast+SR",
+   "qw": 10000,
+   "post_cost": 3.2853038629439753,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 11,
+   "build_s": 34.60746005689725,
+   "whatif": 360,
+   "total_s": {
+    "1000": 120.10188203790614,
+    "10000": 889.5516798669861,
+    "100000": 8584.049658157786
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 3,
+   "policy": "FIR+SR",
+   "qw": 100000,
+   "post_cost": 3.4914519032362326,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 9,
+   "build_s": 27.665239331079647,
+   "whatif": 409,
+   "total_s": {
+    "1000": 117.69491819851824,
+    "10000": 927.9620280054655,
+    "100000": 9030.633126074938
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 3,
+   "policy": "FIR+fast+SR",
+   "qw": 100000,
+   "post_cost": 3.2664586532421613,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 11,
+   "build_s": 34.60746005689725,
+   "whatif": 348,
+   "total_s": {
+    "1000": 119.68728742446625,
+    "10000": 885.4057337325872,
+    "100000": 8542.590196813797
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 3,
+   "policy": "Static",
+   "qw": null,
+   "post_cost": 6.855504496247318,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 0,
+   "total_s": {
+    "1000": 154.1440465942297,
+    "10000": 1541.4404659422971,
+    "100000": 15414.404659422971
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 3,
+   "policy": "Oracle",
+   "qw": null,
+   "post_cost": 1.4829217906661127,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 2,
+   "build_s": 6.942220725817606,
+   "whatif": 0,
+   "total_s": {
+    "1000": 52.037370919419615,
+    "10000": 457.8937226618377,
+    "100000": 4516.457240086018
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 3,
+   "policy": "FIR+detector",
+   "qw": null,
+   "post_cost": 2.1310470468458496,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 2,
+   "build_s": 6.942220725817606,
+   "whatif": 97,
+   "total_s": {
+    "1000": 66.59711833201794,
+    "10000": 603.4911967878209,
+    "100000": 5972.4319813458505
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 3,
+   "policy": "FIR+fast",
+   "qw": null,
+   "post_cost": 1.8685771885457683,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 2,
+   "build_s": 6.942220725817606,
+   "whatif": 66,
+   "total_s": {
+    "1000": 61.34772116601632,
+    "10000": 550.9972251278048,
+    "100000": 5447.492264745689
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 3,
+   "policy": "Full+detector",
+   "qw": null,
+   "post_cost": 2.0201800612242335,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 2,
+   "build_s": 6.942220725817606,
+   "whatif": 94,
+   "total_s": {
+    "1000": 64.37977861958561,
+    "10000": 581.3177996634977,
+    "100000": 5750.698010102618
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 3,
+   "policy": "Continuous FIR",
+   "qw": null,
+   "post_cost": 1.7943931366128099,
+   "viol_mass": 0.0,
+   "retunes": 22,
+   "false_retunes": 8,
+   "delay": 0,
+   "builds": 28,
+   "build_s": 85.95614922256209,
+   "whatif": 1978,
+   "total_s": {
+    "1000": 138.1568371788677,
+    "10000": 607.9630287856183,
+    "100000": 5306.024944853124
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 3,
+   "policy": "FIR+SR",
+   "qw": 1000,
+   "post_cost": 2.3935169051459315,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 2,
+   "builds": 2,
+   "build_s": 6.942220725817606,
+   "whatif": 100,
+   "total_s": {
+    "1000": 71.84651549801957,
+    "10000": 655.9851684478373,
+    "100000": 6497.371697946014
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 3,
+   "policy": "FIR+fast+SR",
+   "qw": 1000,
+   "post_cost": 2.1310470468458496,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 2,
+   "build_s": 6.942220725817606,
+   "whatif": 77,
+   "total_s": {
+    "1000": 66.59711833201794,
+    "10000": 603.4911967878209,
+    "100000": 5972.4319813458505
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 3,
+   "policy": "FIR+SR",
+   "qw": 10000,
+   "post_cost": 2.1310470468458496,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 2,
+   "build_s": 6.942220725817606,
+   "whatif": 97,
+   "total_s": {
+    "1000": 66.59711833201794,
+    "10000": 603.4911967878209,
+    "100000": 5972.4319813458505
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 3,
+   "policy": "FIR+fast+SR",
+   "qw": 10000,
+   "post_cost": 1.8685771885457683,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 2,
+   "build_s": 6.942220725817606,
+   "whatif": 66,
+   "total_s": {
+    "1000": 61.34772116601632,
+    "10000": 550.9972251278048,
+    "100000": 5447.492264745689
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 3,
+   "policy": "FIR+SR",
+   "qw": 100000,
+   "post_cost": 2.1310470468458496,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 2,
+   "build_s": 6.942220725817606,
+   "whatif": 97,
+   "total_s": {
+    "1000": 66.59711833201794,
+    "10000": 603.4911967878209,
+    "100000": 5972.4319813458505
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 3,
+   "policy": "FIR+fast+SR",
+   "qw": 100000,
+   "post_cost": 1.8685771885457683,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 2,
+   "build_s": 6.942220725817606,
+   "whatif": 66,
+   "total_s": {
+    "1000": 61.34772116601632,
+    "10000": 550.9972251278048,
+    "100000": 5447.492264745689
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 4,
+   "policy": "Static",
+   "qw": null,
+   "post_cost": 1.631323630799693,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 0,
+   "total_s": {
+    "1000": 43.69205790780634,
+    "10000": 436.9205790780634,
+    "100000": 4369.205790780634
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 4,
+   "policy": "Oracle",
+   "qw": null,
+   "post_cost": 1.5958939083060593,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 1,
+   "build_s": 2.9604312293231487,
+   "whatif": 0,
+   "total_s": {
+    "1000": 45.90873825790071,
+    "10000": 432.4435015150987,
+    "100000": 4297.79113408708
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 4,
+   "policy": "FIR+detector",
+   "qw": null,
+   "post_cost": 1.6074858722964727,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 1,
+   "build_s": 2.9604312293231487,
+   "whatif": 145,
+   "total_s": {
+    "1000": 46.17573396706511,
+    "10000": 435.11345860674277,
+    "100000": 4324.49070500352
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 4,
+   "policy": "FIR+fast",
+   "qw": null,
+   "post_cost": 1.597665394430741,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 1,
+   "build_s": 2.9604312293231487,
+   "whatif": 122,
+   "total_s": {
+    "1000": 45.979324409750475,
+    "10000": 433.14936303359644,
+    "100000": 4304.849749272056
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 4,
+   "policy": "Full+detector",
+   "qw": null,
+   "post_cost": 1.6074858722964727,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 1,
+   "build_s": 2.9604312293231487,
+   "whatif": 142,
+   "total_s": {
+    "1000": 46.17573396706511,
+    "10000": 435.11345860674277,
+    "100000": 4324.49070500352
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 4,
+   "policy": "Continuous FIR",
+   "qw": null,
+   "post_cost": 1.6009250561212631,
+   "viol_mass": 0.0,
+   "retunes": 15,
+   "false_retunes": 6,
+   "delay": 0,
+   "builds": 15,
+   "build_s": 44.40646843984723,
+   "whatif": 3158,
+   "total_s": {
+    "1000": 87.47880189062204,
+    "10000": 475.1298029475953,
+    "100000": 4351.639813517328
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 4,
+   "policy": "FIR+SR",
+   "qw": 1000,
+   "post_cost": 1.631323630799693,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 145,
+   "total_s": {
+    "1000": 43.69205790780634,
+    "10000": 436.9205790780634,
+    "100000": 4369.205790780634
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 4,
+   "policy": "FIR+fast+SR",
+   "qw": 1000,
+   "post_cost": 1.631323630799693,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 127,
+   "total_s": {
+    "1000": 43.69205790780634,
+    "10000": 436.9205790780634,
+    "100000": 4369.205790780634
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 4,
+   "policy": "FIR+SR",
+   "qw": 10000,
+   "post_cost": 1.6207290714649285,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 11,
+   "builds": 1,
+   "build_s": 2.9604312293231487,
+   "whatif": 145,
+   "total_s": {
+    "1000": 46.440597950434224,
+    "10000": 437.76209844043393,
+    "100000": 4350.977103340431
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 4,
+   "policy": "FIR+fast+SR",
+   "qw": 10000,
+   "post_cost": 1.610065797303513,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 7,
+   "builds": 1,
+   "build_s": 2.9604312293231487,
+   "whatif": 127,
+   "total_s": {
+    "1000": 46.227332467205905,
+    "10000": 435.6294436081507,
+    "100000": 4329.650555017599
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 4,
+   "policy": "FIR+SR",
+   "qw": 100000,
+   "post_cost": 1.6074858722964727,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 1,
+   "build_s": 2.9604312293231487,
+   "whatif": 145,
+   "total_s": {
+    "1000": 46.17573396706511,
+    "10000": 435.11345860674277,
+    "100000": 4324.49070500352
+   }
+  },
+  {
+   "scenario": "abrupt",
+   "seed": 4,
+   "policy": "FIR+fast+SR",
+   "qw": 100000,
+   "post_cost": 1.597665394430741,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 1,
+   "build_s": 2.9604312293231487,
+   "whatif": 122,
+   "total_s": {
+    "1000": 45.979324409750475,
+    "10000": 433.14936303359644,
+    "100000": 4304.849749272056
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 4,
+   "policy": "Static",
+   "qw": null,
+   "post_cost": 1.8198664564078222,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 0,
+   "total_s": {
+    "1000": 47.579600301859756,
+    "10000": 475.79600301859756,
+    "100000": 4757.9600301859755
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 4,
+   "policy": "Oracle",
+   "qw": null,
+   "post_cost": 1.4318378517219346,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 4,
+   "build_s": 14.90579971880652,
+   "whatif": 0,
+   "total_s": {
+    "1000": 54.67797307149622,
+    "10000": 412.6275332457035,
+    "100000": 3992.123134987776
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 4,
+   "policy": "FIR+detector",
+   "qw": null,
+   "post_cost": 1.4661340503907736,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 3,
+   "build_s": 10.924010222312063,
+   "whatif": 282,
+   "total_s": {
+    "1000": 51.428962403830866,
+    "10000": 415.9735320375001,
+    "100000": 4061.4192283741927
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 4,
+   "policy": "FIR+fast",
+   "qw": null,
+   "post_cost": 1.4661340503907736,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 3,
+   "build_s": 10.924010222312063,
+   "whatif": 282,
+   "total_s": {
+    "1000": 51.428962403830866,
+    "10000": 415.9735320375001,
+    "100000": 4061.4192283741927
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 4,
+   "policy": "Full+detector",
+   "qw": null,
+   "post_cost": 1.4661340503907736,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 3,
+   "build_s": 10.924010222312063,
+   "whatif": 274,
+   "total_s": {
+    "1000": 51.428962403830866,
+    "10000": 415.9735320375001,
+    "100000": 4061.4192283741927
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 4,
+   "policy": "Continuous FIR",
+   "qw": null,
+   "post_cost": 1.4463005394582598,
+   "viol_mass": 0.0,
+   "retunes": 20,
+   "false_retunes": 8,
+   "delay": 0,
+   "builds": 23,
+   "build_s": 80.34621748048812,
+   "whatif": 3130,
+   "total_s": {
+    "1000": 120.5018256025062,
+    "10000": 481.9022987006689,
+    "100000": 4095.9070296822965
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 4,
+   "policy": "FIR+SR",
+   "qw": 1000,
+   "post_cost": 1.8198664564078222,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 281,
+   "total_s": {
+    "1000": 47.579600301859756,
+    "10000": 475.79600301859756,
+    "100000": 4757.9600301859755
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 4,
+   "policy": "FIR+fast+SR",
+   "qw": 1000,
+   "post_cost": 1.8198664564078222,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 281,
+   "total_s": {
+    "1000": 47.579600301859756,
+    "10000": 475.79600301859756,
+    "100000": 4757.9600301859755
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 4,
+   "policy": "FIR+SR",
+   "qw": 10000,
+   "post_cost": 1.5190973326927917,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 6,
+   "builds": 3,
+   "build_s": 10.924010222312063,
+   "whatif": 284,
+   "total_s": {
+    "1000": 52.488228049871225,
+    "10000": 426.5661884979037,
+    "100000": 4167.345792978228
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 4,
+   "policy": "FIR+fast+SR",
+   "qw": 10000,
+   "post_cost": 1.5190973326927917,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 6,
+   "builds": 3,
+   "build_s": 10.924010222312063,
+   "whatif": 284,
+   "total_s": {
+    "1000": 52.488228049871225,
+    "10000": 426.5661884979037,
+    "100000": 4167.345792978228
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 4,
+   "policy": "FIR+SR",
+   "qw": 100000,
+   "post_cost": 1.4661340503907736,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 3,
+   "build_s": 10.924010222312063,
+   "whatif": 282,
+   "total_s": {
+    "1000": 51.428962403830866,
+    "10000": 415.9735320375001,
+    "100000": 4061.4192283741927
+   }
+  },
+  {
+   "scenario": "gradual",
+   "seed": 4,
+   "policy": "FIR+fast+SR",
+   "qw": 100000,
+   "post_cost": 1.4661340503907736,
+   "viol_mass": 0.0,
+   "retunes": 2,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 3,
+   "build_s": 10.924010222312063,
+   "whatif": 282,
+   "total_s": {
+    "1000": 51.428962403830866,
+    "10000": 415.9735320375001,
+    "100000": 4061.4192283741927
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 4,
+   "policy": "Static",
+   "qw": null,
+   "post_cost": 1.6903277187034789,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 0,
+   "total_s": {
+    "1000": 46.223266237200924,
+    "10000": 462.23266237200926,
+    "100000": 4622.326623720092
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 4,
+   "policy": "Oracle",
+   "qw": null,
+   "post_cost": 1.3731045365066827,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 9,
+   "build_s": 32.77203066693619,
+   "whatif": 0,
+   "total_s": {
+    "1000": 72.01638689580761,
+    "10000": 425.2155929556504,
+    "100000": 3957.2076535540778
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 4,
+   "policy": "FIR+detector",
+   "qw": null,
+   "post_cost": 1.4769538805912974,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 9,
+   "build_s": 32.77203066693619,
+   "whatif": 417,
+   "total_s": {
+    "1000": 74.30107246566912,
+    "10000": 448.06244865426555,
+    "100000": 4185.6762105402295
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 4,
+   "policy": "FIR+fast",
+   "qw": null,
+   "post_cost": 1.4250292085489902,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 9,
+   "build_s": 32.77203066693619,
+   "whatif": 355,
+   "total_s": {
+    "1000": 73.15872968073836,
+    "10000": 436.63902080495797,
+    "100000": 4071.4419320471543
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 4,
+   "policy": "Full+detector",
+   "qw": null,
+   "post_cost": 1.4769538805912974,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 9,
+   "build_s": 32.77203066693619,
+   "whatif": 418,
+   "total_s": {
+    "1000": 74.30107246566912,
+    "10000": 448.06244865426555,
+    "100000": 4185.6762105402295
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 4,
+   "policy": "Continuous FIR",
+   "qw": null,
+   "post_cost": 1.425466657284664,
+   "viol_mass": 0.0,
+   "retunes": 13,
+   "false_retunes": 5,
+   "delay": 0,
+   "builds": 22,
+   "build_s": 75.34306971682236,
+   "whatif": 3060,
+   "total_s": {
+    "1000": 115.78570790253164,
+    "10000": 479.76945157391526,
+    "100000": 4119.606888287752
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 4,
+   "policy": "FIR+SR",
+   "qw": 1000,
+   "post_cost": 1.6903277187034789,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 412,
+   "total_s": {
+    "1000": 46.223266237200924,
+    "10000": 462.23266237200926,
+    "100000": 4622.326623720092
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 4,
+   "policy": "FIR+fast+SR",
+   "qw": 1000,
+   "post_cost": 1.6903277187034789,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 361,
+   "total_s": {
+    "1000": 46.223266237200924,
+    "10000": 462.23266237200926,
+    "100000": 4622.326623720092
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 4,
+   "policy": "FIR+SR",
+   "qw": 10000,
+   "post_cost": 1.51659632810503,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 3,
+   "builds": 3,
+   "build_s": 10.924010222312063,
+   "whatif": 421,
+   "total_s": {
+    "1000": 53.32518586634712,
+    "10000": 434.9357666626626,
+    "100000": 4251.041574625818
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 4,
+   "policy": "FIR+fast+SR",
+   "qw": 10000,
+   "post_cost": 1.5619139255617156,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 2,
+   "builds": 9,
+   "build_s": 32.77203066693619,
+   "whatif": 384,
+   "total_s": {
+    "1000": 76.1701934550183,
+    "10000": 466.7536585477574,
+    "100000": 4372.588309475149
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 4,
+   "policy": "FIR+SR",
+   "qw": 100000,
+   "post_cost": 1.4769538805912974,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 9,
+   "build_s": 32.77203066693619,
+   "whatif": 417,
+   "total_s": {
+    "1000": 74.30107246566912,
+    "10000": 448.06244865426555,
+    "100000": 4185.6762105402295
+   }
+  },
+  {
+   "scenario": "recurring",
+   "seed": 4,
+   "policy": "FIR+fast+SR",
+   "qw": 100000,
+   "post_cost": 1.4250292085489902,
+   "viol_mass": 0.0,
+   "retunes": 3,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 9,
+   "build_s": 32.77203066693619,
+   "whatif": 355,
+   "total_s": {
+    "1000": 73.15872968073836,
+    "10000": 436.63902080495797,
+    "100000": 4071.4419320471543
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 4,
+   "policy": "Static",
+   "qw": null,
+   "post_cost": 1.852248057203748,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 0,
+   "build_s": 0.0,
+   "whatif": 0,
+   "total_s": {
+    "1000": 48.38706081691661,
+    "10000": 483.8706081691661,
+    "100000": 4838.706081691661
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 4,
+   "policy": "Oracle",
+   "qw": null,
+   "post_cost": 1.056521912316128,
+   "viol_mass": 0.0,
+   "retunes": 0,
+   "false_retunes": 0,
+   "delay": null,
+   "builds": 2,
+   "build_s": 7.963578992988914,
+   "whatif": 0,
+   "total_s": {
+    "1000": 40.240043233837966,
+    "10000": 330.72822140147946,
+    "100000": 3235.610003077894
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 4,
+   "policy": "FIR+detector",
+   "qw": null,
+   "post_cost": 1.13609452680489,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 1,
+   "build_s": 3.981789496494457,
+   "whatif": 78,
+   "total_s": {
+    "1000": 38.04577970543393,
+    "10000": 344.6216915858892,
+    "100000": 3410.3808103904416
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 4,
+   "policy": "FIR+fast",
+   "qw": null,
+   "post_cost": 1.096308219560509,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 1,
+   "build_s": 3.981789496494457,
+   "whatif": 51,
+   "total_s": {
+    "1000": 37.250053560546306,
+    "10000": 336.66443013701297,
+    "100000": 3330.8081959016795
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 4,
+   "policy": "Full+detector",
+   "qw": null,
+   "post_cost": 1.13609452680489,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 1,
+   "build_s": 3.981789496494457,
+   "whatif": 79,
+   "total_s": {
+    "1000": 38.04577970543393,
+    "10000": 344.6216915858892,
+    "100000": 3410.3808103904416
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 4,
+   "policy": "Continuous FIR",
+   "qw": null,
+   "post_cost": 1.1002343706584878,
+   "viol_mass": 0.0,
+   "retunes": 20,
+   "false_retunes": 7,
+   "delay": 0,
+   "builds": 22,
+   "build_s": 86.57801065570675,
+   "whatif": 2057,
+   "total_s": {
+    "1000": 119.82387010662389,
+    "10000": 419.03660516487815,
+    "100000": 3411.1639557474205
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 4,
+   "policy": "FIR+SR",
+   "qw": 1000,
+   "post_cost": 1.3350260630267952,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 6,
+   "builds": 1,
+   "build_s": 3.981789496494457,
+   "whatif": 91,
+   "total_s": {
+    "1000": 42.02441042987203,
+    "10000": 384.4079988302701,
+    "100000": 3808.2438828342515
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 4,
+   "policy": "FIR+fast+SR",
+   "qw": 1000,
+   "post_cost": 1.2952397557824142,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 5,
+   "builds": 1,
+   "build_s": 3.981789496494457,
+   "whatif": 70,
+   "total_s": {
+    "1000": 41.22868428498441,
+    "10000": 376.45073738139405,
+    "100000": 3728.67126834549
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 4,
+   "policy": "FIR+SR",
+   "qw": 10000,
+   "post_cost": 1.13609452680489,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 1,
+   "build_s": 3.981789496494457,
+   "whatif": 78,
+   "total_s": {
+    "1000": 38.04577970543393,
+    "10000": 344.6216915858892,
+    "100000": 3410.3808103904416
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 4,
+   "policy": "FIR+fast+SR",
+   "qw": 10000,
+   "post_cost": 1.096308219560509,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 1,
+   "build_s": 3.981789496494457,
+   "whatif": 51,
+   "total_s": {
+    "1000": 37.250053560546306,
+    "10000": 336.66443013701297,
+    "100000": 3330.8081959016795
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 4,
+   "policy": "FIR+SR",
+   "qw": 100000,
+   "post_cost": 1.13609452680489,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 1,
+   "builds": 1,
+   "build_s": 3.981789496494457,
+   "whatif": 78,
+   "total_s": {
+    "1000": 38.04577970543393,
+    "10000": 344.6216915858892,
+    "100000": 3410.3808103904416
+   }
+  },
+  {
+   "scenario": "new_type",
+   "seed": 4,
+   "policy": "FIR+fast+SR",
+   "qw": 100000,
+   "post_cost": 1.096308219560509,
+   "viol_mass": 0.0,
+   "retunes": 1,
+   "false_retunes": 0,
+   "delay": 0,
+   "builds": 1,
+   "build_s": 3.981789496494457,
+   "whatif": 51,
+   "total_s": {
+    "1000": 37.250053560546306,
+    "10000": 336.66443013701297,
+    "100000": 3330.8081959016795
+   }
+  }
+ ],
+ "fast_sweep": [
+  {
+   "seed": 0,
+   "scenario": "abrupt",
+   "k_fast": 6.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.043803805159772
+  },
+  {
+   "seed": 0,
+   "scenario": "abrupt",
+   "k_fast": 10.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.043803805159772
+  },
+  {
+   "seed": 0,
+   "scenario": "abrupt",
+   "k_fast": 15.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.043803805159772
+  },
+  {
+   "seed": 0,
+   "scenario": "gradual",
+   "k_fast": 6.0,
+   "false_retunes": 0,
+   "delay": 3,
+   "regret": 0.01411990688821585
+  },
+  {
+   "seed": 0,
+   "scenario": "gradual",
+   "k_fast": 10.0,
+   "false_retunes": 0,
+   "delay": 4,
+   "regret": 0.03016757631449285
+  },
+  {
+   "seed": 0,
+   "scenario": "gradual",
+   "k_fast": 15.0,
+   "false_retunes": 0,
+   "delay": 4,
+   "regret": 0.07069805596078371
+  },
+  {
+   "seed": 0,
+   "scenario": "recurring",
+   "k_fast": 6.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.09384980962875478
+  },
+  {
+   "seed": 0,
+   "scenario": "recurring",
+   "k_fast": 10.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.09384980962875478
+  },
+  {
+   "seed": 0,
+   "scenario": "recurring",
+   "k_fast": 15.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.09384980962875478
+  },
+  {
+   "seed": 0,
+   "scenario": "new_type",
+   "k_fast": 6.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.12313273985158002
+  },
+  {
+   "seed": 0,
+   "scenario": "new_type",
+   "k_fast": 10.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.12313273985158002
+  },
+  {
+   "seed": 0,
+   "scenario": "new_type",
+   "k_fast": 15.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.12313273985158002
+  },
+  {
+   "seed": 1,
+   "scenario": "abrupt",
+   "k_fast": 6.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": -0.09290259415277524
+  },
+  {
+   "seed": 1,
+   "scenario": "abrupt",
+   "k_fast": 10.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": -0.09290259415277524
+  },
+  {
+   "seed": 1,
+   "scenario": "abrupt",
+   "k_fast": 15.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": -0.09290259415277524
+  },
+  {
+   "seed": 1,
+   "scenario": "gradual",
+   "k_fast": 6.0,
+   "false_retunes": 0,
+   "delay": 2,
+   "regret": 0.051501523048719466
+  },
+  {
+   "seed": 1,
+   "scenario": "gradual",
+   "k_fast": 10.0,
+   "false_retunes": 0,
+   "delay": 3,
+   "regret": 0.02776528585824667
+  },
+  {
+   "seed": 1,
+   "scenario": "gradual",
+   "k_fast": 15.0,
+   "false_retunes": 0,
+   "delay": 3,
+   "regret": 0.02776528585824667
+  },
+  {
+   "seed": 1,
+   "scenario": "recurring",
+   "k_fast": 6.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.03806642153630957
+  },
+  {
+   "seed": 1,
+   "scenario": "recurring",
+   "k_fast": 10.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.03806642153630957
+  },
+  {
+   "seed": 1,
+   "scenario": "recurring",
+   "k_fast": 15.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.03806642153630957
+  },
+  {
+   "seed": 1,
+   "scenario": "new_type",
+   "k_fast": 6.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.06274139837194626
+  },
+  {
+   "seed": 1,
+   "scenario": "new_type",
+   "k_fast": 10.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.06274139837194626
+  },
+  {
+   "seed": 1,
+   "scenario": "new_type",
+   "k_fast": 15.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.06274139837194626
+  },
+  {
+   "seed": 2,
+   "scenario": "abrupt",
+   "k_fast": 6.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": -0.0017374694769133336
+  },
+  {
+   "seed": 2,
+   "scenario": "abrupt",
+   "k_fast": 10.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": -0.0017374694769133336
+  },
+  {
+   "seed": 2,
+   "scenario": "abrupt",
+   "k_fast": 15.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": -0.0017374694769133336
+  },
+  {
+   "seed": 2,
+   "scenario": "gradual",
+   "k_fast": 6.0,
+   "false_retunes": 0,
+   "delay": 3,
+   "regret": -0.004122088604473606
+  },
+  {
+   "seed": 2,
+   "scenario": "gradual",
+   "k_fast": 10.0,
+   "false_retunes": 0,
+   "delay": 3,
+   "regret": -0.004122088604473606
+  },
+  {
+   "seed": 2,
+   "scenario": "gradual",
+   "k_fast": 15.0,
+   "false_retunes": 0,
+   "delay": 3,
+   "regret": -0.004122088604473606
+  },
+  {
+   "seed": 2,
+   "scenario": "recurring",
+   "k_fast": 6.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.02069458037245253
+  },
+  {
+   "seed": 2,
+   "scenario": "recurring",
+   "k_fast": 10.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.02069458037245253
+  },
+  {
+   "seed": 2,
+   "scenario": "recurring",
+   "k_fast": 15.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.02069458037245253
+  },
+  {
+   "seed": 2,
+   "scenario": "new_type",
+   "k_fast": 6.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.00889335251845691
+  },
+  {
+   "seed": 2,
+   "scenario": "new_type",
+   "k_fast": 10.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.00889335251845691
+  },
+  {
+   "seed": 2,
+   "scenario": "new_type",
+   "k_fast": 15.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.00889335251845691
+  },
+  {
+   "seed": 3,
+   "scenario": "abrupt",
+   "k_fast": 6.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": -0.09862732343693181
+  },
+  {
+   "seed": 3,
+   "scenario": "abrupt",
+   "k_fast": 10.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": -0.09862732343693181
+  },
+  {
+   "seed": 3,
+   "scenario": "abrupt",
+   "k_fast": 15.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": -0.09862732343693181
+  },
+  {
+   "seed": 3,
+   "scenario": "gradual",
+   "k_fast": 6.0,
+   "false_retunes": 0,
+   "delay": 3,
+   "regret": -0.017036178431802385
+  },
+  {
+   "seed": 3,
+   "scenario": "gradual",
+   "k_fast": 10.0,
+   "false_retunes": 0,
+   "delay": 3,
+   "regret": -0.017036178431802385
+  },
+  {
+   "seed": 3,
+   "scenario": "gradual",
+   "k_fast": 15.0,
+   "false_retunes": 0,
+   "delay": 3,
+   "regret": -0.017036178431802385
+  },
+  {
+   "seed": 3,
+   "scenario": "recurring",
+   "k_fast": 6.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.17401878553305994
+  },
+  {
+   "seed": 3,
+   "scenario": "recurring",
+   "k_fast": 10.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.17401878553305994
+  },
+  {
+   "seed": 3,
+   "scenario": "recurring",
+   "k_fast": 15.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.17401878553305994
+  },
+  {
+   "seed": 3,
+   "scenario": "new_type",
+   "k_fast": 6.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.2600645565444306
+  },
+  {
+   "seed": 3,
+   "scenario": "new_type",
+   "k_fast": 10.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.2600645565444306
+  },
+  {
+   "seed": 3,
+   "scenario": "new_type",
+   "k_fast": 15.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.2600645565444306
+  },
+  {
+   "seed": 4,
+   "scenario": "abrupt",
+   "k_fast": 6.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.0011100274996111992
+  },
+  {
+   "seed": 4,
+   "scenario": "abrupt",
+   "k_fast": 10.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.0011100274996111992
+  },
+  {
+   "seed": 4,
+   "scenario": "abrupt",
+   "k_fast": 15.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.0011100274996111992
+  },
+  {
+   "seed": 4,
+   "scenario": "gradual",
+   "k_fast": 6.0,
+   "false_retunes": 0,
+   "delay": 2,
+   "regret": 0.018719423568732685
+  },
+  {
+   "seed": 4,
+   "scenario": "gradual",
+   "k_fast": 10.0,
+   "false_retunes": 0,
+   "delay": 3,
+   "regret": 0.02395257160410602
+  },
+  {
+   "seed": 4,
+   "scenario": "gradual",
+   "k_fast": 15.0,
+   "false_retunes": 0,
+   "delay": 3,
+   "regret": 0.02395257160410602
+  },
+  {
+   "seed": 4,
+   "scenario": "recurring",
+   "k_fast": 6.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.03781552726816351
+  },
+  {
+   "seed": 4,
+   "scenario": "recurring",
+   "k_fast": 10.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.03781552726816351
+  },
+  {
+   "seed": 4,
+   "scenario": "recurring",
+   "k_fast": 15.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.03781552726816351
+  },
+  {
+   "seed": 4,
+   "scenario": "new_type",
+   "k_fast": 6.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.03765781549874392
+  },
+  {
+   "seed": 4,
+   "scenario": "new_type",
+   "k_fast": 10.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.03765781549874392
+  },
+  {
+   "seed": 4,
+   "scenario": "new_type",
+   "k_fast": 15.0,
+   "false_retunes": 0,
+   "delay": 0,
+   "regret": 0.03765781549874392
+  }
+ ]
+}

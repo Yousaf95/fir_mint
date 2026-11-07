@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Reproducible heavy artifacts
+data/
+kaggle_cache/
+cache/
+hf_cache/
+venv/
+embeddings/
+
+# Local scheduler outputs
+*.e*
+*.o*

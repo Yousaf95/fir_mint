@@ -1,0 +1,15 @@
+#!/bin/bash
+#PBS -N fir_coco6
+#PBS -q commonCPUQ
+#PBS -l select=1:ncpus=8:mem=64gb
+#PBS -l walltime=24:00:00
+#PBS -j oe
+#PBS -o /home/$USER/RAO_OCT/logs/coco6_cpu.out
+set -euo pipefail
+RAO=/home/$USER/RAO_OCT
+export FIR_BUILD_THREADS=8
+export PYTHONUNBUFFERED=1
+mkdir -p "$RAO/logs" "$RAO/runs"
+cd "$RAO/runs"
+"$RAO/venv/bin/python" "$RAO/code_frozen/fir_mint_v4.py" \
+  --data "$RAO/embeddings/coco_30k_6col"

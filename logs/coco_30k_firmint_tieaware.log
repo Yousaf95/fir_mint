@@ -1,0 +1,38 @@
+Real data: 30000 rows, 4 columns ['I', 'T', 'M', 'T2'], dim=512, 2000 held-out queries
+[E1 seed 0] Static       lat=3.203ms minRec=0.987 viol=0.000 whatif=0 new=0 cfg=[(0, 1), (1, 2, 3), (2, 3)]
+[E1 seed 0] FIR-MINT     lat=2.482ms minRec=0.998 viol=0.000 whatif=54 new=2 cfg=[(0, 1, 2), (1, 2), (1, 2, 3)]
+[E1 seed 0] Full re-tune lat=2.478ms minRec=0.998 viol=0.000 whatif=44 new=2 cfg=[(0, 1, 2), (1, 2), (1, 2, 3)]
+[E1 seed 1] Static       lat=2.104ms minRec=0.996 viol=0.000 whatif=0 new=0 cfg=[(0, 2), (0, 3), (1, 2), (1, 3)]
+[E1 seed 1] FIR-MINT     lat=2.151ms minRec=0.996 viol=0.000 whatif=59 new=1 cfg=[(0, 1, 2), (0, 3), (1, 2)]
+[E1 seed 1] Full re-tune lat=2.132ms minRec=0.996 viol=0.000 whatif=44 new=1 cfg=[(0, 1, 2), (0, 3), (1, 2)]
+[E1 seed 2] Static       lat=2.404ms minRec=0.988 viol=0.000 whatif=0 new=0 cfg=[(0, 1), (1, 2), (1, 2, 3)]
+[E1 seed 2] FIR-MINT     lat=1.842ms minRec=0.988 viol=0.000 whatif=56 new=2 cfg=[(0, 1), (0, 1, 3), (0, 2)]
+[E1 seed 2] Full re-tune lat=1.860ms minRec=0.988 viol=0.000 whatif=44 new=2 cfg=[(0, 1), (0, 1, 3), (0, 2)]
+[E1 seed 3] Static       lat=3.687ms minRec=0.995 viol=0.000 whatif=0 new=0 cfg=[(0, 1, 2), (0, 3), (2, 3)]
+[E1 seed 3] FIR-MINT     lat=1.616ms minRec=0.998 viol=0.000 whatif=48 new=3 cfg=[(0, 1), (0, 2), (1, 2), (2, 3)]
+[E1 seed 3] Full re-tune lat=1.894ms minRec=0.998 viol=0.000 whatif=49 new=4 cfg=[(0, 1), (0, 2), (1, 2), (1, 3)]
+[E1 seed 4] Static       lat=1.837ms minRec=0.995 viol=0.000 whatif=0 new=0 cfg=[(0, 2), (0, 3), (1, 3), (2, 3)]
+[E1 seed 4] FIR-MINT     lat=1.904ms minRec=0.996 viol=0.000 whatif=57 new=1 cfg=[(0, 1, 2), (0, 2), (1, 3)]
+[E1 seed 4] Full re-tune lat=1.917ms minRec=0.996 viol=0.000 whatif=48 new=1 cfg=[(0, 1, 2), (0, 2), (1, 3)]
+[E3 seed 0] abrupt    Static: cost=1.242 rt=0 calls=0  FIR+detector: cost=1.086 rt=1 calls=54  Full+detector: cost=1.077 rt=1 calls=44  Full every window: cost=1.070 rt=0 calls=1344
+[E3 seed 0] gradual   Static: cost=1.134 rt=0 calls=0  FIR+detector: cost=1.021 rt=3 calls=139  Full+detector: cost=1.019 rt=3 calls=146  Full every window: cost=1.021 rt=0 calls=1334
+[E3 seed 0] recurring Static: cost=1.182 rt=0 calls=0  FIR+detector: cost=1.016 rt=3 calls=163  Full+detector: cost=1.042 rt=3 calls=142  Full every window: cost=1.005 rt=0 calls=1371
+[E3 seed 0] new_type  Static: cost=1.128 rt=0 calls=0  FIR+detector: cost=0.897 rt=1 calls=45  Full+detector: cost=0.899 rt=1 calls=44  Full every window: cost=0.889 rt=0 calls=1190
+[E3 seed 1] abrupt    Static: cost=1.161 rt=0 calls=0  FIR+detector: cost=1.135 rt=1 calls=43  Full+detector: cost=1.135 rt=1 calls=42  Full every window: cost=1.136 rt=0 calls=1219
+[E3 seed 1] gradual   Static: cost=1.230 rt=0 calls=0  FIR+detector: cost=1.033 rt=3 calls=118  Full+detector: cost=1.027 rt=3 calls=126  Full every window: cost=1.019 rt=0 calls=1222
+[E3 seed 1] recurring Static: cost=1.102 rt=0 calls=0  FIR+detector: cost=1.088 rt=3 calls=119  Full+detector: cost=1.093 rt=3 calls=126  Full every window: cost=1.097 rt=0 calls=1193
+[E3 seed 1] new_type  Static: cost=1.075 rt=0 calls=0  FIR+detector: cost=1.075 rt=1 calls=38  Full+detector: cost=1.075 rt=1 calls=38  Full every window: cost=1.081 rt=0 calls=1089
+[E3 seed 2] abrupt    Static: cost=0.919 rt=0 calls=0  FIR+detector: cost=0.887 rt=1 calls=51  Full+detector: cost=0.887 rt=1 calls=45  Full every window: cost=0.892 rt=0 calls=1288
+[E3 seed 2] gradual   Static: cost=0.984 rt=0 calls=0  FIR+detector: cost=0.855 rt=3 calls=149  Full+detector: cost=0.855 rt=3 calls=135  Full every window: cost=0.857 rt=0 calls=1322
+[E3 seed 2] recurring Static: cost=0.968 rt=0 calls=0  FIR+detector: cost=0.894 rt=3 calls=159  Full+detector: cost=0.894 rt=3 calls=128  Full every window: cost=0.884 rt=0 calls=1223
+[E3 seed 2] new_type  Static: cost=0.950 rt=0 calls=0  FIR+detector: cost=0.739 rt=1 calls=56  Full+detector: cost=0.738 rt=1 calls=50  Full every window: cost=0.730 rt=0 calls=1219
+[E3 seed 3] abrupt    Static: cost=1.084 rt=0 calls=0  FIR+detector: cost=0.888 rt=1 calls=55  Full+detector: cost=0.888 rt=1 calls=50  Full every window: cost=0.895 rt=0 calls=1436
+[E3 seed 3] gradual   Static: cost=1.012 rt=0 calls=0  FIR+detector: cost=0.902 rt=3 calls=171  Full+detector: cost=0.902 rt=3 calls=139  Full every window: cost=0.903 rt=0 calls=1345
+[E3 seed 3] recurring Static: cost=0.980 rt=0 calls=0  FIR+detector: cost=0.854 rt=3 calls=151  Full+detector: cost=0.900 rt=3 calls=145  Full every window: cost=0.875 rt=0 calls=1390
+[E3 seed 3] new_type  Static: cost=1.172 rt=0 calls=0  FIR+detector: cost=0.764 rt=1 calls=46  Full+detector: cost=0.764 rt=1 calls=49  Full every window: cost=0.745 rt=0 calls=1253
+[E3 seed 4] abrupt    Static: cost=1.087 rt=0 calls=0  FIR+detector: cost=0.928 rt=1 calls=48  Full+detector: cost=0.928 rt=1 calls=50  Full every window: cost=0.925 rt=0 calls=1421
+[E3 seed 4] gradual   Static: cost=1.117 rt=0 calls=0  FIR+detector: cost=0.907 rt=2 calls=102  Full+detector: cost=0.912 rt=2 calls=99  Full every window: cost=0.921 rt=0 calls=1415
+[E3 seed 4] recurring Static: cost=0.982 rt=0 calls=0  FIR+detector: cost=0.964 rt=3 calls=169  Full+detector: cost=0.972 rt=3 calls=146  Full every window: cost=0.965 rt=0 calls=1394
+[E3 seed 4] new_type  Static: cost=1.245 rt=0 calls=0  FIR+detector: cost=0.845 rt=1 calls=47  Full+detector: cost=0.836 rt=1 calls=50  Full every window: cost=0.818 rt=0 calls=1297
+
+Done in 404s. See /data/$USER/RAO_NOV/fir_mint_v4_results_coco_30k_4col/results.md

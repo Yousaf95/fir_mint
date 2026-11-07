@@ -1,0 +1,18 @@
+#!/bin/bash
+#PBS -N fir_ext_flickr4
+#PBS -q commonCPUQ
+#PBS -l select=1:ncpus=8:mem=64gb
+#PBS -l walltime=24:00:00
+#PBS -j oe
+#PBS -o /home/$USER/RAO_OCT/logs/ext_flickr4.out
+
+set -euo pipefail
+RAO=/home/$USER/RAO_OCT
+export PYTHONPATH="$RAO/code_frozen"
+export FIR_BUILD_THREADS=8
+export PYTHONUNBUFFERED=1
+mkdir -p "$RAO/logs" "$RAO/runs"
+cd "$RAO/runs"
+"$RAO/venv/bin/python" "$RAO/code_frozen/fir_extensions.py" \
+  --data "$RAO/embeddings/flickr_28k_4col" \
+  --out "$RAO/runs/ext_flickr4"
