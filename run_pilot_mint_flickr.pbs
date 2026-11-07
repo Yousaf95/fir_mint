@@ -1,0 +1,19 @@
+#!/bin/bash
+#PBS -N mint_pilot_flickr
+#PBS -q commonCPUQ
+#PBS -l select=1:ncpus=8:mem=64gb
+#PBS -l walltime=04:00:00
+#PBS -j oe
+#PBS -o /home/$USER/RAO_OCT/logs/pilot_mint_flickr.out
+
+set -euo pipefail
+RAO=/home/$USER/RAO_OCT
+export PYTHONPATH="$RAO/code_frozen"
+export FIR_BUILD_THREADS=8
+export PYTHONUNBUFFERED=1
+mkdir -p "$RAO/logs" "$RAO/runs/pilot_mint_flickr"
+cd "$RAO"
+"$RAO/venv/bin/python" "$RAO/experiments/pilot_mint.py" \
+  --data "$RAO/embeddings/flickr_28k_4col" \
+  --seeds 0 1 2 \
+  --out "$RAO/runs/pilot_mint_flickr"

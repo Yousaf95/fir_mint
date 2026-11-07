@@ -1,0 +1,19 @@
+#!/bin/bash
+#PBS -N diagnose_coco8
+#PBS -q commonCPUQ
+#PBS -l select=1:ncpus=8:mem=64gb
+#PBS -l walltime=04:00:00
+#PBS -j oe
+#PBS -o /home/$USER/RAO_OCT/logs/diagnose_coco8.out
+
+set -euo pipefail
+RAO=/home/$USER/RAO_OCT
+export PYTHONPATH="$RAO/code_frozen"
+export FIR_BUILD_THREADS=8
+export PYTHONUNBUFFERED=1
+mkdir -p "$RAO/logs" "$RAO/runs/diagnose_coco8"
+cd "$RAO"
+"$RAO/venv/bin/python" "$RAO/experiments/diagnose_coco8.py" \
+  --data "$RAO/embeddings/coco_30k_8col" \
+  --seeds 0 1 2 \
+  --out "$RAO/runs/diagnose_coco8/diagnosis.json"

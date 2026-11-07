@@ -1,0 +1,430 @@
+{
+  "results": [
+    {
+      "seed": 0,
+      "policy": "Static",
+      "latency_ms": 1.7688027730522056,
+      "p95_ms": 1.769249979018544,
+      "min_recall": 0.8,
+      "mean_recall": 0.9985,
+      "recall_gate_pass": false,
+      "whatif_calls": 0,
+      "tuning_wall_s": 0.0,
+      "build_wall_s": 5.308538675308228e-07,
+      "swap_wall_s": 1.8207356333732605e-07,
+      "new_indexes": 0,
+      "config": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "seed": 0,
+      "policy": "FIR-MINT",
+      "latency_ms": 1.4831585297361016,
+      "p95_ms": 1.4837118771392852,
+      "min_recall": 0.7,
+      "mean_recall": 0.9979999999999999,
+      "recall_gate_pass": false,
+      "whatif_calls": 44,
+      "tuning_wall_s": 0.0010692761279642582,
+      "build_wall_s": 12.43062435882166,
+      "swap_wall_s": 5.317851901054382e-07,
+      "new_indexes": 3,
+      "config": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "seed": 0,
+      "policy": "Full re-tune",
+      "latency_ms": 1.4614504901692271,
+      "p95_ms": 1.4697613078169525,
+      "min_recall": 0.7,
+      "mean_recall": 0.9979999999999999,
+      "recall_gate_pass": false,
+      "whatif_calls": 50,
+      "tuning_wall_s": 0.000836632214486599,
+      "build_wall_s": 12.41900153271854,
+      "swap_wall_s": 4.0885061025619507e-07,
+      "new_indexes": 3,
+      "config": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "seed": 0,
+      "policy": "MINT-style reimplementation",
+      "latency_ms": 1.4700892994490762,
+      "p95_ms": 1.4726080802114059,
+      "min_recall": 0.7,
+      "mean_recall": 0.9979999999999999,
+      "recall_gate_pass": false,
+      "whatif_calls": 50,
+      "tuning_wall_s": 0.0013513159938156605,
+      "build_wall_s": 12.407009408809245,
+      "swap_wall_s": 3.7997961044311523e-07,
+      "new_indexes": 3,
+      "config": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "seed": 1,
+      "policy": "Static",
+      "latency_ms": 1.837279722870638,
+      "p95_ms": 1.8390175512370963,
+      "min_recall": 0.7,
+      "mean_recall": 0.9965000000000002,
+      "recall_gate_pass": false,
+      "whatif_calls": 0,
+      "tuning_wall_s": 0.0,
+      "build_wall_s": 2.9243528842926025e-07,
+      "swap_wall_s": 1.6577541828155518e-07,
+      "new_indexes": 0,
+      "config": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "seed": 1,
+      "policy": "FIR-MINT",
+      "latency_ms": 1.5792570364040632,
+      "p95_ms": 1.5842511978310843,
+      "min_recall": 0.8,
+      "mean_recall": 0.9978333333333335,
+      "recall_gate_pass": false,
+      "whatif_calls": 54,
+      "tuning_wall_s": 0.0015547447837889194,
+      "build_wall_s": 11.06959941610694,
+      "swap_wall_s": 2.6170164346694946e-07,
+      "new_indexes": 2,
+      "config": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "seed": 1,
+      "policy": "Full re-tune",
+      "latency_ms": 1.5899768836485844,
+      "p95_ms": 1.5902000888405987,
+      "min_recall": 0.8,
+      "mean_recall": 0.9978333333333335,
+      "recall_gate_pass": false,
+      "whatif_calls": 47,
+      "tuning_wall_s": 0.0007480205968022346,
+      "build_wall_s": 10.94293802138418,
+      "swap_wall_s": 4.0512531995773315e-07,
+      "new_indexes": 2,
+      "config": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "seed": 1,
+      "policy": "MINT-style reimplementation",
+      "latency_ms": 1.6863298780905704,
+      "p95_ms": 1.6876910244269918,
+      "min_recall": 0.8,
+      "mean_recall": 0.9988333333333332,
+      "recall_gate_pass": false,
+      "whatif_calls": 49,
+      "tuning_wall_s": 0.0013375887647271156,
+      "build_wall_s": 3.9470584290102124,
+      "swap_wall_s": 3.781169652938843e-07,
+      "new_indexes": 1,
+      "config": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "seed": 2,
+      "policy": "Static",
+      "latency_ms": 2.2020225467470786,
+      "p95_ms": 2.203003705789645,
+      "min_recall": 0.9,
+      "mean_recall": 0.9998333333333332,
+      "recall_gate_pass": true,
+      "whatif_calls": 0,
+      "tuning_wall_s": 0.0,
+      "build_wall_s": 3.5902485251426697e-07,
+      "swap_wall_s": 1.4202669262886047e-07,
+      "new_indexes": 0,
+      "config": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "seed": 2,
+      "policy": "FIR-MINT",
+      "latency_ms": 1.6782614045465987,
+      "p95_ms": 1.6817038675459723,
+      "min_recall": 0.9,
+      "mean_recall": 0.9996666666666666,
+      "recall_gate_pass": true,
+      "whatif_calls": 57,
+      "tuning_wall_s": 0.0016172830946743488,
+      "build_wall_s": 8.41325131431222,
+      "swap_wall_s": 3.450550138950348e-07,
+      "new_indexes": 2,
+      "config": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "seed": 2,
+      "policy": "Full re-tune",
+      "latency_ms": 1.6766949750793476,
+      "p95_ms": 1.6793586272591106,
+      "min_recall": 0.9,
+      "mean_recall": 0.9996666666666666,
+      "recall_gate_pass": true,
+      "whatif_calls": 50,
+      "tuning_wall_s": 0.0008347900584340096,
+      "build_wall_s": 8.374690252821892,
+      "swap_wall_s": 4.069879651069641e-07,
+      "new_indexes": 2,
+      "config": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "seed": 2,
+      "policy": "MINT-style reimplementation",
+      "latency_ms": 1.6767487511970103,
+      "p95_ms": 1.6801908831112087,
+      "min_recall": 0.9,
+      "mean_recall": 0.9996666666666666,
+      "recall_gate_pass": true,
+      "whatif_calls": 50,
+      "tuning_wall_s": 0.0013532130979001522,
+      "build_wall_s": 8.415485269855708,
+      "swap_wall_s": 2.742744982242584e-07,
+      "new_indexes": 2,
+      "config": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ]
+    }
+  ],
+  "timings": {
+    "0": {
+      "detect_wall_s": 5.112960934638977e-06,
+      "whatif_wall_s": {
+        "FIR-MINT": 0.0010692761279642582,
+        "Full re-tune": 0.000836632214486599,
+        "MINT-style reimplementation": 0.0013513159938156605
+      },
+      "build_wall_s": {
+        "Static": 5.308538675308228e-07,
+        "FIR-MINT": 12.43062435882166,
+        "Full re-tune": 12.41900153271854,
+        "MINT-style reimplementation": 12.407009408809245
+      },
+      "swap_wall_s": 3.7567224353551865e-07,
+      "detector_events": 0
+    },
+    "1": {
+      "detect_wall_s": 4.460103809833527e-06,
+      "whatif_wall_s": {
+        "FIR-MINT": 0.0015547447837889194,
+        "Full re-tune": 0.0007480205968022346,
+        "MINT-style reimplementation": 0.0013375887647271156
+      },
+      "build_wall_s": {
+        "Static": 2.9243528842926025e-07,
+        "FIR-MINT": 11.06959941610694,
+        "Full re-tune": 10.94293802138418,
+        "MINT-style reimplementation": 3.9470584290102124
+      },
+      "swap_wall_s": 3.026798367500305e-07,
+      "detector_events": 0
+    },
+    "2": {
+      "detect_wall_s": 4.426110535860062e-06,
+      "whatif_wall_s": {
+        "FIR-MINT": 0.0016172830946743488,
+        "Full re-tune": 0.0008347900584340096,
+        "MINT-style reimplementation": 0.0013532130979001522
+      },
+      "build_wall_s": {
+        "Static": 3.5902485251426697e-07,
+        "FIR-MINT": 8.41325131431222,
+        "Full re-tune": 8.374690252821892,
+        "MINT-style reimplementation": 8.415485269855708
+      },
+      "swap_wall_s": 2.9208604246377945e-07,
+      "detector_events": 0
+    }
+  }
+}

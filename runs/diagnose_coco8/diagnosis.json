@@ -1,0 +1,973 @@
+{
+  "settings": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "pools": [
+      40,
+      80,
+      160,
+      320,
+      640,
+      1280,
+      2560,
+      5120
+    ],
+    "ef_search": [
+      256,
+      512,
+      1024
+    ],
+    "queries_per_signature": 10,
+    "recall_target": 0.9
+  },
+  "duplicates": {
+    "0": 3.333333333332966e-05,
+    "1": 0.020299999999999985,
+    "2": 0.7041666666666666,
+    "3": 0.00773333333333337,
+    "4": 3.333333333332966e-05,
+    "5": 0.020299999999999985,
+    "6": 0.7041666666666666,
+    "7": 0.00773333333333337
+  },
+  "summary": [
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 40,
+      "ef_search": 256,
+      "min_recall": 0.8,
+      "mean_recall": 0.99,
+      "pass": false
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 40,
+      "ef_search": 512,
+      "min_recall": 0.8,
+      "mean_recall": 0.99,
+      "pass": false
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 40,
+      "ef_search": 1024,
+      "min_recall": 0.8,
+      "mean_recall": 0.99,
+      "pass": false
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 80,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 80,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 80,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 160,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 160,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 160,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 320,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 320,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 320,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 640,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 640,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 640,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 1280,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 1280,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 1280,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 2560,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 2560,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 2560,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 5120,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 5120,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1
+      ],
+      "pool": 5120,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 40,
+      "ef_search": 256,
+      "min_recall": 0.7,
+      "mean_recall": 0.95,
+      "pass": false
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 40,
+      "ef_search": 512,
+      "min_recall": 0.7,
+      "mean_recall": 0.95,
+      "pass": false
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 40,
+      "ef_search": 1024,
+      "min_recall": 0.7,
+      "mean_recall": 0.95,
+      "pass": false
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 80,
+      "ef_search": 256,
+      "min_recall": 0.9,
+      "mean_recall": 0.9966666666666666,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 80,
+      "ef_search": 512,
+      "min_recall": 0.9,
+      "mean_recall": 0.9966666666666666,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 80,
+      "ef_search": 1024,
+      "min_recall": 0.9,
+      "mean_recall": 0.9966666666666666,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 160,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 160,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 160,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 320,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 320,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 320,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 640,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 640,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 640,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 1280,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 1280,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 1280,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 2560,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 2560,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 2560,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 5120,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 5120,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        1,
+        1,
+        1
+      ],
+      "pool": 5120,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 40,
+      "ef_search": 256,
+      "min_recall": 0.9,
+      "mean_recall": 0.9933333333333334,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 40,
+      "ef_search": 512,
+      "min_recall": 0.9,
+      "mean_recall": 0.9933333333333334,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 40,
+      "ef_search": 1024,
+      "min_recall": 0.9,
+      "mean_recall": 0.9933333333333334,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 80,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 80,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 80,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 160,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 160,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 160,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 320,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 320,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 320,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 640,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 640,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 640,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 1280,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 1280,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 1280,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 2560,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 2560,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 2560,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 5120,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 5120,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        2,
+        1
+      ],
+      "pool": 5120,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "pass": true
+    },
+    {
+      "signature": [
+        "exact",
+        1
+      ],
+      "pool": null,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "mean_boundary_ties": 34.666666666666664,
+      "max_boundary_ties": 444,
+      "pass": true
+    },
+    {
+      "signature": [
+        "exact",
+        1
+      ],
+      "pool": null,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "mean_boundary_ties": 34.666666666666664,
+      "max_boundary_ties": 444,
+      "pass": true
+    },
+    {
+      "signature": [
+        "exact",
+        1
+      ],
+      "pool": null,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "mean_boundary_ties": 34.666666666666664,
+      "max_boundary_ties": 444,
+      "pass": true
+    },
+    {
+      "signature": [
+        "exact",
+        2
+      ],
+      "pool": null,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "mean_boundary_ties": 1.9666666666666666,
+      "max_boundary_ties": 25,
+      "pass": true
+    },
+    {
+      "signature": [
+        "exact",
+        2
+      ],
+      "pool": null,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "mean_boundary_ties": 1.9666666666666666,
+      "max_boundary_ties": 25,
+      "pass": true
+    },
+    {
+      "signature": [
+        "exact",
+        2
+      ],
+      "pool": null,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "mean_boundary_ties": 1.9666666666666666,
+      "max_boundary_ties": 25,
+      "pass": true
+    },
+    {
+      "signature": [
+        "exact",
+        3
+      ],
+      "pool": null,
+      "ef_search": 256,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "mean_boundary_ties": 1.0,
+      "max_boundary_ties": 1,
+      "pass": true
+    },
+    {
+      "signature": [
+        "exact",
+        3
+      ],
+      "pool": null,
+      "ef_search": 512,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "mean_boundary_ties": 1.0,
+      "max_boundary_ties": 1,
+      "pass": true
+    },
+    {
+      "signature": [
+        "exact",
+        3
+      ],
+      "pool": null,
+      "ef_search": 1024,
+      "min_recall": 1.0,
+      "mean_recall": 1.0,
+      "mean_boundary_ties": 1.0,
+      "max_boundary_ties": 1,
+      "pass": true
+    }
+  ],
+  "elapsed_s": 300.739517014008,
+  "hardware": "Linux-5.14.0-687.49.1.el9_8.x86_64-x86_64-with-glibc2.34"
+}
