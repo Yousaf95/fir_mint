@@ -91,6 +91,8 @@ def main():
     ap.add_argument("--data", required=True); ap.add_argument("--out", default="results/p3")
     ap.add_argument("--seeds", type=int, nargs="*", default=[0, 1, 2, 3, 4])
     ap.add_argument("--mint_sizes", type=int, nargs="*", default=[10, 12, 14])
+    ap.add_argument("--timing_only", action="store_true",
+                    help="calibration, warm/cold and repeats only (tuner cost for P2a on other tables)")
     a = ap.parse_args()
     folder = (ROOT / a.data).resolve(); out = (ROOT / a.out / folder.name).resolve(); out.mkdir(parents=True, exist_ok=True)
     fm = load_frozen(out)
@@ -100,7 +102,8 @@ def main():
     Qall = [np.ascontiguousarray(np.load(folder / f"query_{c}.npy"), dtype=np.float32) for c in cols]
     C, nq = len(cols), Qall[0].shape[0]
     train_rows, test_rows = np.arange(nq // 2), np.arange(nq // 2, nq)    # disjoint pools
-    gt = dict(np.load(folder / "gt.npz")); gt["types"] = [tuple(int(c) for c in t if c >= 0) for t in gt["types"]]
+    gt = dict(np.load(folder / "gt.npz")) if not a.timing_only else None
+    if gt is not None: gt["types"] = [tuple(int(c) for c in t if c >= 0) for t in gt["types"]]
     R = dict(columns=cols, rows=int(data[0].shape[0]), train_rows=[0, nq // 2], test_rows=[nq // 2, nq])
     log = lambda *x: print(*x, flush=True)
 
@@ -111,7 +114,7 @@ def main():
         R["single_builds"].append(dict(column=cols[c], wall_s=w, cpu_s=cpu)); log("built", cols[c], f"{w:.0f}s")
 
     # ---- calibration (draft setting k = 10), all 14 query types prepared
-    types = [q for mm in (1, 2, 3) for q in __import__("itertools").combinations(range(C), mm)]
+    types = [q for mm in (1, 2, 3) for q in __import__("itertools").combinations(range(C), mm)]   # draft: sizes 1-3
     cal = m4.Calibration(data, singles, [q[train_rows] for q in Qall], k=K)
     for q in types: cal.prepare(q)
     R["calibration"] = dict(fit_s=cal.fit_s, score_s=cal.score_s, rank_s=cal.rank_s, total_s=cal.calib_s,
@@ -144,6 +147,16 @@ def main():
         r = m4.Tuner(cal, THETA, BUDGET, beam=b).tune(p1)
         R["beam_sweep"].append(dict(beam=b, tune_s=r["tune_s"], cost=r["cost"], config=r["config"], calls=r["planner_calls"]))
     log("repeat", np.round(R["repeat_seed0"], 2), "beam", [(x["beam"], round(x["tune_s"], 2), round(x["cost"])) for x in R["beam_sweep"]])
+
+    if a.timing_only:
+        cuts = [x["cut_tuning_only"] for x in R["warm_cold"]]
+        R["warm_start_cut_median"] = float(np.median(cuts))
+        commit = subprocess.run(["git", "-C", str(ROOT), "rev-parse", "HEAD"], capture_output=True, text=True).stdout.strip()
+        R["provenance"] = dict(commit=commit, host=platform.node(), pbs_job=os.environ.get("PBS_JOBID"), mode="timing_only",
+                               build_threads=BUILD_THREADS, label="measured", elapsed_s=time.time() - t_start)
+        json.dump(R, open(out / "p3_timing.json", "w"), indent=1, default=lambda o: o.tolist() if hasattr(o, "tolist") else str(o))
+        log("timing only done; median warm cut", R["warm_start_cut_median"])
+        return
 
     # ---- measured Static configuration (seed 0, stable workload): window ratio + estimate check
     T = m4.Tuner(cal, THETA, BUDGET, beam=5); r0 = T.tune(p0)

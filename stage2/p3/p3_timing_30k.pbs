@@ -1,0 +1,16 @@
+#!/bin/bash
+#PBS -N p3_timing_30k
+#PBS -q commonCPUQ
+#PBS -l select=1:ncpus=28:mem=120gb:cpu_type=Xeon2680
+#PBS -l place=excl
+#PBS -l walltime=06:00:00
+#PBS -j oe
+# C4 tuner cost (calibration, cold, warm) on the tables of the P2a simulator (brief P2a (ii)).
+set -euo pipefail
+RAO=/home/$USER/RAO_OCT
+export FIR_BUILD_THREADS=28 OPENBLAS_NUM_THREADS=28 OMP_NUM_THREADS=1 PYTHONUNBUFFERED=1
+cd "$RAO"; echo "host $(hostname) commit $(git rev-parse HEAD) start $(date -Is)"
+for d in coco_30k_4col coco_30k_6col flickr_28k_4col; do
+  "$RAO/venv/bin/python" stage2/p3/p3_run.py --data embeddings/$d --out results/p3 --timing_only 2>&1 | tee "$RAO/logs/p3_timing_$d.log"
+done
+echo "end $(date -Is)"
