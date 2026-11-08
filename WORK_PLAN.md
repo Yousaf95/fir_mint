@@ -95,6 +95,25 @@ for the authors' decision (stop point 3).
   treats the released `img_emb`/`text_emb` as usable. Shards 0 and 1
   downloaded to `data/laion/` with checksums.
 
+## Deviations from the brief
+
+- P1 table: LAION 1M with **4 columns**, not 2. Reasons: (a) the v1.0
+  estimator needs at least 3 columns (it calibrates 3-column types and
+  hardcodes columns 0, 1, 2); (b) with 2 columns the only optional index is
+  {I, T}, which Static already builds under the 8-unit budget, so Static and
+  the re-tuned configuration would coincide and P1 could not show a gain.
+  Columns: I_b32 and T_b32 (LAION release), T_b16 (CLIP ViT-B/16) and T_lb32
+  (OpenCLIP ViT-B/32 LAION-2B) on the same captions; the last two are added by
+  us (brief Part 6.3 allows this). This table also replaces News in P1 while
+  the News licence is open.
+- P1 builds use 28 threads (exclusive 28-core node); v1.0 used 8. Search stays
+  single-threaded.
+- Recall in P1 uses exact ground truth precomputed on GPU; the run checks it
+  against v1.0's `recall_of` on 24 real plans and aborts on any difference.
+- v1.0 calibrates its estimators from live timings, so configurations depend
+  on the host. Flickr30k seed 0 rerun on the login node: FIR-MINT and Full
+  configurations equal the v1.0 log, Static differs.
+
 ## Open questions for the authors
 
 Items marked [decision] need a human decision before the stage named.
