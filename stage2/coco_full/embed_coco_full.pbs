@@ -9,7 +9,7 @@
 set -euo pipefail
 RAO=/home/$USER/RAO_OCT
 export HF_HOME="$RAO/cache/huggingface" HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1
-cd "$RAO/code_frozen" && sha256sum -c --ignore-missing SHA256SUMS | grep -E "embed_multi|make_subset"
+cd "$RAO/code_frozen" && grep -E " (embed_multi|make_subset)\.py$" SHA256SUMS | sha256sum -c -
 cd "$RAO"
 echo "host $(hostname) commit $(git rev-parse HEAD) start $(date -Is)"
 "$RAO/venv/bin/python" code_frozen/embed_multi.py --dataset coco --root "$RAO/data/coco" \

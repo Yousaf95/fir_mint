@@ -144,3 +144,7 @@ Items marked [decision] need a human decision before the stage named.
    (stop point 5) once checked.
 6. The Git history shows GitHub Copilot as co-author on recent commits. Record
    this for the AI-use statement (default 9 of Part 8.4).
+- 2026-11-08: frozen-code check. All Python files in `code_frozen/` match `SHA256SUMS`
+  (and `_V3`, `_V4`). Four PBS scripts (`embed_multi_gpu.pbs`, `run_coco6_cpu.pbs`,
+  `run_coco8_cpu.pbs`, `run_hpc4ds_gpu.pbs`) do not: commit 805ec36 replaced the user name
+  by `$USER` in them after the checksums were taken. Jobs now check only the files they run.
