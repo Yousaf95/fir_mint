@@ -39,6 +39,19 @@ Execution semantics that the estimates assume (and that measured runs must use):
 with k = ek and efSearch = max(ek, 100), the lower end of MINT's linear regime; union re-ranked
 by the exact full score.
 
+## 2b. Two corrections found in the smoke test (Flickr30k 28k, login node, 2026-11-08)
+
+1. numDist: MINT's single line over ek in [100, 3200] overestimated the measured distance count at
+   ek = 100 by 69% to 78% on all four Flickr columns (FAISS `hnsw_stats.ndis`), which penalised
+   direct plans (small ek) against merges. C4 uses piecewise-linear interpolation through the
+   measured points (linear between grid points, linear extrapolation past 3200). The single line's
+   error at every grid point is stored and reported (`Calibration.line_fit`).
+2. Planner monotonicity: Algorithm 1's candidates, evaluated on all instances, could be worse than
+   not using an added index (adding the direct index of a 3-column query raised the estimated plan
+   cost from 3.05M to 4.75M units). For |X_q| > 3 the candidate set now also contains the best plan
+   of every subset of X_q with one index fewer (cached, recursive), so adding an index never makes
+   a plan worse.
+
 ## 3. Measurements for P3
 
 - Tuner wall-clock time, split into (a) one-time training (sample indexes, numDist and recall fits,
