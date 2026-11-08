@@ -13,3 +13,9 @@ embeddings/
 # Local scheduler outputs
 *.e*
 *.o*
+
+# Kept local, never in the public repository (Reply 1, Part 7)
+stage1/latex/
+FIR-MINT_ICDE_latex_humanized.zip
+stage2/REPLY1_CHANGES.md
+stage2/UPDATE_*.md
