@@ -1,0 +1,19 @@
+#!/bin/bash
+#PBS -N coco6_full_embed
+#PBS -q commonGPUQ
+#PBS -l select=1:ncpus=8:ngpus=1:mem=64gb:gpu_type=H100
+#PBS -l walltime=08:00:00
+#PBS -j oe
+# COCO-6 at full size (Reply 1, D2): all eligible train2017 images as data rows, 2,000 val2017 queries.
+# Frozen embed_multi.py (checksum checked), then the draft's six columns via make_subset.py.
+set -euo pipefail
+RAO=/home/$USER/RAO_OCT
+export HF_HOME="$RAO/cache/huggingface" HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1
+cd "$RAO/code_frozen" && sha256sum -c --ignore-missing SHA256SUMS | grep -E "embed_multi|make_subset"
+cd "$RAO"
+echo "host $(hostname) commit $(git rev-parse HEAD) start $(date -Is)"
+"$RAO/venv/bin/python" code_frozen/embed_multi.py --dataset coco --root "$RAO/data/coco" \
+  --models b32 b16 --n_data 200000 --n_query 2000 --seed 0 --batch 256 --out "$RAO/embeddings/coco_full_8col"
+"$RAO/venv/bin/python" code_frozen/make_subset.py --src "$RAO/embeddings/coco_full_8col" \
+  --out "$RAO/embeddings/coco_full_6col" --columns I_b32 T_b32 M_b32 T2_b32 I_b16 T_b16
+echo "end $(date -Is)"
