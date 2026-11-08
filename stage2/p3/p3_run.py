@@ -11,6 +11,8 @@ import numpy as np
 from threadpoolctl import threadpool_limits
 
 ROOT = Path(__file__).resolve().parents[2]
+# commit of the code this process runs, read at start (later commits must not leak in)
+START_COMMIT = subprocess.run(["git", "-C", str(ROOT), "rev-parse", "HEAD"], capture_output=True, text=True).stdout.strip()
 sys.path.insert(0, str(Path(__file__).parent))
 import mint_c4 as m4
 
@@ -151,7 +153,7 @@ def main():
     if a.timing_only:
         cuts = [x["cut_tuning_only"] for x in R["warm_cold"]]
         R["warm_start_cut_median"] = float(np.median(cuts))
-        commit = subprocess.run(["git", "-C", str(ROOT), "rev-parse", "HEAD"], capture_output=True, text=True).stdout.strip()
+        commit = START_COMMIT
         R["provenance"] = dict(commit=commit, host=platform.node(), pbs_job=os.environ.get("PBS_JOBID"), mode="timing_only",
                                build_threads=BUILD_THREADS, label="measured", elapsed_s=time.time() - t_start)
         json.dump(R, open(out / "p3_timing.json", "w"), indent=1, default=lambda o: o.tolist() if hasattr(o, "tolist") else str(o))
@@ -197,7 +199,7 @@ def main():
         faithfulness=dict(medians_s=med, band_s=[85 / 3, 185 * 3], result="PASS" if all(85 / 3 <= v <= 185 * 3 for v in med.values()) else "FAIL"),
         warm_start=dict(median_cut_tuning_only=float(np.median(cuts)), per_seed=cuts, threshold=0.30,
                         result="PASS" if np.median(cuts) >= 0.30 else "FAIL"))
-    commit = subprocess.run(["git", "-C", str(ROOT), "rev-parse", "HEAD"], capture_output=True, text=True).stdout.strip()
+    commit = START_COMMIT
     R["provenance"] = dict(commit=commit, host=platform.node(), pbs_job=os.environ.get("PBS_JOBID"), build_threads=BUILD_THREADS,
                            search_threads=1, blas_threads=os.environ.get("OPENBLAS_NUM_THREADS"), label="measured",
                            elapsed_s=time.time() - t_start, peak_rss_gb=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / 1024 ** 2)

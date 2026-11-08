@@ -13,6 +13,8 @@ from pathlib import Path
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[2]
+# commit of the code this process runs, read at start (later commits must not leak in)
+START_COMMIT = subprocess.run(["git", "-C", str(ROOT), "rev-parse", "HEAD"], capture_output=True, text=True).stdout.strip()
 
 
 def import_frozen(out):
@@ -160,7 +162,7 @@ def main():
                     assert ok, f"FIR+fast+SR differs from frozen E6: seed {seed} {sc} qw {qw}"
         print(f"[P2a seed {seed}] done ({time.time() - t0:.0f}s)", flush=True)
         json.dump(dict(rows=rows, frozen_checks=checks), open(out / "p2a_partial.json", "w"))
-    commit = subprocess.run(["git", "-C", str(ROOT), "rev-parse", "HEAD"], capture_output=True, text=True).stdout.strip()
+    commit = START_COMMIT
     json.dump(dict(rows=rows, frozen_checks=checks, provenance=dict(commit=commit, pbs_job=os.environ.get("PBS_JOBID"),
               seeds=a.seeds, label="estimated (query time); measured (build model)", elapsed_s=time.time() - t0)),
               open(out / "p2a.json", "w"))

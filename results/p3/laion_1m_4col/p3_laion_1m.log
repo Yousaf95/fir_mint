@@ -1,0 +1,56 @@
+built I_b32 76s
+built T_b32 88s
+built T_b16 91s
+built T_lb32 81s
+calibration {'fit_s': 26.6, 'score_s': 0.5, 'rank_s': 91.0, 'total_s': 118.1}
+seed 0: cold 14.22s warm 1.76s cut 87.6% cost warm/cold-1 +0.000% cfg warm [(0,), (0, 1), (0, 2), (0, 3), (1,), (2,), (3,)] cold [(0,), (0, 1), (0, 2), (0, 3), (1,), (2,), (3,)]
+seed 1: cold 13.61s warm 2.33s cut 82.9% cost warm/cold-1 +0.000% cfg warm [(0,), (0, 1), (0, 2), (0, 3), (1,), (2,), (3,)] cold [(0,), (0, 1), (0, 2), (0, 3), (1,), (2,), (3,)]
+seed 2: cold 13.48s warm 0.00s cut 100.0% cost warm/cold-1 +0.000% cfg warm [(0,), (0, 1), (0, 2), (0, 3), (1,), (2,), (3,)] cold [(0,), (0, 1), (0, 2), (0, 3), (1,), (2,), (3,)]
+seed 3: cold 14.06s warm 0.59s cut 95.8% cost warm/cold-1 +0.000% cfg warm [(0,), (0, 1), (0, 2), (0, 3), (1,), (2,), (3,)] cold [(0,), (0, 1), (0, 2), (0, 3), (1,), (2,), (3,)]
+seed 4: cold 13.52s warm 1.15s cut 91.5% cost warm/cold-1 +0.000% cfg warm [(0,), (0, 1), (0, 2), (0, 3), (1,), (2,), (3,)] cold [(0,), (0, 1), (0, 2), (0, 3), (1,), (2,), (3,)]
+repeat [14.07 14.05 14.07 14.06 14.07] beam [(3, 13.46, 1354778), (5, 14.08, 1354778), (10, 15.22, 1354778)]
+built (0, 1) 225s
+built (0, 2) 210s
+built (0, 3) 176s
+static measured {'config': [(0,), (0, 1), (0, 2), (0, 3), (1,), (2,), (3,)], 'latency_ms': 0.7976337460180124, 'min_type_recall': 0.7, 'query_violation_rate': 0.08166666666666667, 'window_s_at_Qw_10000': 7.976337460180124, 'tuner_to_window_cold': 16.595244506124008, 'tuner_to_window_warm': 0.2202817010360416}
+MINT workload n=10 seed=0: tune 24.9s viol 0.0 cfg [(0,), (0, 1), (2,), (3,)]
+MINT workload n=10 seed=1: tune 34.8s viol 0.0 cfg [(0,), (0, 2), (1,), (2, 3)]
+MINT workload n=10 seed=2: tune 54.3s viol 0.0 cfg [(0,), (0, 1), (0, 3), (2,)]
+MINT workload n=10 seed=3: tune 33.9s viol 0.0 cfg [(0,), (0, 1), (2,), (3,)]
+MINT workload n=10 seed=4: tune 21.9s viol 0.02887953774 cfg [(0,), (1,), (2,), (3,)]
+MINT workload n=12 seed=0: tune 36.9s viol 0.0 cfg [(0,), (1,), (2,), (3,)]
+MINT workload n=12 seed=1: tune 49.9s viol 0.0 cfg [(0,), (0, 2), (1,), (3,)]
+MINT workload n=12 seed=2: tune 30.3s viol 0.0 cfg [(0,), (0, 1), (2,), (3,)]
+MINT workload n=12 seed=3: tune 23.2s viol 0.020760984044 cfg [(0, 2), (1,), (2,), (3,)]
+MINT workload n=12 seed=4: tune 33.4s viol 0.0 cfg [(0,), (0, 1), (2,), (3,)]
+MINT workload n=14 seed=0: tune 37.5s viol 0.00310415925 cfg [(0,), (0, 2), (1,), (3,)]
+MINT workload n=14 seed=1: tune 32.4s viol 0.050167900448 cfg [(0,), (1,), (2,), (3,)]
+MINT workload n=14 seed=2: tune 44.3s viol 0.062571301991 cfg [(0,), (0, 2), (1,), (3,)]
+MINT workload n=14 seed=3: tune 40.1s viol 0.025922002097 cfg [(0,), (0, 3), (1,), (2,)]
+MINT workload n=14 seed=4: tune 36.9s viol 0.014521650968 cfg [(0,), (0, 2), (1,), (3,)]
+{
+ "faithfulness": {
+  "medians_s": {
+   "10": 33.90505697298795,
+   "12": 33.40440896805376,
+   "14": 37.52554673701525
+  },
+  "band_s": [
+   28.333333333333332,
+   555
+  ],
+  "result": "PASS"
+ },
+ "warm_start": {
+  "median_cut_tuning_only": 0.9151155464413339,
+  "per_seed": [
+   0.8764667693931854,
+   0.8289036311249791,
+   0.9996334111239439,
+   0.9579169998037987,
+   0.9151155464413339
+  ],
+  "threshold": 0.3,
+  "result": "PASS"
+ }
+}

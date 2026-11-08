@@ -22,6 +22,8 @@ from pathlib import Path
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[2]
+# commit of the code this process runs, read at start (later commits must not leak in)
+START_COMMIT = subprocess.run(["git", "-C", str(ROOT), "rev-parse", "HEAD"], capture_output=True, text=True).stdout.strip()
 FROZEN = ROOT / "code_frozen" / "fir_mint_v4.py"
 
 
@@ -216,7 +218,7 @@ def main():
     if a.seeds:
         fm.SEEDS = a.seeds
     res, per_query = run(fm, folder, out)
-    commit = subprocess.run(["git", "-C", str(ROOT), "rev-parse", "HEAD"], capture_output=True, text=True).stdout.strip()
+    commit = START_COMMIT
     res["provenance"] = dict(commit=commit, frozen_sha256=sha, host=platform.node(), python=sys.version.split()[0],
                              build_threads=fm.BUILD_THREADS, search_threads=1, pbs_job=os.environ.get("PBS_JOBID"),
                              seeds=fm.SEEDS, label="measured")
