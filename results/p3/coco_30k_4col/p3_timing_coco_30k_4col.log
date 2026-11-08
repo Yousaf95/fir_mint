@@ -1,0 +1,12 @@
+built I_b32 0s
+built T_b32 0s
+built M_b32 1s
+built T2_b32 0s
+calibration {'fit_s': 7.6, 'score_s': 0.0, 'rank_s': 1.2, 'total_s': 8.9}
+seed 0: cold 12.07s warm 0.01s cut 100.0% cost warm/cold-1 +0.000% cfg warm [(0,), (1,), (1, 2, 3), (1, 3), (2,), (3,)] cold [(0,), (1,), (1, 2, 3), (1, 3), (2,), (3,)]
+seed 1: cold 12.05s warm 0.01s cut 100.0% cost warm/cold-1 +0.000% cfg warm [(0,), (1,), (1, 2, 3), (1, 3), (2,), (3,)] cold [(0,), (1,), (1, 2, 3), (1, 3), (2,), (3,)]
+seed 2: cold 12.00s warm 0.01s cut 100.0% cost warm/cold-1 +0.000% cfg warm [(0,), (1,), (1, 2, 3), (1, 3), (2,), (3,)] cold [(0,), (1,), (1, 2, 3), (1, 3), (2,), (3,)]
+seed 3: cold 11.98s warm 0.01s cut 100.0% cost warm/cold-1 +0.000% cfg warm [(0,), (1,), (1, 2, 3), (1, 3), (2,), (3,)] cold [(0,), (1,), (1, 2, 3), (1, 3), (2,), (3,)]
+seed 4: cold 11.99s warm 0.01s cut 100.0% cost warm/cold-1 +0.000% cfg warm [(0,), (1,), (1, 2, 3), (1, 3), (2,), (3,)] cold [(0,), (1,), (1, 2, 3), (1, 3), (2,), (3,)]
+repeat [12.01 11.99 11.98 11.99 12.  ] beam [(3, 11.46, 735693), (5, 11.98, 735693), (10, 13.05, 735693)]
+timing only done; median warm cut 0.9995583242405076
