@@ -67,7 +67,11 @@ calibration costs 16.6 windows, a warm re-tune 0.22 windows.
    workload, and for beam widths 3, 5, 10. Under MINT's cost model the drift does not change the
    best configuration on this table, so re-tuning has nothing to gain here. This differs from
    v1.0's tuner in P1, which changed the configuration on 3 of 5 seeds. To be examined before P1b
-   (cost model, budget, or data).
+   (cost model, budget, or data). Hypothesis linking findings 2 and 3: C4 believes that query
+   types over the three correlated caption columns reach 0.90 cheaply by merging single-column
+   searches (it estimates 0.907 for captions-only, measured 0.700), so it never spends budget on
+   text indexes, whatever the drift; with a correct recall estimate a text-heavy drift would need
+   text indexes and the configuration would move. P4 tests both together.
 4. **MINT's single cost line is a poor fit at small ek.** On LAION-1M-4 it overestimates the
    measured distance count at ek = 100 by 28-39%; on Flickr30k (28k rows) by 69-78%. C4 uses
    piecewise-linear interpolation (deviation, documented).
