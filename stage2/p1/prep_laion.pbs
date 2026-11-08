@@ -1,0 +1,15 @@
+#!/bin/bash
+#PBS -N p1_prep_laion
+#PBS -q commonGPUQ
+#PBS -l select=1:ncpus=8:ngpus=1:mem=128gb:gpu_type=H100
+#PBS -l walltime=04:00:00
+#PBS -j oe
+#PBS -o /home/$USER/RAO_OCT/logs/p1_prep_laion.out
+set -euo pipefail
+RAO=/home/$USER/RAO_OCT
+export HF_HOME="$RAO/cache/huggingface" HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1
+cd "$RAO"
+echo "host $(hostname) commit $(git rev-parse HEAD) start $(date -Is)"
+nvidia-smi --query-gpu=name,memory.total --format=csv
+"$RAO/venv/bin/python" stage2/p1/prep_laion.py --laion data/laion --out embeddings/laion_1m_4col --n 1000000 --q 2000
+echo "end $(date -Is)"
