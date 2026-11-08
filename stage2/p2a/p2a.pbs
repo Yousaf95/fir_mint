@@ -1,0 +1,14 @@
+#!/bin/bash
+#PBS -N p2a
+#PBS -q commonCPUQ
+#PBS -l select=1:ncpus=28:mem=120gb:cpu_type=Xeon2680
+#PBS -l place=excl
+#PBS -l walltime=24:00:00
+#PBS -j oe
+# usage: qsub -v TABLE=flickr_28k_4col -o logs/p2a_<table>.out stage2/p2a/p2a.pbs
+set -euo pipefail
+RAO=/home/$USER/RAO_OCT
+export FIR_BUILD_THREADS=8 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONUNBUFFERED=1
+cd "$RAO"; echo "host $(hostname) commit $(git rev-parse HEAD) table $TABLE start $(date -Is)"
+"$RAO/venv/bin/python" stage2/p2a/p2a_run.py --data embeddings/$TABLE --out results/p2a 2>&1 | tee "$RAO/logs/p2a_$TABLE.log"
+echo "end $(date -Is)"
