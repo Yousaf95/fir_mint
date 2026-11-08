@@ -1,0 +1,4 @@
+exp,dataset,scenario,strategy,metric,label,mean,ci_low,ci_high,n_seeds
+P1,laion_1m_4col,abrupt,FIR-MINT vs Static,latency_change_pct,measured,-14.1814,-31.9995,-0.1333,5
+P1,laion_1m_4col,abrupt,Full re-tune vs Static,latency_change_pct,measured,-14.1725,-31.8601,-0.0162,5
+P1,laion_1m_4col,abrupt,FIR-MINT vs Full re-tune,latency_change_pct,measured,-0.0092,-0.3182,0.2809,5

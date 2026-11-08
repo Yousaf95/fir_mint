@@ -1,0 +1,39 @@
+{
+  "columns": [
+    "I_b32",
+    "T_b32",
+    "T_b16",
+    "T_lb32"
+  ],
+  "rows": 1000000,
+  "queries": 2000,
+  "dim": 512,
+  "sources": {
+    "I_b32": "LAION-400M img_emb (OpenAI CLIP ViT-B/32), shards 0-1",
+    "T_b32": "LAION-400M text_emb (OpenAI CLIP ViT-B/32), shards 0-1",
+    "T_b16": "caption embedded with openai/clip-vit-base-patch16 (added by us)",
+    "T_lb32": "caption embedded with laion/CLIP-ViT-B-32-laion2B-s34B-b79K (added by us)"
+  },
+  "filters": "NSFW == 'UNLIKELY'; first occurrence of caption; first occurrence of image embedding",
+  "filter_stats": {
+    "0": {
+      "rows": 1000448,
+      "not_unlikely": 69959,
+      "dup_caption": 7008,
+      "dup_image": 3711
+    },
+    "1": {
+      "rows": 1000448,
+      "not_unlikely": 69831,
+      "dup_caption": 14885,
+      "dup_image": 6925
+    }
+  },
+  "kept_rows_total": 1828577,
+  "query_seed": 0,
+  "licences": {
+    "LAION metadata": "CC-BY 4.0",
+    "models": "MIT"
+  },
+  "elapsed_s": 220.8297519683838
+}

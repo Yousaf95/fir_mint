@@ -1,0 +1,98 @@
+Real data: 1000000 rows, 4 columns ['I_b32', 'T_b32', 'T_b16', 'T_lb32'], dim=512, 2000 held-out queries
+[P1 seed 0] Static       lat=8.768ms p95=36.361 typeMinRec=0.988 qViol=0.002 whatif=0 new=0 build=0s cfg=[(0, 1), (0, 3), (1, 2), (2, 3)]
+[P1 seed 0] FIR-MINT     lat=4.837ms p95=9.279 typeMinRec=0.986 qViol=0.002 whatif=48 new=2 build=421s cfg=[(0, 2), (1, 2), (1, 3), (2, 3)]
+[P1 seed 0] Full re-tune lat=4.840ms p95=9.242 typeMinRec=0.986 qViol=0.002 whatif=49 new=2 build=421s cfg=[(0, 2), (1, 2), (1, 3), (2, 3)]
+[P1 seed 1] Static       lat=9.453ms p95=19.617 typeMinRec=0.975 qViol=0.008 whatif=0 new=0 build=0s cfg=[(0, 1, 2), (0, 2), (1, 2, 3)]
+[P1 seed 1] FIR-MINT     lat=9.393ms p95=19.613 typeMinRec=0.975 qViol=0.008 whatif=45 new=1 build=248s cfg=[(0, 1, 2), (0, 3), (1, 2, 3)]
+[P1 seed 1] Full re-tune lat=9.348ms p95=19.662 typeMinRec=0.975 qViol=0.008 whatif=42 new=1 build=343s cfg=[(0, 1, 3), (0, 2), (1, 2, 3)]
+[P1 seed 2] Static       lat=9.965ms p95=23.885 typeMinRec=0.970 qViol=0.008 whatif=0 new=0 build=0s cfg=[(0, 3), (1, 2)]
+[P1 seed 2] FIR-MINT     lat=9.971ms p95=23.885 typeMinRec=0.970 qViol=0.008 whatif=36 new=0 build=0s cfg=[(0, 3), (1, 2)]
+[P1 seed 2] Full re-tune lat=10.024ms p95=24.817 typeMinRec=0.970 qViol=0.008 whatif=48 new=2 build=465s cfg=[(0, 1), (2, 3)]
+[P1 seed 3] Static       lat=3.985ms p95=9.352 typeMinRec=0.957 qViol=0.020 whatif=0 new=0 build=0s cfg=[(0, 1), (0, 2), (0, 3), (1, 3)]
+[P1 seed 3] FIR-MINT     lat=2.972ms p95=6.912 typeMinRec=0.957 qViol=0.020 whatif=47 new=1 build=224s cfg=[(0, 1), (0, 2), (1, 3), (2, 3)]
+[P1 seed 3] Full re-tune lat=2.970ms p95=6.895 typeMinRec=0.957 qViol=0.020 whatif=50 new=1 build=224s cfg=[(0, 1), (0, 2), (1, 3), (2, 3)]
+[P1 seed 4] Static       lat=9.266ms p95=19.643 typeMinRec=0.978 qViol=0.010 whatif=0 new=0 build=0s cfg=[(0, 1), (2, 3)]
+[P1 seed 4] FIR-MINT     lat=9.259ms p95=19.641 typeMinRec=0.978 qViol=0.010 whatif=36 new=0 build=0s cfg=[(0, 1), (2, 3)]
+[P1 seed 4] Full re-tune lat=9.259ms p95=19.594 typeMinRec=0.892 qViol=0.015 whatif=48 new=2 build=462s cfg=[(0, 3), (1, 2)]
+{
+ "summary": {
+  "FIR-MINT vs Static": {
+   "per_seed_pct": [
+    -44.835,
+    -0.638,
+    0.058,
+    -25.42,
+    -0.073
+   ],
+   "mean_pct": -14.181424891502113,
+   "boot_ci": [
+    -31.99954069271552,
+    -0.13334738062670715
+   ],
+   "n_seeds": 5,
+   "seeds_lower": 4,
+   "sign_test_p": 0.375,
+   "interval_label": "indicative (5 seeds)"
+  },
+  "Full re-tune vs Static": {
+   "per_seed_pct": [
+    -44.807,
+    -1.116,
+    0.595,
+    -25.457,
+    -0.077
+   ],
+   "mean_pct": -14.172528537876428,
+   "boot_ci": [
+    -31.86005668538768,
+    -0.016170922426499423
+   ],
+   "n_seeds": 5,
+   "seeds_lower": 4,
+   "sign_test_p": 0.375,
+   "interval_label": "indicative (5 seeds)"
+  },
+  "FIR-MINT vs Full re-tune": {
+   "per_seed_pct": [
+    -0.051,
+    0.483,
+    -0.534,
+    0.05,
+    0.005
+   ],
+   "mean_pct": -0.009171178816607117,
+   "boot_ci": [
+    -0.31824241244080564,
+    0.2808850834190979
+   ],
+   "n_seeds": 5,
+   "seeds_lower": 2,
+   "sign_test_p": 1.0,
+   "interval_label": "indicative (5 seeds)"
+  }
+ },
+ "pass_condition": {
+  "text": "paired per-seed differences all in the same direction (sign test) and a bootstrap interval, marked indicative with 5 seeds, that excludes zero (brief P1, confirmed 2026-11-08)",
+  "direction_all_lower": false,
+  "ci_excludes_zero": true,
+  "result": "FAIL"
+ },
+ "flat_scan_ms": {
+  "0": 173.20413747802377,
+  "1": 171.3101714849472,
+  "2": 172.49487806111574,
+  "3": 171.32557812146842,
+  "0-1": 338.5288661811501,
+  "0-2": 339.83986149542034,
+  "0-3": 338.32244644872844,
+  "1-2": 338.4913490153849,
+  "1-3": 336.71781653538346,
+  "2-3": 337.78374874964356,
+  "0-1-2": 505.20969997160137,
+  "0-1-3": 503.7892102263868,
+  "0-2-3": 505.0597731024027,
+  "1-2-3": 503.3844413701445
+ },
+ "elapsed_s": 3684.9340653419495,
+ "peak_rss_gb": 75.9658432006836
+}
