@@ -1,0 +1,89 @@
+## date
+2026-11-08T08:26:42+01:00
+## host
+hpc3-c12-n04.unitn.it
+## pbs
+job=465945.hpc3-head1.unitn.it queue=commonCPUQ ncpus_assigned=8
+## lscpu
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           46 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  96
+On-line CPU(s) list:                     0-95
+Vendor ID:                               GenuineIntel
+Model name:                              Intel(R) Xeon(R) Gold 6252N CPU @ 2.30GHz
+CPU family:                              6
+Model:                                   85
+Thread(s) per core:                      1
+Core(s) per socket:                      24
+Socket(s):                               4
+Stepping:                                7
+BogoMIPS:                                4600.00
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cdp_l3 intel_ppin ssbd mba ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts pku ospke avx512_vnni md_clear flush_l1d arch_capabilities
+L1d cache:                               3 MiB (96 instances)
+L1i cache:                               3 MiB (96 instances)
+L2 cache:                                96 MiB (96 instances)
+L3 cache:                                143 MiB (4 instances)
+NUMA node(s):                            4
+NUMA node0 CPU(s):                       0,4,8,12,16,20,24,28,32,36,40,44,48,52,56,60,64,68,72,76,80,84,88,92
+NUMA node1 CPU(s):                       1,5,9,13,17,21,25,29,33,37,41,45,49,53,57,61,65,69,73,77,81,85,89,93
+NUMA node2 CPU(s):                       2,6,10,14,18,22,26,30,34,38,42,46,50,54,58,62,66,70,74,78,82,86,90,94
+NUMA node3 CPU(s):                       3,7,11,15,19,23,27,31,35,39,43,47,51,55,59,63,67,71,75,79,83,87,91,95
+Vulnerability Gather data sampling:      Mitigation; Microcode
+Vulnerability Indirect target selection: Mitigation; Aligned branch/return thunks
+Vulnerability Itlb multihit:             KVM: Mitigation: VMX unsupported
+Vulnerability L1tf:                      Not affected
+Vulnerability Mds:                       Not affected
+Vulnerability Meltdown:                  Not affected
+Vulnerability Mmio stale data:           Mitigation; Clear CPU buffers; SMT disabled
+Vulnerability Old microcode:             Not affected
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Mitigation; Enhanced IBRS
+Vulnerability Spec rstack overflow:      Not affected
+Vulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; PBRSB-eIBRS SW sequence; BHI SW loop, KVM SW loop
+Vulnerability Srbds:                     Not affected
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Mitigation; TSX disabled
+Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspace
+## nproc (visible to job)
+8
+## memory
+               total        used        free      shared  buff/cache   available
+Mem:            1132          19         813           2         307        1113
+Swap:              7           0           7
+## frequency scaling
+no cpufreq governor visible
+## other users' processes on this node
+    133 sebastiaan.valkiers
+     35 giovanni.garberoglio
+      1 rpcuser
+      1 node_exporter
+## load
+ 08:26:42 up 46 days, 19:57,  0 users,  load average: 47.60, 47.35, 41.22
+## pbsnodes jobs on this node
+     state = free
+     jobs = 465945.hpc3-head1.unitn.it/0, 465945.hpc3-head1.unitn.it/1, 465945.hpc3-head1.unitn.it/2, 465945.hpc3-head1.unitn.it/3, 465501.hpc3-head1.unitn.it/4, 465501.hpc3-head1.unitn.it/5, 465501.hpc3-head1.unitn.it/6, 465501.hpc3-head1.unitn.it/7, 465524.hpc3-head1.unitn.it/8, 465524.hpc3-head1.unitn.it/9, 465524.hpc3-head1.unitn.it/10, 465524.hpc3-head1.unitn.it/11, 465581.hpc3-head1.unitn.it/12, 465581.hpc3-head1.unitn.it/13, 465581.hpc3-head1.unitn.it/14, 465581.hpc3-head1.unitn.it/15, 465634.hpc3-head1.unitn.it/16, 465634.hpc3-head1.unitn.it/17, 465634.hpc3-head1.unitn.it/18, 465634.hpc3-head1.unitn.it/19, 465795.hpc3-head1.unitn.it/20, 465795.hpc3-head1.unitn.it/21, 465795.hpc3-head1.unitn.it/22, 465795.hpc3-head1.unitn.it/23, 465795.hpc3-head1.unitn.it/24, 465795.hpc3-head1.unitn.it/25, 465795.hpc3-head1.unitn.it/26, 465795.hpc3-head1.unitn.it/27, 465795.hpc3-head1.unitn.it/28, 465795.hpc3-head1.unitn.it/29, 465795.hpc3-head1.unitn.it/30, 465795.hpc3-head1.unitn.it/31, 465795.hpc3-head1.unitn.it/32, 465795.hpc3-head1.unitn.it/33, 465795.hpc3-head1.unitn.it/34, 465795.hpc3-head1.unitn.it/35, 465795.hpc3-head1.unitn.it/36, 465795.hpc3-head1.unitn.it/37, 465795.hpc3-head1.unitn.it/38, 465795.hpc3-head1.unitn.it/39, 465795.hpc3-head1.unitn.it/40, 465795.hpc3-head1.unitn.it/41, 465795.hpc3-head1.unitn.it/42, 465795.hpc3-head1.unitn.it/43, 465795.hpc3-head1.unitn.it/44, 465795.hpc3-head1.unitn.it/45, 465795.hpc3-head1.unitn.it/46, 465795.hpc3-head1.unitn.it/47, 465795.hpc3-head1.unitn.it/48, 465795.hpc3-head1.unitn.it/49, 465795.hpc3-head1.unitn.it/50, 465795.hpc3-head1.unitn.it/51, 465945.hpc3-head1.unitn.it/52, 465945.hpc3-head1.unitn.it/53, 465945.hpc3-head1.unitn.it/54, 465945.hpc3-head1.unitn.it/55
+     resources_available.mem = 1183400308kb
+     resources_available.ncpus = 96
+     resources_assigned.accelerator_memory = 0kb
+     resources_assigned.hbmem = 0kb
+     resources_assigned.hpmem = 0kb
+     resources_assigned.mem = 117440512kb
+     resources_assigned.naccelerators = 0
+     resources_assigned.ncpus = 56
+     resources_assigned.ngpus = 0
+     resources_assigned.swap = 0kb
+     resources_assigned.vmem = 0kb
+     last_state_change_time = Sat Nov  7 17:33:17 2026
+## gpu
+no nvidia-smi
+## disk (home)
+nfs-hpc-lb.storage.unitn.it:/HPC_Home2  162T   79T   83T  49% /home
+## local scratch
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       879G   38G  797G   5% /
+## python
+3.11.5 faiss 1.15.1 numpy 2.4.6 torch 2.15.0+cu132 cuda False

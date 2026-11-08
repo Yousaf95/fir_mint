@@ -79,6 +79,21 @@ for the authors' decision (stop point 3).
 - 2026-11-08: LaTeX source received (`FIR-MINT_ICDE_latex_humanized.zip`),
   extracted to `stage1/latex/`.
 - Still open: storage for the 10M tables (question 3).
+- 2026-11-08, probe jobs 465945, 465946, 465959 (`stage1/probe/`): a plain
+  `ncpus=8` request on `commonCPUQ` is NOT exclusive (node load 47.6 on 96
+  cores), and the queue mixes CPU types (Xeon2680 28-core 314 GB; Xeon5118;
+  Xeon6252N 96-core 0.5 to 1.3 TB). v1.0 timings did not pin either.
+  Default from now on, for every measured run (builds and queries on the same
+  node): `-l select=1:ncpus=28:mem=300gb:cpu_type=Xeon2680 -l place=excl`
+  (5 of 6 nodes free at probe time). The 10M runs of Stage 4 use exclusive
+  Xeon6252N nodes. The GPU node (2 x H100 NVL, 503 GB) is used for ground
+  truth only, so its sharing does not affect timings.
+- 2026-11-08: MINT News embeddings come from `RealTimeData/bbc_news_alltime`
+  on Hugging Face, which declares no licence; MINT's README defers to the
+  original owners. Stop point 5: not downloaded until the authors decide.
+  LAION-400M: metadata released under CC-BY 4.0 (laion.ai blog); the brief
+  treats the released `img_emb`/`text_emb` as usable. Shards 0 and 1
+  downloaded to `data/laion/` with checksums.
 
 ## Open questions for the authors
 

@@ -1,0 +1,9 @@
+#!/bin/bash
+#PBS -N probe_cpu_excl
+#PBS -q commonCPUQ
+#PBS -l select=1:ncpus=8:mem=64gb
+#PBS -l place=excl
+#PBS -l walltime=00:10:00
+#PBS -j oe
+#PBS -o /home/$USER/RAO_OCT/logs/probe_cpu_excl.out
+/home/$USER/RAO_OCT/stage1/probe/probe_body.sh cpu_excl

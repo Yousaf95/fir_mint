@@ -1,0 +1,87 @@
+## date
+2026-11-08T08:26:42+01:00
+## host
+hpc3-g06-n01.unitn.it
+## pbs
+job=465946.hpc3-head1.unitn.it queue=commonGPUQ ncpus_assigned=8
+## lscpu
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           46 bits physical, 57 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  16
+On-line CPU(s) list:                     0-15
+Vendor ID:                               GenuineIntel
+Model name:                              INTEL(R) XEON(R) SILVER 4509Y
+CPU family:                              6
+Model:                                   143
+Thread(s) per core:                      1
+Core(s) per socket:                      8
+Socket(s):                               2
+Stepping:                                8
+BogoMIPS:                                5200.00
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cat_l2 cdp_l3 cdp_l2 ssbd mba ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local split_lock_detect user_shstk avx_vnni avx512_bf16 wbnoinvd dtherm ida arat pln pts hfi avx512vbmi umip pku ospke waitpkg avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq la57 rdpid bus_lock_detect cldemote movdiri movdir64b enqcmd fsrm md_clear serialize tsxldtrk pconfig arch_lbr ibt amx_bf16 avx512_fp16 amx_tile amx_int8 flush_l1d arch_capabilities
+L1d cache:                               768 KiB (16 instances)
+L1i cache:                               512 KiB (16 instances)
+L2 cache:                                32 MiB (16 instances)
+L3 cache:                                45 MiB (2 instances)
+NUMA node(s):                            2
+NUMA node0 CPU(s):                       0-3,8-11
+NUMA node1 CPU(s):                       4-7,12-15
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Indirect target selection: Not affected
+Vulnerability Itlb multihit:             Not affected
+Vulnerability L1tf:                      Not affected
+Vulnerability Mds:                       Not affected
+Vulnerability Meltdown:                  Not affected
+Vulnerability Mmio stale data:           Not affected
+Vulnerability Old microcode:             Vulnerable
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Not affected
+Vulnerability Spec rstack overflow:      Not affected
+Vulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; PBRSB-eIBRS SW sequence; BHI BHI_DIS_S
+Vulnerability Srbds:                     Not affected
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspace
+## nproc (visible to job)
+8
+## memory
+               total        used        free      shared  buff/cache   available
+Mem:             503          13          39           2         456         489
+Swap:              7           0           7
+## frequency scaling
+no cpufreq governor visible
+## other users' processes on this node
+      1 rpcuser
+      1 node_exporter
+## load
+ 08:26:42 up 46 days,  1:02,  0 users,  load average: 0.00, 0.00, 0.00
+## pbsnodes jobs on this node
+     state = free
+     jobs = 465946.hpc3-head1.unitn.it/0, 465946.hpc3-head1.unitn.it/1, 465946.hpc3-head1.unitn.it/2, 465946.hpc3-head1.unitn.it/3, 465946.hpc3-head1.unitn.it/4, 465946.hpc3-head1.unitn.it/5, 465946.hpc3-head1.unitn.it/6, 465946.hpc3-head1.unitn.it/7
+     resources_available.mem = 523391068kb
+     resources_available.ncpus = 16
+     resources_assigned.accelerator_memory = 0kb
+     resources_assigned.hbmem = 0kb
+     resources_assigned.hpmem = 0kb
+     resources_assigned.mem = 67108864kb
+     resources_assigned.naccelerators = 0
+     resources_assigned.ncpus = 8
+     resources_assigned.ngpus = 1
+     resources_assigned.swap = 0kb
+     resources_assigned.vmem = 0kb
+     last_state_change_time = Sat Nov  7 08:15:20 2026
+## gpu
+name, memory.total [MiB], driver_version
+NVIDIA H100 NVL, 95830 MiB, 595.71.05
+NVIDIA H100 NVL, 95830 MiB, 595.71.05
+## disk (home)
+nfs-hpc-lb.storage.unitn.it:/HPC_Home2  162T   79T   83T  49% /home
+## local scratch
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       439G   74G  343G  18% /
+## python
+3.11.5 faiss 1.15.1 numpy 2.4.6 torch 2.15.0+cu132 cuda True
