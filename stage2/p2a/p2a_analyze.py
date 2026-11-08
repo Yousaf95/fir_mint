@@ -65,7 +65,7 @@ def main(tables):
         for k, v in ctx.items():
             print("   ", k.ljust(22), {a: round(b, 2) for a, b in v.items()})
     json.dump(out, open(ROOT / "results/p2a/p2a_summary.json", "w"), indent=1)
-    print("pilot:", "PASS" if all(v["result"] == "PASS" for v in out.values()) else "FAIL (so far; COCO-6 full pending)" )
+    print("pilot:", "PASS" if all(v["result"] == "PASS" for v in out.values()) else "FAIL")
 
 
 if __name__ == "__main__":
