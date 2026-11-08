@@ -115,6 +115,13 @@ class Calibration:
         self.rank_s += time.perf_counter() - t0
         return out
 
+    def with_k(self, k):
+        """Same fitted models and query-sample scores, new top-k (ranks recomputed lazily)."""
+        import copy
+        other = copy.copy(self)
+        other.k, other.ranks, other.rank_s = k, {}, 0.0
+        return other
+
     @property
     def calib_s(self):
         return self.fit_s + self.score_s + self.rank_s
