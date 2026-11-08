@@ -95,6 +95,13 @@ for the authors' decision (stop point 3).
   treats the released `img_emb`/`text_emb` as usable. Shards 0 and 1
   downloaded to `data/laion/` with checksums.
 
+## Reply 1 (Rao Faizan, 8 November 2026)
+
+Decisions D1-D3, accepted deviations A1-A5 and requirements R1-R6 are listed in
+`stage2/REPLY1_CHANGES.md`; the amended P1 condition is `stage2/P1b_PROTOCOL.md`. Run order
+from now on: P3, P2a, P4, P2b, P1b. Status report 2 after P3 and P2a. MINT News on hold (D2);
+second pilot table is COCO-6 at full size.
+
 ## Deviations from the brief
 
 - P1 table: LAION 1M with **4 columns**, not 2. Reasons: (a) the v1.0
